@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <p>Zadanie 2</p>
+   
+   
+    <form action="https://formspree.io/marcin1666666@wp.pl" method="post">
+
+        <label for="name">Imię:</label> <br>
+        <input type="text" id="name" name="Imię"><br>
+        
+        
+        <label for="surname">Nazwisko:</label> <br>
+        <input type="text" id="surname" name="Nazwisko"><br>
+
+
+        <label for="e-mail">Adres e-mail:</label><br>
+        <input type="email" id="e-mail" name="email"><br>
+
+       
+        <label for="phone-number">Numer telefonu:</label><br>
+        <input type="tel" id="phone-number" name="telefon"><br>
+        
+        
+        <label for="city">Wybierz miasto:</label><br>
+        <select name="city" id="city" name="city">
+			<option value="">Kraków</option>
+			<option value="">Warszawa</option>
+			<option value="">Gdańsk</option>
+		</select><br>
+
+    
+        <label for="sex">Płeć:</label><br>
+        <input type="radio" name="opcja" id="male">
+		<label for="opcja1">Mężczyzna</label><br>
+		<input type="radio" name="opcja" id="female">
+		<label for="opcja2">Kobieta</label><br>
+        
+        
+        <label><input type="checkbox" id="agreement" name="agreement" value="agreement" for="agreement"> Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922).</label><br>
+		
+        
+        <label> Wiadomość: </label><br>
+        <textarea name="Wiadomosc" id="wiadomosc" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Wyślij formularz">
+
+    </form>
+</body>
+</html>
