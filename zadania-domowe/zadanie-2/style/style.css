@@ -1,4 +1,6 @@
-    
+body {
+    margin: 0;
+} 
 #kontener { 
     height: 100%; 
     width: 50%; 
