@@ -1,0 +1,39 @@
+image {
+    width: 100%;
+}
+
+.kontener {
+    text-align: center;
+}
+
+
+
+@media all and (min-width: 1170px) {
+   
+image {
+    width: 100%;
+}
+
+.kontener {
+        text-align: left;
+    }
+
+@media all and (max-width: 1170px) {
+   
+    image {
+    width: 70%;
+}
+
+.kontener {
+        text-align: right;
+    }
+
+
+@media all and (max-width: 992px) {
+image {
+    width: 50%;
+}
+
+.kontener {
+        text-align: center;
+    }
