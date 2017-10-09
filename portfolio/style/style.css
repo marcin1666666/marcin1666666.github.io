@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+span {
+    color: limegreen;
+    font-weight: 400;
+}
+.col-1-2 {
+    float: left;
+    width: 50%;
+}
+.main-header-inner>h1,
+h2 {
+    margin: 0;
+}
+.surname {
+    margin-left: 10px;
+}
+.front {
+    font-size: 5em;
+}
+.front,
+.front2 {
+    color: white;
+}
+#main-header .main-header-inner h1 {
+	font-size: 5em;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;	
+}
+#main-header .main-header-inner h2 {
+	font-size: 2.5em;
+	font-weight: 300;	
+}
+
+/*formatowanie menu nawigacyjnego ------> START*/
+.menu label[for="responsive-menu"] {
+	display: none;
+}
+
+.menu #responsive-menu {
+	display: none;
+}
+
+ul {
+    margin: 0px;
+}
+li {
+    display: inline;
+}
+li>a {
+    text-decoration: none;
+    display: inline;
+    margin: 30px;
+    color: white;
+}
+.menu {
+    text-align: right;
+    padding: 30px;
+}
+/*formatowanie menu nawigacyjnego ------> STOP*/
+/*formatowanie headera ------> START*/
+
+#main-header {
+    background: url('../img/header-background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+#main-header .main-header-inner {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*formatowanie headera ------> STOP*/
+/*/ <!-- Sekcja "o mnie" - START -->*/
+
+#about {
+    background-color: #f9fcfe;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.header {
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+}
+figure {
+    margin: 0px;
+}
+.main-photo {
+    max-height: 350px;
+    margin: 0px;
+    display: inline-block;
+}
+/*<!-- Sekcja o mnie - STOP -->*/
+/* <!-- Sekcja "moje umiejętności" - START -->*/
+
+#skills {
+    margin-bottom: 10%;
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+.content2 {
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    display: inline-block;
+}
+.main-icons {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.icon {
+    display: block;
+    position: relative;
+    padding: 30px;
+}
+.text_obrazka {
+    display: inline-block;
+}
+/* <!-- Sekcja "moje umiejętności" - STOP -->*/
+/* <!-- Sekcja "moje portfolio" - START -->*/
+
+#portfolio {
+  text-align: center;    
+}
+#portfolio .portfolio-items {
+    font-size: 0;
+}
+#portfolio .single-item {
+    height: 370px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 33.3333%;
+}
+#portfolio .single-item .item-mask {
+    height: 100%;
+    background-color: rgba(33, 59, 80, 0.7);
+    padding: 5px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+#portfolio .single-item .item-mask:hover {
+    opacity: 1;
+}
+#portfolio .single-item .item-mask-inner {
+    border: 1px solid #fff;
+    height: 100%;
+    position: relative
+}
+#portfolio .single-item .item-content {
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.fa-link {
+    color: lime;
+    display: inline-block;
+    font-size: 2em;   
+}
+#tranzycja {
+    background-image: url(../img/portfolio1.jpg);
+}
+#tranzycja-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+#tranzycja-3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+
+/*<!--sekcja adresowa - START -->*/
+
+#adress_section {
+    position: relative;
+    margin-top: 2%;
+    height: 20em;
+    padding: 3%;
+    padding-top: 3%;
+    background-color: #213b50;
+}
+.contact_header {
+    color: white;
+}
+#adress_section {
+    text-align: left;
+}
+#contact_content {
+    margin: 0px;
+}
+.adres {
+    color: white
+}
+.adres>a {
+    color: limegreen;
+}
+#adres_place {
+    padding: 2%;
+    padding-left: 0;
+}
+.social-icons .social-link {
+	color: #fff;
+	border: 1px solid #fff;
+	height: 50px;
+	width: 50px;
+	font-size: 1.5em;
+	display: inline-block;
+	margin-top: 1em;
+	text-align: center;
+	line-height: 50px;
+}
+input:not([type="submit"]):focus,
+textarea:focus {	
+	background-color: #4b657b;
+    color: #fff;
+}
+input[type="submit"] {
+	text-transform: uppercase;
+	padding: 10px;
+	color: #fff;
+	background-color: #1ac056;
+	font-weight: 700;
+	border: none;
+	float: right;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	color: #1ac056;
+	background-color: #fff;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    margin-bottom: 1%;
+    background-color: rgba(66, 91, 147, 0.7);  
+    border: 0;
+}
+#message {
+    width: 100%;
+    background-color: rgba(66, 91, 147, 0.7);
+    border: 0;
+}
+input[type="email"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+textarea[name="message"]::-webkit-input-placeholder{
+    color: #fff;
+}
+/* <!-- Sekcja adresowa - STOP -->*/
+/* <!-- Stopka - START -->*/
+
+footer p {
+    margin: 0;
+    color: white;
+    background-color: #030d2f;
+}
+/* <!-- Stopka - STOP -->*/

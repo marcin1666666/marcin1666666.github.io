@@ -1,0 +1,46 @@
+
+@media all and (max-width:1170px) {
+    #portfolio .single-item {
+        width: 50%;
+    }
+    #portfolio .single-item:last-child {
+        width: 100%
+    }
+    .col-1-2 {
+        width: 100%
+    }
+}
+
+/*
+
+@media all and (max-width: 992px) {
+	
+	#main-nav label[for="responsive-menu"] {
+		color: #1ac056;
+		font-size: 2em;
+		padding: 15px;
+		display: inline-block;
+	}
+	
+	#main-nav ul {
+		display: none;
+	}
+	
+	#main-nav #responsive-menu:checked + ul {
+		display: block;
+	}
+	
+	
+	#main-nav ul .menu-item {
+		display: block;
+		padding: 15px;
+	}
+	
+}
+
+.col-1-2 {
+	float: left;
+	width: 100%;
+    text-align: left
+}
+*/
