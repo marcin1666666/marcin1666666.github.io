@@ -264,6 +264,9 @@ input[type="text"]::-webkit-input-placeholder,
 textarea[name="message"]::-webkit-input-placeholder{
     color: #fff;
 }
+textarea {
+    resize: none;
+}
 /* <!-- Sekcja adresowa - STOP -->*/
 /* <!-- Stopka - START -->*/
 
