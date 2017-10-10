@@ -55,6 +55,11 @@
     }
     .menu {
         text-align: center;
+        background-color: rgba(85, 43, 14, 0.52);
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
     }
     .menu label[for="responsive-menu"] {
 		color: #1ac056;
