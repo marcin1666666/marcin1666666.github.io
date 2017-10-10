@@ -57,6 +57,7 @@
         text-align: center;
         background-color: rgba(52, 23, 2, 0.9);
         position: absolute;
+        padding-bottom: 0;
         margin: auto;
         left: 0;
         right: 0;
