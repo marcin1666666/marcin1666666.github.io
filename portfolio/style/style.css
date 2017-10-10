@@ -43,11 +43,9 @@ h2 {
 .menu label[for="responsive-menu"] {
 	display: none;
 }
-
 .menu #responsive-menu {
 	display: none;
 }
-
 ul {
     margin: 0px;
 }

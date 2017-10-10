@@ -1,5 +1,5 @@
 
-@media all and (max-width:1170px) {
+@media all and (max-width:991px) {
     #portfolio .single-item {
         width: 50%;
     }
@@ -7,40 +7,91 @@
         width: 100%
     }
     .col-1-2 {
+        margin-top: 2%;
         width: 100%
+    }
+    #adress_section {
+        height: 40em;
     }
 }
 
-/*
 
-@media all and (max-width: 992px) {
-	
-	#main-nav label[for="responsive-menu"] {
+@media all and (max-width:767px) {
+    #portfolio .single-item {
+        width: 50%;
+    }
+    #portfolio .single-item:last-child {
+        width: 100%
+    }
+    .col-1-2 {
+        margin-top: 2%;
+        width: 100%
+    }
+    #adress_section {
+        height: 40em;
+    }
+}
+
+@media all and (max-width:479px) {
+    #main-header .main-header-inner .front {
+        margin-bottom: 1em;
+    }
+    .surname {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 1em;
+    }
+    #portfolio .single-item {
+        width: 100%;
+    }
+    .col-1-2 {
+        margin-top: 2%;
+        width: 100%
+    }
+    #adress_section {
+        height: 40em;
+    }
+    .menu {
+        text-align: center;
+    }
+    .menu label[for="responsive-menu"] {
 		color: #1ac056;
-		font-size: 2em;
+		font-size: 2.5em;
 		padding: 15px;
 		display: inline-block;
 	}
-	
-	#main-nav ul {
+	.menu ul {
 		display: none;
+        text-align: center;
+        padding-left: 0;
 	}
-	
-	#main-nav #responsive-menu:checked + ul {
+	.menu #responsive-menu:checked + ul {
 		display: block;
 	}
-	
-	
-	#main-nav ul .menu-item {
+    .menu ul li {
+        font-size: 1.5em;
+    }
+	.menu ul .menu-item {
 		display: block;
 		padding: 15px;
 	}
-	
+    #skills {
+        height: 100%;
+    }
+    input[type="text"]{
+        margin: 0;
+        margin-bottom: 1em;
+        margin-top: 1.5em;
+        padding: 0;
+    }
+    input[type="email"] {
+        margin-bottom: 1em;
+        padding: 0;
+    }
+    
+    input[type="submit"] {
+        margin-top: 5px;
+    }
 }
-
-.col-1-2 {
-	float: left;
-	width: 100%;
-    text-align: left
-}
-*/
