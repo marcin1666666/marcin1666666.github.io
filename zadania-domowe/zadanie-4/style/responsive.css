@@ -7,6 +7,9 @@
 }
 
 @media all and (max-width:480px) {
+    .contener {
+        height: 100%;
+    }
     .product {
         width: 100%;
         display: inline-block;
