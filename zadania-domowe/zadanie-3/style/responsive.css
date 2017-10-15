@@ -3,14 +3,19 @@
         width: 100%;
         text-align: left;
     }
+    .fonts {
+        position: absolute;
+        left: 4vh;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 @media all and (min-width:992px) and (max-width:1170px) {
     .fonts {
-        padding: 0;
         position: absolute;
-        right: 3%;
-        top: 10%;
+        right: 4vh;
+        top: 15vh;
     }
     .kontener {
         width: 100%;
@@ -21,13 +26,10 @@
 }
 
 @media all and (max-width: 992px) {
-    .kontener {
-        position: relative;
-    }
     .fonts {
-        left: 25%;
-        padding: 0;
         position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         bottom: -20%;
     }
     h1,
@@ -35,3 +37,4 @@
         color: black;
         text-align: center;
     }
+}
