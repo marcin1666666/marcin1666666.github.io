@@ -60,7 +60,6 @@ li>a {
 }
 .menu {
     text-align: right;
-    padding: 30px;
 }
 /*formatowanie menu nawigacyjnego ------> STOP*/
 /*formatowanie headera ------> START*/
@@ -106,7 +105,6 @@ figure {
 /* <!-- Sekcja "moje umiejętności" - START -->*/
 
 #skills {
-    margin-bottom: 10%;
     height: 300px;
     width: 100%;
     display: block;
@@ -131,6 +129,61 @@ figure {
 .text_obrazka {
     display: inline-block;
 }
+
+/*flip-boxy - START*/
+
+.box {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+}
+.box-in {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	transition: all 0.5s;
+}
+.box-front {
+	z-index: 1;
+	backface-visibility: hidden;
+    background-position: center;
+    background-size: cover;
+}
+.box-back {
+    backface-visibility: hidden;
+	background: limegreen;
+    color: #fff;
+	transform: rotateY(180deg);
+}
+.box:hover .box-front {
+	transform: rotateY(180deg);
+}
+.box:hover .box-back {
+	transform: rotateY(0deg);
+}
+.box .box-front-1 {
+    background-image: url(../img/icons/css3.png);
+}
+.box .box-front-2 {
+    background-image: url(../img/icons/html5.png);
+}
+.box .box-front-3 {
+    background-image: url(../img/icons/jquery.png);
+}
+.box .box-front-4 {
+    background-image: url(../img/icons/js.png);
+}
+figcapture {
+    font-family: cursive;
+    font-size: 1.5em;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/*flip-boxy - STOP*/
 /* <!-- Sekcja "moje umiejętności" - STOP -->*/
 /* <!-- Sekcja "moje portfolio" - START -->*/
 

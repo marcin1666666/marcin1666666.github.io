@@ -15,7 +15,6 @@
     }
 }
 
-
 @media all and (max-width:767px) {
     #portfolio .single-item {
         width: 50%;
@@ -47,6 +46,7 @@
         width: 100%;
     }
     .col-1-2 {
+        text-align: center;
         margin-top: 2%;
         width: 100%
     }
@@ -56,16 +56,13 @@
     .menu {
         text-align: center;
         background-color: rgba(52, 23, 2, 0.9);
-        position: absolute;
-        padding-bottom: 0;
-        margin: auto;
-        left: 0;
-        right: 0;
+        padding-bottom: 30px;
     }
     .menu label[for="responsive-menu"] {
 		color: #1ac056;
 		font-size: 2.5em;
-		padding: 15px;
+		margin-top: 20px;
+        margin-bottom: 10px;
 		display: inline-block;
 	}
 	.menu ul {
@@ -100,4 +97,10 @@
     input[type="submit"] {
         margin-top: 5px;
     }
+/*
+    .box {
+        height: 100%;
+        width: 100%;
+    }
+*/
 }
