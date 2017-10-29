@@ -214,14 +214,10 @@ section {
     color: #FFF;
 }
 
-#contact .container {
-    margin: 0;
-}
-
 /*Sekcja FOOTER*/
 
 #footer .container {
-    margin: 0;
+    margin-bottom: 0;
 }
 
 #footer {
