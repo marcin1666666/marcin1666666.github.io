@@ -7,7 +7,6 @@ section {
     padding: 60px 30px;
 }
 
-
 /* nawigacja */
 
 #main-nav {
@@ -38,7 +37,6 @@ section {
 #main-nav .navbar-nav .nav-item .nav-link:hover {
     color: #0ED8D6;
 }
-
 
 /* header */
 
@@ -83,7 +81,6 @@ section {
     background-color: #FFF;
     color: #0ED8D6;
 }
-
 
 /* services */
 
@@ -167,7 +164,6 @@ section {
     line-height: 300px;
 }
 
-
 /*sekcja TEAM*/
 
 .photo {
@@ -210,7 +206,6 @@ section {
     color: #fff;
 }
 
-
 /*Sekcja kontakt*/
 
 #contact {
@@ -218,8 +213,9 @@ section {
     background-size: cover;
     color: #FFF;
 }
-#contact .container{
-margin: 0;
+
+#contact .container {
+    margin: 0;
 }
 
 /*Sekcja FOOTER*/
@@ -240,8 +236,9 @@ margin: 0;
 #footer .container .row .col-md-4 p {
     margin: 0;
 }
+
 .down {
-line-height: 40px;
+    line-height: 40px;
     height: 40px;
     width: 40px;
 }
