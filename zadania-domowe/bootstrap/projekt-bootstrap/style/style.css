@@ -215,7 +215,6 @@ section {
 
 #contact {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
-    height: 100vh;
     background-size: cover;
     color: #FFF;
 }
