@@ -219,7 +219,9 @@ section {
     background-size: cover;
     color: #FFF;
 }
-
+#contact .container{
+margin: 0;
+}
 
 /*Sekcja FOOTER*/
 
