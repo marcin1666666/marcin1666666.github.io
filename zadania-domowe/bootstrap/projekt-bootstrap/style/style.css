@@ -167,6 +167,7 @@ section {
     line-height: 300px;
 }
 
+/*sekcja TEAM*/
 .photo {
     height: 150px;
     width: 150px;
@@ -185,4 +186,29 @@ section {
 
 .anna {
     background-image: url(../img/team/woman-1.jpg);
+}
+.cicle-button {
+	text-decoration: none;
+	background-color: #222222;
+	border-radius: 50%;
+	line-height: 50px;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+    margin: 5px;
+	transition: all 0.4s;
+}
+
+.cicle-button:hover {
+
+	background-color: #0ED8D6;
+	color: #fff;
+}
+
+/*Sekcja kontakt*/
+#contact {
+    background-image: url(../img/footer/world-map.jpg)
 }
