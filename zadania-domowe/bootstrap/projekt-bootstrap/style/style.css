@@ -44,11 +44,8 @@ section {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/header/pictures_on_the_wall.jpg');
     height: 100vh;
     background-size: cover;
-    /* header - domyslnie block, zmieniam na flex */
     display: flex;
-    /* wycentrowanie w poziomie */
     justify-content: center;
-    /* wycentrowanie w pionie */
     align-items: center;
 }
 
@@ -104,6 +101,8 @@ section {
 .container {
     margin-bottom: 50px;
 }
+
+/* portfolio */
 
 #portfolio {
     background-color: #f7f7f7;
@@ -164,7 +163,7 @@ section {
     line-height: 300px;
 }
 
-/*sekcja TEAM*/
+/* Team */
 
 .container .photo {
     height: 150px;
@@ -206,16 +205,15 @@ section {
     color: #fff;
 }
 
-/*Sekcja kontakt*/
+/* kontakt */
 
 #contact {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
     background-size: cover;
     color: #FFF;
-    height: 80vh;
 }
 
-/*Sekcja FOOTER*/
+/* footer */
 
 #footer .container {
     margin-bottom: 0;
