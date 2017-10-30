@@ -32,25 +32,25 @@ span {
     font-weight: 400;
 }
 
-#title {
+#main-header {
     background: url('../img/header-background.jpg');
-    height: 500px;
+    height: 400px;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#title .header_content {
+#main-header .header_content {
     color: #FFF;
 }
 
-#title .header_content h2 {
+#main-header .header_content h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
 }
 
-#title .header_content h1 {
+#main-header .header_content h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 4em;
 }
