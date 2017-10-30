@@ -34,23 +34,23 @@ span {
 
 #title {
     background: url('../img/header-background.jpg');
-    height: 400px;
+    height: 500px;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#main-header .header_content {
+#title .header_content {
     color: #FFF;
 }
 
-#main-header .header_content h2 {
+#title .header_content h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
 }
 
-#main-header .header_content h1 {
+#title .header_content h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 4em;
 }
