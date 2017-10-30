@@ -34,7 +34,7 @@ span {
 
 #main-header {
     background: url('../img/header-background.jpg');
-    height: 100vh;
+    height: 400px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -69,7 +69,7 @@ span {
 
 .photo {
     background-image: url(../img/jan-nowak.jpg);
-    height: 50vh;
+    height: 300px;
     width: 50%;
 }
 
@@ -79,7 +79,7 @@ span {
 .icon {
     background-position: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 100px;
 }
 
 .icon-1 {
