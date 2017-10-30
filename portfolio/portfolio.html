@@ -4,131 +4,167 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-    <!-- meta:vp-->
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/responsive.css">
+
 </head>
 
 <body>
-    <!--Nagłówek strony - START -->
-    <header id="main-header">
-        <div class="main-header-inner">
-            <h1 class="front">Marcin<span class="surname">Biedal</span></h1>
-            <h2 class="front2">Front-End Developer</h2>
-        </div>
-        <!--menu nawigacyjne-->
-        <nav class="menu">
-            <label for="responsive-menu">Menu</label>
-            <input type="checkbox" id="responsive-menu">
-            <ul>
-                <li class="menu_item"><a href="#about">O mnie</a></li>
-                <li class="menu_item"><a href="#skills">Umiejętności</a></li>
-                <li class="menu_item"><a href="#portfolio">Portfolio</a></li>
-                <li class="menu_item"><a href="#adress_section">Kontakt</a></li>
-            </ul>
-        </nav>
 
+    <!--Menu start-->
+
+    <nav id="main-nav" class="navbar fixed-top navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">O mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Umiejętności</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#adress_section">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="main-header">
+        <div class="header_content text-center">
+            <h1>Marcin <span>Biedal</span></h1>
+            <h2>Front-End Developer</h2>
+        </div>
     </header>
-    <!-- Nagłówek strony - STOP -->
-    <!-- Sekcja "o mnie" - START -->
-    <section class="section" id="about">
-        <h2 class="header">O <span>mnie</span></h2>
-        <figure class="col-1-2">
-            <img src="img/jan-nowak.jpg" class="main-photo" alt="Zdjęcie ryja">
-        </figure>
-        <div class="col-1-2">
-            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate sunt culpa saepe, quasi libero voluptatem quo expedita tempore quam rerum vero nobis dolorem similique officiis illum. Quod, natus, eos!</p>
-        </div>
-    </section>
-    <!-- Sekcja o mnie - STOP -->
-    <!-- Sekcja "moje umiejętności" - START -->
-    <section class="section" id="skills">
-        <h1 class="header">Moje <span>umiejętności</span></h1>
-        <p class="content2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate sunt culpa saepe, quasi libero voluptatem quo expedita tempore quam rerum vero nobis dolorem similique officiis illum. Quod, natus, eos!</p>
-        <!--flip-box START-->
-        <div class="main-icons" id="icons">
-            <div class="box">
-                <div class="box-in box-front box-front-1"></div>
-                <div class="box-in box-back">
-                    <figcapture>CSS3</figcapture>
+    <!--Sekcja O mnie-->
+    <section id="about" class="text-center">
+
+        <header class="container">
+            <h2>O <span>mnie</span></h2>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container-fluid img photo"></div>
                 </div>
-            </div>
-            <div class="box">
-                <div class="box-in box-front box-front-2"></div>
-                <div class="box-in box-back">
-                    <figcapture>HTML5</figcapture>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-in box-front box-front-3"></div>
-                <div class="box-in box-back">
-                    <figcapture>jQuery</figcapture>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-in box-front box-front-4"></div>
-                <div class="box-in box-back">
-                    <figcapture>Java<br>Script</figcapture>
+                <div class="col-md-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eaque nisi repellendus dolores autem rem perferendis possimus dicta magnam laudantium ipsam in sunt, quam architecto maxime ullam impedit numquam, facere!</p>
                 </div>
             </div>
         </div>
-        <!--flip-box STOP-->
     </section>
-    <!-- Sekcja "moje umiejętności" - STOP -->
-    <!-- Sekcja "moje portfolio" - START -->
-    <section class="section" id="portfolio">
-        <h1 class="header">Moje <span>portfolio</span></h1>
-        <div class="portfolio-items">
-            <figure class="single-item" id="tranzycja">
-                <div class="item-mask">
-                    <div class="item-mask-inner">
-                        <div class="item-content">
-                            <h3>Projekt pierwszy</h3>
-                            <p>Lorem ipsum</p>
-                            <h4>Technologie</h4>
-                            <p>HTML, CSS, JS</p>
-                            <a href="" class="portfolio-link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
+
+    <!--Sekcja Umiejętności-->
+
+    <section id="skills" class="text-center">
+
+        <header class="container">
+            <h2>Moje <span>umiejętności</span></h2>
+        </header>
+
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eaque nisi repellendus dolores autem rem perferendis possimus dicta magnam laudantium ipsam in sunt, quam architecto maxime ullam impedit numquam, facere!</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="container-fluid icon icon-1"></div>
+                    <p>HTML5</p>
                 </div>
-            </figure>
-            <figure class="single-item" id="tranzycja-2">
-                <div class="item-mask">
-                    <div class="item-mask-inner">
-                        <div class="item-content">
-                            <h3>Projekt pierwszy</h3>
-                            <p>Lorem ipsum</p>
-                            <h4>Technologie</h4>
-                            <p>HTML, CSS, JS</p>
-                            <a href="" class="portfolio-link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
+                <div class="col-md-3">
+                    <div class="container-fluid icon icon-2"></div>
+                    <p>CSS3</p>
                 </div>
-            </figure>
-            <figure class="single-item" id="tranzycja-3">
-                <div class="item-mask">
-                    <div class="item-mask-inner">
-                        <div class="item-content">
-                            <h3>Projekt pierwszy</h3>
-                            <p>Lorem ipsum</p>
-                            <h4>Technologie</h4>
-                            <p>HTML, CSS, JS</p>
-                            <a href="" class="portfolio-link"><i class="fa fa-link" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
+                <div class="col-md-3">
+                    <div class="container-fluid icon icon-3"></div>
+                    <p>jQuery</p>
                 </div>
-            </figure>
+                <div class="col-md-3">
+                    <div class="container-fluid icon icon-4"></div>
+                    <p>Js</p>
+                </div>
+
+            </div>
         </div>
     </section>
-    <!-- Sekcja "moje portfolio" - STOP -->
-    <!--sekcja adresowa - START -->
-    <section class="section" id="adress_section">
-        <div class="col-1-2">
-            <h1 class="contact_header">Marcin <span>Biedal</span></h1>
-            <address class="contact_content" id="adres1">
+
+    <!--Sekcja Portfolio-->
+
+    <section id="portfolio" class="text-center">
+
+        <header class="container">
+            <h2>Moje <span>portfolio</span></h2>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contur" id="tranzycja-1">
+                        <div class="mask">
+                            <div class="mask-inner">
+                                <div class="container tekst">
+                                    <h3>Projekt pierwszy</h3>
+                                    <p>Lorem ipsum</p>
+                                    <h4>Technologie</h4>
+                                    <p>HTML, CSS, JS</p>
+                                    <a href="" class="portfolio-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contur" id="tranzycja-2">
+                        <div class="mask">
+                            <div class="mask-inner">
+                                <div class="container tekst">
+                                    <h3>Projekt pierwszy</h3>
+                                    <p>Lorem ipsum</p>
+                                    <h4>Technologie</h4>
+                                    <p>HTML, CSS, JS</p>
+                                    <a href="" class="portfolio-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contur" id="tranzycja-3">
+                        <div class="mask">
+                            <div class="mask-inner">
+                                <div class="container tekst">
+                                    <h3>Projekt pierwszy</h3>
+                                    <p>Lorem ipsum</p>
+                                    <h4>Technologie</h4>
+                                    <p>HTML, CSS, JS</p>
+                                    <a href="" class="portfolio-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sekcja Kontakt-->
+
+    <section id="adress_section" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="contact_header">Marcin <span>Biedal</span></h1>
+                    <address class="contact_content" id="adres1">   
                 <div class="adres" id="adres_place">
                     Rudzica 145<br> 43-394 Rudzica<br>
                 </div>
@@ -139,22 +175,31 @@
                     </div>          
                 </div>
             </address>
-        </div>
-        <div class="col-1-2">
-            <form action="https://formspree.io/marcinbiedal@wp.pl" method="post">
-                <input type="text" id="name" name="name" placeholder="Imię i nazwisko"><br>
-                <input type="email" id="email" name="name" placeholder="E-mail"><br>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Wiadomość"></textarea><br>
-                <input type="submit" value="Wyślij">
-            </form>
+                </div>
+                <div class="col-md-6">
+                    <form action="https://formspree.io/marcinbiedal@wp.pl" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Imię i nazwisko:"><br>
+                            <input type="email" class="form-control" id="email" name="name" placeholder="E-mail:"><br>
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Wiadomość:"></textarea><br>
+                            <input type="submit" class="btn btn-primary btn-lg" value="Wyślij">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
-    <!--sekcja adresowa - STOP -->
-    <!--stopka - START -->
+
+    <!--Stopka-->
+
     <footer>
         <p> Copyright &#169; Marcin Biedal </p>
     </footer>
-    <!--stopka - STOP -->
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
