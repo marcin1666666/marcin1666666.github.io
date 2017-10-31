@@ -7,6 +7,7 @@ section {
     padding: 60px 30px;
 }
 
+
 /* nawigacja */
 
 #main-nav {
@@ -37,6 +38,7 @@ section {
 #main-nav .navbar-nav .nav-item .nav-link:hover {
     color: #0ED8D6;
 }
+
 
 /* header */
 
@@ -79,6 +81,7 @@ section {
     color: #0ED8D6;
 }
 
+
 /* services */
 
 #services .info i {
@@ -98,9 +101,10 @@ section {
     transform: rotate(360deg);
 }
 
-.container {
+.info {
     margin-bottom: 50px;
 }
+
 
 /* portfolio */
 
@@ -159,18 +163,26 @@ section {
 }
 
 .fa-plus {
+    position: absolute;
     color: white;
-    line-height: 300px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
 }
+
 
 /* Team */
 
-.container .photo {
+#team .container .row .col-md-4 .photo_frame .photo {
     height: 150px;
     width: 150px;
     border-radius: 50%;
     background-position: center;
     background-size: cover;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 
 .erick {
@@ -205,6 +217,7 @@ section {
     color: #fff;
 }
 
+
 /* kontakt */
 
 #contact {
@@ -213,22 +226,40 @@ section {
     color: #FFF;
 }
 
-/* footer */
-
-#footer .container {
-    margin-bottom: 0;
+.form_field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+textarea[class="form-control"]::-webkit-input-placeholder {
+    text-transform: uppercase;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+
+/* footer */
 
 #footer {
     padding: 0
 }
 
-#footer .container .row .col-md-4 {
+#footer .row .col-md-4 {
     line-height: 60px;
     margin: 0;
 }
 
-#footer .container .row .col-md-4 p {
+#footer .row .col-md-4 p {
     margin: 0;
 }
 

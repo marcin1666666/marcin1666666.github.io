@@ -131,14 +131,14 @@ span {
     align-items: center;
 }
 
-#portfolio .container .row .col-md-4 .contur .mask .mask-inner .container {
+#portfolio .container .row .col-md-4 .contur .mask .mask-inner {
     margin: 0;
     padding: 0;
     font-size: 16px;
     color: #fff;
 }
 
-#portfolio .container .row .col-md-4 .contur .mask .mask-inner .container .fa-link {
+#portfolio .container .row .col-md-4 .contur .mask .mask-inner .fa-link {
     color: lime;
     font-size: 2em;
 }
