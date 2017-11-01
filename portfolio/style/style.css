@@ -3,12 +3,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.container {
-    margin-bottom: 50px;
-}
-
 section {
     padding: 60px 30px;
+}
+
+h2 {
+    margin-bottom: 30px;
 }
 
 
@@ -34,7 +34,7 @@ span {
 
 #main-header {
     background: url('../img/header-background.jpg');
-    height: 400px;
+    height: 100vh;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -70,7 +70,9 @@ span {
 .photo {
     background-image: url(../img/jan-nowak.jpg);
     height: 300px;
-    width: 50%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -180,9 +182,9 @@ span {
     margin-bottom: 2%;
 }
 
-.social-icons .social-link {
+.fa-facebook {
     color: #fff;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     height: 50px;
     width: 50px;
     font-size: 1.5em;
