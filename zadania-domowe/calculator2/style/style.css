@@ -232,26 +232,3 @@ button {
     outline:none;
     border-bottom:3px solid #1f7a29;
 }
-
-#eqn-bg:active {
-    background:#17a928;
-    color:#fff;
-    font-size:26px;
-    cursor: pointer;
-    outline:none;
-    box-shadow: inset 4px 4px 4px #1f7a29;
-}
-
-@-webkit-keyframes bgChange {
-    0% {
-       background:#24b4de; 
-    }
-    
-    50% {
-      background:#17a928;
-    }
-    
-    100% {
-        background:#399cb9;
-    }
-}
