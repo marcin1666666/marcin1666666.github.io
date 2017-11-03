@@ -80,31 +80,6 @@ span {
 }
 
 
-/*sekcja Skills*/
-
-.icon {
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100px;
-}
-
-.icon-1 {
-    background-image: url(../img/icons/html5.png)
-}
-
-.icon-2 {
-    background-image: url(../img/icons/css3.png)
-}
-
-.icon-3 {
-    background-image: url(../img/icons/jquery.png)
-}
-
-.icon-4 {
-    background-image: url(../img/icons/js.png)
-}
-
-
 /*sekcja Portfolio*/
 
 #portfolio .container .row .col-md-4 {
