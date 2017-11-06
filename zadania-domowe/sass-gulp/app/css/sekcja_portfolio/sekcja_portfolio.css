@@ -2,13 +2,25 @@
     padding: 0;
 }
 
-#portfolio .container .row .col-md-4 .contur {
+#portfolio .container .row #tranzycja-1 {
+    background-image: url(../../img/portfolio1.jpg);
+}
+
+#portfolio .container .row #tranzycja-2 {
+    background-image: url(../../img/portfolio2.jpg);
+}
+
+#portfolio .container .row #tranzycja-3 {
+    background-image: url(../../img/portfolio3.jpg);
+}
+
+#portfolio .container .row .contur {
     height: 300px;
     background-position: center;
     background-size: cover;
 }
 
-#portfolio .container .row .col-md-4 .contur .mask {
+#portfolio .container .row .mask {
     height: 100%;
     background-color: rgba(33, 59, 80, 0.7);
     padding: 5px;
@@ -16,38 +28,23 @@
     transition: all 0.3s;
 }
 
-#portfolio .container .row .col-md-4 .contur .mask:hover {
+#portfolio .container .row .mask:hover {
     opacity: 1;
 }
 
-#portfolio .container .row .col-md-4 .contur .mask .mask-inner {
+#portfolio .container .row .mask-inner {
     border: 1px solid #fff;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#portfolio .container .row .col-md-4 .contur .mask .mask-inner {
     margin: 0;
     padding: 0;
     font-size: 16px;
     color: #fff;
 }
 
-#portfolio .container .row .col-md-4 .contur .mask .mask-inner .fa-link {
+#portfolio .container .row .fa-link {
     color: #1ac056;
     font-size: 2em;
-}
-
-#portfolio .container .row .col-md-4 #tranzycja-1 {
-    background-image: url(../../img/portfolio1.jpg);
-}
-
-#portfolio .container .row .col-md-4 #tranzycja-2 {
-    background-image: url(../../img/portfolio2.jpg);
-}
-
-#portfolio .container .row .col-md-4 #tranzycja-3 {
-    background-image: url(../../img/portfolio3.jpg);
 }
