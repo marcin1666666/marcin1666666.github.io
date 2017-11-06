@@ -9,79 +9,43 @@
 
 <body>
 
-
-<div id="background"><!-- Main background -->
-             
+    <div id="calculator">
         <div id="result"></div>
-             
-         <div id="main">
-             <div id="first-rows">
-              <button class="del-bg" id="delete">Del</button>
-                 <button value="%" class="btn-style operator opera-bg fall-back">%</button>
-                 <button value="+" class="btn-style opera-bg value align operator">+</button>
-                 </div>
-                 
-               <div class="rows">
-                 <button value="7" class="btn-style num-bg num first-child">7</button>
-                 <button value="8" class="btn-style num-bg num">8</button>
-                 <button value="9" class="btn-style num-bg num">9</button>
-                 <button value="-" class="btn-style opera-bg operator">-</button>
-                 </div>
-                 
-                 <div class="rows">
-                 <button value="4" class="btn-style num-bg num first-child">4</button>
-                 <button value="5" class="btn-style num-bg num">5</button>
-                 <button value="6" class="btn-style num-bg num">6</button>
-                 <button value="*" class="btn-style opera-bg operator">x</button>
-                 </div>
-                 
-                 <div class="rows">
-                 <button value="1" class="btn-style num-bg num first-child">1</button>
-                 <button value="2" class="btn-style num-bg num">2</button>
-                 <button value="3" class="btn-style num-bg num">3</button>
-                 <button value="/" class="btn-style opera-bg operator">/</button>
-                 </div>
-                 
-                 <div class="rows">
-                 <button value="0" class="num-bg zero" id="delete">0</button>
-                 <button value="." class="btn-style num-bg period fall-back">.</button>
-                 <button value="=" id="eqn-bg" class="eqn align">=</button>
-                 </div>
-                
-             </div>
-         
-         </div>
+        <div id="main">
+            <div id="first-row">
+                <button class="del-bg" id="delete">Del</button>
+                <button value="%" class="btn-style operator opera-bg fall-back">%</button>
+                <button value="+" class="btn-style opera-bg value align operator">+</button>
+            </div>
 
-<!--
-    <div class="calculator">
+            <div class="rows">
+                <button value="7" class="btn-style num-bg num first-child">7</button>
+                <button value="8" class="btn-style num-bg num">8</button>
+                <button value="9" class="btn-style num-bg num">9</button>
+                <button value="-" class="btn-style opera-bg operator">-</button>
+            </div>
 
-        <div class="display">
-            <input type="text" class="text" disabled>
-            wyłączenie edycji inputa - 'disabled'
-        </div>
-        <div class="numbers">
-            <button class="keys reset">Del</button>
-            <button class="keys function">%</button>
-            <button class="keys function">+</button>
-            <button class="keys out">7</button>
-            <button class="keys">8</button>
-            <button class="keys">9</button>
-            <button class="keys function">-</button>
-            <button class="keys out">4</button>
-            <button class="keys">5</button>
-            <button class="keys">6</button>
-            <button class="keys function">*</button>
-            <button class="keys out">1</button>
-            <button class="keys">2</button>
-            <button class="keys">3</button>
-            <button class="keys function">/</button>
-            <button class="keys out bigger">0</button>
-            <button class="keys">.</button>
-            <button class="equal">=</button>
+            <div class="rows">
+                <button value="4" class="btn-style num-bg num first-child">4</button>
+                <button value="5" class="btn-style num-bg num">5</button>
+                <button value="6" class="btn-style num-bg num">6</button>
+                <button value="*" class="btn-style opera-bg operator">x</button>
+            </div>
+
+            <div class="rows">
+                <button value="1" class="btn-style num-bg num first-child">1</button>
+                <button value="2" class="btn-style num-bg num">2</button>
+                <button value="3" class="btn-style num-bg num">3</button>
+                <button value="/" class="btn-style opera-bg operator">/</button>
+            </div>
+
+            <div class="rows">
+                <button value="0" class="num-bg zero">0</button>
+                <button value="." class="btn-style num-bg period fall-back">.</button>
+                <button value="=" id="eqn-bg" class="eqn align">=</button>
+            </div>
         </div>
     </div>
-
--->
 
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/main.js"></script>
