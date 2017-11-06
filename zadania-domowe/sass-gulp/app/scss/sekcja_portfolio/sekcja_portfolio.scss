@@ -7,14 +7,14 @@
                 padding: 0;
             }
             #tranzycja-1 {
-                    background-image: url(../../img/portfolio1.jpg);
-                }
-                #tranzycja-2 {
-                    background-image: url(../../img/portfolio2.jpg);
-                }
-                #tranzycja-3 {
-                    background-image: url(../../img/portfolio3.jpg);
-                }
+                background-image: url(../../img/portfolio1.jpg);
+            }
+            #tranzycja-2 {
+                background-image: url(../../img/portfolio2.jpg);
+            }
+            #tranzycja-3 {
+                background-image: url(../../img/portfolio3.jpg);
+            }
             .contur {
                 height: 300px;
                 @include background-center;
@@ -45,4 +45,3 @@
         }
     }
 }
-
