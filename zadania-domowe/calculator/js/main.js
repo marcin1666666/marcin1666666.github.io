@@ -34,7 +34,7 @@ window.onload = function () {
 
     }
 
-   document.querySelector(".zero").addEventListener("click", function () {
+    document.querySelector(".zero").addEventListener("click", function () {
 
         zero = this.value;
 
