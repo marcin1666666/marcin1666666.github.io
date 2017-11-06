@@ -34,17 +34,13 @@ window.onload = function () {
 
     }
 
-    document.querySelector(".zero").addEventListener("click", function () {
+   document.querySelector(".zero").addEventListener("click", function () {
 
         zero = this.value;
 
-        if (screen.innerHTML === "") {
-
-            output = screen.innerHTML = zero;
-        } else if (screen.innerHTML === output) {
+        if (parseFloat(screen.innerHTML) !== 0) {
 
             output = screen.innerHTML += zero;
-
         }
 
     }, false);
