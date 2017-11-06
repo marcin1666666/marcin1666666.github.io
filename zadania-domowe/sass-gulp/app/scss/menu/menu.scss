@@ -1,0 +1,63 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+#main-header {
+    #main-nav {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+#main-header {
+    #main-nav {
+        .navbar-brand {
+            font-size: 2em;
+            transition: all 0.4s;
+        }
+    }
+}
+
+#main-header {
+    #main-nav {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: $bialy;
+                }
+            }
+        }
+    }
+}
+
+#main-header {
+    #main-nav {
+        .navbar-toggler-icon {
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+    }
+}
+
+#main-header {
+    background: url('../../img/header-background.jpg');
+    height: 100vh;
+    @include background-center;
+    @include pozycja-flex;
+}
+
+#main-header {
+    .header_content {
+        color: $bialy;
+    }
+}
+
+#main-header {
+    .header_content h2 {
+        @include czcionka;
+    }
+}
+
+#main-header {
+    .header_content {
+        h1 {
+            @include czcionka-h1;
+        }
+    }
+}

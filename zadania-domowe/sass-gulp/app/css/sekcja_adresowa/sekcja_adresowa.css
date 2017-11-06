@@ -1,0 +1,29 @@
+#adress_section {
+    background-color: #213b50;
+}
+
+#adress_section .container .row .col-md-6 .contact_header {
+    color: #fff;
+    text-align: left;
+}
+
+#adress_section .container .row .col-md-6 .contact_content .adres {
+    color: #fff;
+    text-align: left;
+}
+
+#adress_section .container .row .col-md-6 .contact_content .adres a {
+    color: #1ac056;
+}
+
+#adress_section .container .row .col-md-6 .contact_content .fa-facebook {
+    color: #fff;
+    border: 2px solid #fff;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5em;
+    display: inline-block;
+    margin-top: 1em;
+    text-align: center;
+    line-height: 50px;
+}

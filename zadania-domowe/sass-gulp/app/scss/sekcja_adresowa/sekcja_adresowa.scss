@@ -1,0 +1,72 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+
+
+#adress_section {
+    background-color: $ciemny-niebieski;
+}
+
+#adress_section {
+    .container {
+        .row {
+            .col-md-6 {
+                .contact_header {
+                   @include adres;
+                }
+            }
+        }
+    }
+}
+
+#adress_section {
+    .container {
+        .row {
+            .col-md-6 {
+                .contact_content {
+                    .adres {
+                       @include adres;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#adress_section {
+    .container {
+        .row {
+            .col-md-6 {
+                .contact_content {
+                    .adres {
+                        a {
+                            color: $limonka;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#adress_section {
+    .container {
+        .row {
+            .col-md-6 {
+                .contact_content {
+                    .fa-facebook {
+                        color: $bialy;
+                        border: 2px solid $bialy;
+                        height: 50px;
+                        width: 50px;
+                        font-size: 1.5em;
+                        display: inline-block;
+                        margin-top: 1em;
+                        text-align: center;
+                        line-height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+

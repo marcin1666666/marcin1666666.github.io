@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    padding: 60px 30px;
+}
+
+header h2 {
+    margin-bottom: 30px;
+}
+
+span {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+.img {
+    background-position: center;
+    background-size: cover;
+}
+
+#main-header #main-nav {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#main-header #main-nav .navbar-brand {
+    font-size: 2em;
+    transition: all 0.4s;
+}
+
+#main-header #main-nav .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+#main-header #main-nav .navbar-toggler-icon {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#main-header {
+    background: url("../../img/header-background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header .header_content {
+    color: #fff;
+}
+
+#main-header .header_content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+}
+
+#main-header .header_content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+}
+
+#about .container .row .col-md-6 p {
+    text-align: left;
+}
+
+#about .container .row .col-md-6 .photo {
+    background-image: url(../../img/jan-nowak.jpg);
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio .container .row .col-md-4 {
+    padding: 0;
+}
+
+#portfolio .container .row .col-md-4 .contur {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio .container .row .col-md-4 .contur .mask {
+    height: 100%;
+    background-color: rgba(33, 59, 80, 0.7);
+    padding: 5px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#portfolio .container .row .col-md-4 .contur .mask:hover {
+    opacity: 1;
+}
+
+#portfolio .container .row .col-md-4 .contur .mask .mask-inner {
+    border: 1px solid #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .container .row .col-md-4 .contur .mask .mask-inner {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+#portfolio .container .row .col-md-4 .contur .mask .mask-inner .fa-link {
+    color: #1ac056;
+    font-size: 2em;
+}
+
+#portfolio .container .row .col-md-4 #tranzycja-1 {
+    background-image: url(../../img/portfolio1.jpg);
+}
+
+#portfolio .container .row .col-md-4 #tranzycja-2 {
+    background-image: url(../../img/portfolio2.jpg);
+}
+
+#portfolio .container .row .col-md-4 #tranzycja-3 {
+    background-image: url(../../img/portfolio3.jpg);
+}
+
+#adress_section {
+    background-color: #213b50;
+}
+
+#adress_section .container .row .col-md-6 .contact_header {
+    color: #fff;
+    text-align: left;
+}
+
+#adress_section .container .row .col-md-6 .contact_content .adres {
+    color: #fff;
+    text-align: left;
+}
+
+#adress_section .container .row .col-md-6 .contact_content .adres a {
+    color: #1ac056;
+}
+
+#adress_section .container .row .col-md-6 .contact_content .fa-facebook {
+    color: #fff;
+    border: 2px solid #fff;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5em;
+    display: inline-block;
+    margin-top: 1em;
+    text-align: center;
+    line-height: 50px;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+    background-color: #030d2f;
+}
+
+input:not([type="submit"]):focus,
+textarea:focus {
+    background-color: #4b657b;
+    color: #fff;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #1ac056;
+    border: none;
+    float: right;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: #1ac056;
+    background-color: #fff;
+}
+
+input[type="text"],
+input[type="email"] {
+    color: #fff;
+    width: 100%;
+    background-color: rgba(66, 91, 147, 0.7);
+    border: 0;
+}
+
+#message {
+    color: #fff;
+    width: 100%;
+    background-color: rgba(66, 91, 147, 0.7);
+    border: 0;
+}
+
+input[type="email"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+textarea[name="message"]::-webkit-input-placeholder {
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+}
