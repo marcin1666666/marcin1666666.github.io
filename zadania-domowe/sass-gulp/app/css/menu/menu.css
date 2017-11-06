@@ -1,20 +1,3 @@
-#main-header #main-nav {
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-#main-header #main-nav .navbar-brand {
-    font-size: 2em;
-    transition: all 0.4s;
-}
-
-#main-header #main-nav .navbar-nav .nav-item .nav-link {
-    color: #fff;
-}
-
-#main-header #main-nav .navbar-toggler-icon {
-    background-color: rgba(255, 255, 255, 0.15);
-}
-
 #main-header {
     background: url("../../img/header-background.jpg");
     height: 100vh;
@@ -25,16 +8,33 @@
     align-items: center;
 }
 
-#main-header .header_content {
+.header_content {
     color: #fff;
 }
 
-#main-header .header_content h2 {
+.header_content h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
 }
 
-#main-header .header_content h1 {
+.header_content h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 5em;
+}
+
+#main-header #main-nav {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#main-header .navbar-toggler-icon {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#main-header .navbar-brand {
+    font-size: 2em;
+    transition: all 0.4s;
+}
+
+#main-header .navbar-nav .nav-item .nav-link {
+    color: #fff;
 }

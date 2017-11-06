@@ -1,17 +1,10 @@
 #about {
     .container {
         .row {
-            .col-md-6 p {
-                text-align: left;
-            }
-        }
-    }
-}
-
-#about {
-    .container {
-        .row {
             .col-md-6 {
+                p {
+                    text-align: left;
+                }
                 .photo {
                     background-image: url(../../img/jan-nowak.jpg);
                     height: 300px;

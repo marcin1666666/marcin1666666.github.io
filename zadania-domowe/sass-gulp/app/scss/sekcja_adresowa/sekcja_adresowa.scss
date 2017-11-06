@@ -1,7 +1,5 @@
 @import '../variables/variables';
 @import '../mixin/mixin';
-
-
 #adress_section {
     background-color: $ciemny-niebieski;
 }
@@ -11,48 +9,17 @@
         .row {
             .col-md-6 {
                 .contact_header {
-                   @include adres;
+                    @include adres;
                 }
-            }
-        }
-    }
-}
-
-#adress_section {
-    .container {
-        .row {
-            .col-md-6 {
                 .contact_content {
                     .adres {
-                       @include adres;
+                        @include adres;
                     }
-                }
-            }
-        }
-    }
-}
-
-#adress_section {
-    .container {
-        .row {
-            .col-md-6 {
-                .contact_content {
                     .adres {
                         a {
                             color: $limonka;
                         }
                     }
-                }
-            }
-        }
-    }
-}
-
-#adress_section {
-    .container {
-        .row {
-            .col-md-6 {
-                .contact_content {
                     .fa-facebook {
                         color: $bialy;
                         border: 2px solid $bialy;
@@ -69,4 +36,3 @@
         }
     }
 }
-
