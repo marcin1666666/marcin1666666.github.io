@@ -1,30 +1,25 @@
 window.onload = function () {
 
-    var current,
-        screen,
-        output,
-        limit,
-        zero,
-        period,
-        operator;
+    var screen,
+        current = '',
+        globalLimit = 10;
 
     screen = document.getElementById("result");
 
-    var elem = document.querySelectorAll(".num");
+    var numElements = document.querySelectorAll(".num");
 
-    var len = elem.length;
+    for (var i = 0; i < numElements.length; i++) {
 
-    for (var i = 0; i < len; i++) {
+        numElements[i].addEventListener("click", function () {
 
-        elem[i].addEventListener("click", function () {
+            var num = this.value;
 
-            num = this.value;
+            screen.innerHTML += num;
+            current += num;
 
-            output = screen.innerHTML += num;
+            var limit = screen.innerHTML.length;
 
-            limit = output.length;
-
-            if (limit > 10) {
+            if (limit > globalLimit) {
 
                 alert("Osiągnąłeś limit wyświetlacza!");
 
@@ -36,67 +31,87 @@ window.onload = function () {
 
     document.querySelector(".zero").addEventListener("click", function () {
 
-        zero = this.value;
+        var zero = this.value;
 
-        if (parseFloat(screen.innerHTML) !== 0) {
+        if (parseFloat(screen.innerHTML) !== 0 || current.indexOf('.') !== -1) {
 
-            output = screen.innerHTML += zero;
+            screen.innerHTML += zero;
+            current += zero;
+        } else {
+            current = '0';
         }
 
     }, false);
 
     document.querySelector(".period").addEventListener("click", function () {
 
-        period = this.value;
+        if (current === '') {
 
-        if (screen.innerHTML === "") {
+            screen.innerHTML = screen.innerHTML + "0.";
 
-            output = screen.innerHTML = screen.innerHTML.concat("0.");
+            current = "0.";
 
-        } else if (screen.innerHTML === output) {
+        } else if (current && current.indexOf('.') === -1) {
 
-            screen.innerHTML = screen.innerHTML.concat(".");
+            screen.innerHTML = screen.innerHTML + ".";
 
+            current = current + ".";
         }
+
 
     }, false);
 
 
+    document.querySelector("#percent").addEventListener("click", function () {
+
+        if (current !== '') {
+            var screenCopy = screen.innerHTML;
+            var first = parseFloat(screenCopy.replace(current, ''));
+            screen.innerHTML = first * parseFloat(current) / 100;
+            current = '';
+        }
+
+    }, false);
+
     document.querySelector("#eqn-bg").addEventListener("click", function () {
 
-        if (screen.innerHTML === output) {
-            screen.innerHTML = eval(output);
+        if (current !== '') {
+            screen.innerHTML = eval(screen.innerHTML);
         } else {
             screen.innerHTML = "";
         }
+
+        current = '';
 
     }, false);
 
     document.querySelector("#delete").addEventListener("click", function () {
 
         screen.innerHTML = "";
+        current = '';
 
     }, false);
 
 
-    var elem1 = document.querySelectorAll(".operator");
+    var operatorElements = document.querySelectorAll(".operator");
 
-    var len1 = elem1.length;
+    for (var i = 0; i < operatorElements.length; i++) {
 
-    for (var i = 0; i < len1; i++) {
+        operatorElements[i].addEventListener("click", function () {
 
-        elem1[i].addEventListener("click", function () {
-
-            operator = this.value;
+            var operator = this.value;
 
             if (screen.innerHTML === "") {
 
                 screen.innerHTML = screen.innerHTML.concat("");
-            } else if (output) {
 
-                screen.innerHTML = output.concat(operator);
+            } else if (current !== '') {
+
+                screen.innerHTML = screen.innerHTML.concat(operator);
 
             }
+
+            current = '';
 
         }, false);
 
