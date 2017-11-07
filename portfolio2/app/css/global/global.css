@@ -99,8 +99,8 @@ span {
 }
 
 #skills .container .row .col-md-3 .box {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     position: relative;
     display: inline-block;
     margin: 20px;
@@ -158,13 +158,12 @@ span {
     transform: rotateY(180deg);
     backface-visibility: hidden;
     border-radius: 50%;
-    font-size: 2em;
 }
 
 #skills .container .row .col-md-3 p {
     position: absolute;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 20px;
     top: 50%;
     transform: translateY(-50%);
     right: 0;
