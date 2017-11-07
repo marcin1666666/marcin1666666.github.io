@@ -1,0 +1,313 @@
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    padding: 60px 30px;
+    background-color: #cde3b7;
+}
+
+header h2 {
+    margin-bottom: 30px;
+}
+
+span {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+.img {
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#parallax-first {
+    background-image: url(../../img//paralax/paralax-1.jpg);
+}
+
+#parallax-second {
+    background-image: url(../../img/paralax/paralax-2.jpg);
+}
+
+#parallax-third {
+    background-image: url(../../img//paralax/paralax-3.jpg);
+}
+
+#parallax-fourth {
+    background-image: url(../../img//paralax/paralax-4.jpg);
+}
+
+#main-header {
+    background: url("../../img/header.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_content {
+    color: #fff;
+}
+
+.header_content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+}
+
+.header_content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+}
+
+#main-header #main-nav {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#main-header .navbar-toggler-icon {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#main-header .navbar-brand {
+    font-size: 2em;
+    transition: all 0.4s;
+}
+
+#main-header .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+#about .container .row .col-md-6 p {
+    text-align: left;
+}
+
+#about .container .row .col-md-6 .photo {
+    background-image: url(../../img/jan-nowak.jpg);
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills .container .row .col-md-3 .box {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+#skills .container .row .col-md-3 .box-in {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 0.7s;
+}
+
+#skills .container .row .col-md-3 .box-front {
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+#skills .container .row .col-md-3 .front-1 {
+    background-image: url(../../img/icons/html.png);
+}
+
+#skills .container .row .col-md-3 .front-2 {
+    background-image: url(../../img/icons/css3.png);
+}
+
+#skills .container .row .col-md-3 .front-3 {
+    background-image: url(../../img/icons/jquery.png);
+}
+
+#skills .container .row .col-md-3 .front-4 {
+    background-image: url(../../img/icons/js.png);
+}
+
+#skills .container .row .col-md-3 .front-5 {
+    background-image: url(../../img/icons/bootstrap.png);
+}
+
+#skills .container .row .col-md-3 .front-6 {
+    background-image: url(../../img/icons/gulp.png);
+}
+
+#skills .container .row .col-md-3 .front-7 {
+    background-image: url(../../img/icons/sass.png);
+}
+
+#skills .container .row .col-md-3 .front-8 {
+    background-image: url(../../img/icons/wordpress.png);
+}
+
+#skills .container .row .col-md-3 .box-back {
+    color: #fff;
+    background: #1ac056;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    border-radius: 50%;
+    font-size: 2em;
+}
+
+#skills .container .row .col-md-3 p {
+    position: absolute;
+    font-size: 30px;
+    line-height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+}
+
+#skills .container .row .col-md-3 .box:hover .box-front {
+    transform: rotateY(180deg);
+}
+
+#skills .container .row .col-md-3 .box:hover .box-back {
+    transform: rotateY(0deg);
+}
+
+#portfolio .container .row .col-md-4 {
+    padding: 0;
+}
+
+#portfolio .container .row #tranzycja-1 {
+    background-image: url(../../img/portfolio1.jpg);
+}
+
+#portfolio .container .row #tranzycja-2 {
+    background-image: url(../../img/portfolio2.jpg);
+}
+
+#portfolio .container .row #tranzycja-3 {
+    background-image: url(../../img/portfolio3.jpg);
+}
+
+#portfolio .container .row .contur {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio .container .row .mask {
+    height: 100%;
+    background-color: rgba(33, 59, 80, 0.7);
+    padding: 5px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#portfolio .container .row .mask:hover {
+    opacity: 1;
+}
+
+#portfolio .container .row .mask-inner {
+    border: 1px solid #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+#portfolio .container .row .fa-link {
+    color: #1ac056;
+    font-size: 2em;
+}
+
+#adress_section {
+    background-color: #213b50;
+}
+
+#adress_section .container .row .col-md-6 .contact_header {
+    color: #fff;
+    text-align: left;
+}
+
+#adress_section .container .row .col-md-6 .contact_content .adres {
+    color: #fff;
+    text-align: left;
+}
+
+#adress_section .container .row .col-md-6 .contact_content .adres a {
+    color: #1ac056;
+}
+
+#adress_section .container .row .col-md-6 .contact_content .fa-facebook {
+    color: #fff;
+    border: 2px solid #fff;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5em;
+    display: inline-block;
+    margin-top: 1em;
+    text-align: center;
+    line-height: 50px;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+    background-color: #030d2f;
+}
+
+input:not([type="submit"]):focus,
+textarea:focus {
+    background-color: #4b657b;
+    color: #fff;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #1ac056;
+    border: none;
+    float: right;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: #1ac056;
+    background-color: #fff;
+}
+
+input[type="text"],
+input[type="email"] {
+    color: #fff;
+    width: 100%;
+    background-color: rgba(66, 91, 147, 0.7);
+    border: 0;
+}
+
+#message {
+    color: #fff;
+    width: 100%;
+    background-color: rgba(66, 91, 147, 0.7);
+    border: 0;
+}
+
+input[type="email"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+textarea[name="message"]::-webkit-input-placeholder {
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+}

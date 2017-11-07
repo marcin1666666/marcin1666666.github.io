@@ -1,0 +1,80 @@
+#skills .container .row .col-md-3 .box {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+#skills .container .row .col-md-3 .box-in {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 0.7s;
+}
+
+#skills .container .row .col-md-3 .box-front {
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+#skills .container .row .col-md-3 .front-1 {
+    background-image: url(../../img/icons/html.png);
+}
+
+#skills .container .row .col-md-3 .front-2 {
+    background-image: url(../../img/icons/css3.png);
+}
+
+#skills .container .row .col-md-3 .front-3 {
+    background-image: url(../../img/icons/jquery.png);
+}
+
+#skills .container .row .col-md-3 .front-4 {
+    background-image: url(../../img/icons/js.png);
+}
+
+#skills .container .row .col-md-3 .front-5 {
+    background-image: url(../../img/icons/bootstrap.png);
+}
+
+#skills .container .row .col-md-3 .front-6 {
+    background-image: url(../../img/icons/gulp.png);
+}
+
+#skills .container .row .col-md-3 .front-7 {
+    background-image: url(../../img/icons/sass.png);
+}
+
+#skills .container .row .col-md-3 .front-8 {
+    background-image: url(../../img/icons/wordpress.png);
+}
+
+#skills .container .row .col-md-3 .box-back {
+    color: #fff;
+    background: #1ac056;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    border-radius: 50%;
+    font-size: 2em;
+}
+
+#skills .container .row .col-md-3 p {
+    position: absolute;
+    font-size: 30px;
+    line-height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+}
+
+#skills .container .row .col-md-3 .box:hover .box-front {
+    transform: rotateY(180deg);
+}
+
+#skills .container .row .col-md-3 .box:hover .box-back {
+    transform: rotateY(0deg);
+}

@@ -1,0 +1,75 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+#skills {
+    .container {
+        .row {
+            .col-md-3 {
+                .box {
+                    height: 150px;
+                    width: 150px;
+                    position: relative;
+                    display: inline-block;
+                    margin: 20px;
+                }
+                .box-in {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    transition: all 0.7s;
+                }
+                .box-front {
+                    @include background-center;
+                    z-index: 1;
+                    backface-visibility: hidden;
+                }
+                .front-1 {
+                    background-image: url(../../img/icons/html.png)
+                }
+                .front-2 {
+                    background-image: url(../../img/icons/css3.png)
+                }
+                .front-3 {
+                    background-image: url(../../img/icons/jquery.png)
+                }
+                .front-4 {
+                    background-image: url(../../img/icons/js.png)
+                }
+                .front-5 {
+                    background-image: url(../../img/icons/bootstrap.png)
+                }
+                .front-6 {
+                    background-image: url(../../img/icons/gulp.png)
+                }
+                .front-7 {
+                    background-image: url(../../img/icons/sass.png)
+                }
+                .front-8 {
+                    background-image: url(../../img/icons/wordpress.png)
+                }
+                .box-back {
+                    color: $bialy;
+                    background: $limonka;
+                    transform: rotateY(180deg);
+                    backface-visibility: hidden;
+                    border-radius: 50%;
+                    font-size: 2em;
+                }
+                p {
+                    position: absolute;
+                    font-size: 30px;
+                    line-height: 30px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0;
+                    left: 0;
+                }
+                .box:hover .box-front {
+                    transform: rotateY(180deg);
+                }
+                .box:hover .box-back {
+                    transform: rotateY(0deg);
+                }
+            }
+        }
+    }
+}

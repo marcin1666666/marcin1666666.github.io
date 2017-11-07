@@ -1,0 +1,56 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    padding: 60px 30px;
+    background-color: rgb(205, 227, 183);
+}
+
+header {
+    h2 {
+        margin-bottom: 30px;
+    }
+}
+
+span {
+    color: $limonka;
+    font-weight: 400;
+}
+
+.img {
+    @include background-center;
+}
+
+.parallax {
+    height: 300px;
+    @include background-center;
+    background-attachment: fixed;
+}
+
+#parallax-first {
+    background-image: url(../../img//paralax/paralax-1.jpg);
+}
+
+#parallax-second {
+    background-image: url(../../img/paralax/paralax-2.jpg);
+}
+
+#parallax-third {
+    background-image: url(../../img//paralax/paralax-3.jpg);
+}
+
+#parallax-fourth {
+    background-image: url(../../img//paralax/paralax-4.jpg);
+}
+
+@import '../menu/menu';
+@import '../sekcja_about/sekcja_about';
+@import '../sekcja_skills/sekcja_skills';
+@import '../sekcja_portfolio/sekcja_portfolio';
+@import '../sekcja_adresowa/sekcja_adresowa';
+@import '../stopka/stopka';
+@import '../formularz/formularz';

@@ -1,0 +1,41 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+#main-header {
+    background: url('../../img/header.jpg');
+    height: 100vh;
+    @include background-center;
+    @include pozycja-flex;
+}
+
+.header_content {
+    color: $bialy;
+}
+
+.header_content {
+    h2 {
+        @include czcionka;
+    }
+    h1 {
+        @include czcionka-h1;
+    }
+}
+
+#main-header {
+    #main-nav {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .navbar-toggler-icon {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+    .navbar-brand {
+        font-size: 2em;
+        transition: all 0.4s;
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: $bialy;
+            }
+        }
+    }
+}
