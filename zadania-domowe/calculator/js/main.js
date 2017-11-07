@@ -61,14 +61,17 @@ window.onload = function () {
 
     }, false);
 
-
     document.querySelector("#percent").addEventListener("click", function () {
 
         if (current !== '') {
             var screenCopy = screen.innerHTML;
             var first = parseFloat(screenCopy.replace(new RegExp(current + '$'), ''));
-            screen.innerHTML = first * parseFloat(current) / 100;
-            current = '';
+            if (first) {
+                screen.innerHTML = first * parseFloat(current) / 100;
+                current = '';
+            } else {
+                screen.innerHTML = current * parseFloat(current) / 100;
+            }
         }
 
     }, false);
