@@ -5,7 +5,7 @@ body {
 
 section {
     padding: 60px 30px;
-    background-color: #cde3b7;
+    background-color: #fff;
 }
 
 header h2 {
@@ -154,7 +154,7 @@ span {
 
 #skills .container .row .col-md-3 .box-back {
     color: #fff;
-    background: #1ac056;
+    background: rgba(66, 91, 147, 0.7);
     transform: rotateY(180deg);
     backface-visibility: hidden;
     border-radius: 50%;
