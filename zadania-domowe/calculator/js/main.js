@@ -61,17 +61,20 @@ window.onload = function () {
 
     }, false);
 
+
     document.querySelector("#percent").addEventListener("click", function () {
 
         if (current !== '') {
             var screenCopy = screen.innerHTML;
             var first = parseFloat(screenCopy.replace(new RegExp(current + '$'), ''));
-            if (first) {
+
+            if(first) {
                 screen.innerHTML = first * parseFloat(current) / 100;
-                current = '';
             } else {
                 screen.innerHTML = current * parseFloat(current) / 100;
             }
+
+            current = screen.innerHTML;
         }
 
     }, false);
@@ -84,7 +87,7 @@ window.onload = function () {
             screen.innerHTML = "";
         }
 
-        current = '';
+        current = screen.innerHTML;
 
     }, false);
 
