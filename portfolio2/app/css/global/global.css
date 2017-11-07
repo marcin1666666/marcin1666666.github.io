@@ -154,7 +154,7 @@ span {
 
 #skills .container .row .col-md-3 .box-back {
     color: #fff;
-    background: rgba(66, 91, 147, 0.7);
+    background: #1ac056;
     transform: rotateY(180deg);
     backface-visibility: hidden;
     border-radius: 50%;
