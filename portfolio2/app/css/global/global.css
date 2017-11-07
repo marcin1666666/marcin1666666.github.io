@@ -41,10 +41,6 @@ span {
     background-image: url(../../img//paralax/paralax-3.jpg);
 }
 
-#parallax-fourth {
-    background-image: url(../../img//paralax/paralax-4.jpg);
-}
-
 #main-header {
     background: url("../../img/header.jpg");
     height: 100vh;
