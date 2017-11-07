@@ -66,7 +66,7 @@ window.onload = function () {
 
         if (current !== '') {
             var screenCopy = screen.innerHTML;
-            var first = parseFloat(screenCopy.replace(current, ''));
+            var first = parseFloat(screenCopy.replace(new RegExp(current + '$'), ''));
             screen.innerHTML = first * parseFloat(current) / 100;
             current = '';
         }
