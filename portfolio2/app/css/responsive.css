@@ -1,19 +1,5 @@
     @media all and (min-width:576px) {
-        #main-header,
-        #about,
-        #skills,
-        #portfolio,
-        #adress_section,
-        footer {
-            z-index: 15;
-        }
-        #parallax-second {
-            z-index: 0;
-        }
-        #parallax-first,
-        #parallax-third {
-            display: none;
-        }
+    
         .box-back {
             backface-visibility: hidden;
         }
@@ -24,21 +10,4 @@
             transform: rotateY(0deg);
         }
     }
-    
-    @media all and (max-width:576px) {
-        #main-header,
-        #about,
-        #skills,
-        #portfolio,
-        #adress_section,
-        footer {
-            z-index: 15;
-        }
-        #parallax-second {
-            z-index: 0;
-        }
-        #parallax-first,
-        #parallax-third {
-            display: none;
-        }
-    }
+  
