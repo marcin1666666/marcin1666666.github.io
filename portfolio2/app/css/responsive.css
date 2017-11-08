@@ -24,7 +24,7 @@
             backface-visibility: hidden;
             border-radius: 50%;
         }
-        p {
+        .box-back>p {
             position: absolute;
             font-size: 20px;
             line-height: 20px;
