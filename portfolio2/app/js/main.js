@@ -20,16 +20,14 @@ function addScrolled() {
 
 function smooth() {
     $('a[href^="#"]').on('click', function (e) {
-            e.preventDefault();
+        e.preventDefault();
 
-            var target = this.hash;
-            var $target = $(target);
+        var target = this.hash;
+        var $target = $(target);
 
-            $('html, body').animate({
-                    'scrollTop': $target.offset().top
-                }, 2500, 'swing', function () {
-                    window.location.hash = target;
-                
-            });
+        $('html, body').animate({
+            'scrollTop': $target.offset().top
+        }, 2500, 'swing');
+
     });
 }
