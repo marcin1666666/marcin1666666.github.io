@@ -1,0 +1,33 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+#contact {
+    background: $maska, url(../../img/footer/world-map.jpg);
+    background-size: cover;
+    color: $bialy;
+}
+
+#contact {
+    .container {
+        .form_field {
+            @include pozycja-flex;
+        }
+        .form_field {
+            .col-md-6 {
+                .form-group {
+                    input[type="text"]::-webkit-input-placeholder,
+                    input[type="email"]::-webkit-input-placeholder,
+                    input[type="tel"]::-webkit-input-placeholder,
+                    textarea[class="form-control"]::-webkit-input-placeholder {
+                        text-transform: uppercase;
+                    }
+                    textarea {
+                        resize: none;
+                    }
+                    .form-control {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,32 +1,18 @@
 @import '../variables/variables';
 @import '../mixin/mixin';
 body {
-    margin: 0px;
-    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 section {
     padding: 60px 30px;
 }
 
-header {
-    h2 {
-        margin-bottom: 30px;
-    }
-}
-
-span {
-    color: $limonka;
-    font-weight: 400;
-}
-
-.img {
-    @include background-center;
-}
-
-@import '../menu/menu';
-@import '../sekcja_about/sekcja_about';
-@import '../sekcja_portfolio/sekcja_portfolio';
-@import '../sekcja_adresowa/sekcja_adresowa';
-@import '../stopka/stopka';
-@import '../formularz/formularz';
+@import '../navigacja/navigacja';
+@import '../header/header';
+@import '../services/services';
+@import '../portfolio/portfolio';
+@import '../team/team';
+@import '../contact/contact';
+@import '../footer/footer';

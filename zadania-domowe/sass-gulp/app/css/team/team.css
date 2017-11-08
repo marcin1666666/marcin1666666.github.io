@@ -1,0 +1,46 @@
+#team .container .row .col-md-4 .photo_frame {
+    margin-bottom: 30px;
+}
+
+#team .container .row .col-md-4 .photo_frame .info .cicle-button {
+    text-decoration: none;
+    background-color: #222222;
+    border-radius: 50%;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin: 5px;
+    transition: all 0.4s;
+}
+
+#team .container .row .col-md-4 .photo_frame .info .cicle-button:hover {
+    background-color: #0ED8D6;
+    color: #fff;
+}
+
+#team .container .row .col-md-4 .photo_frame .photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+#team .container .row .col-md-4 .photo_frame .erick {
+    background-image: url(../../img/team/man-1.jpg);
+}
+
+#team .container .row .col-md-4 .photo_frame .martin {
+    background-image: url(../../img/team/man-2.jpg);
+}
+
+#team .container .row .col-md-4 .photo_frame .anna {
+    background-image: url(../../img/team/woman-1.jpg);
+}

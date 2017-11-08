@@ -1,0 +1,26 @@
+#contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/footer/world-map.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+#contact .container .form_field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .container .form_field .col-md-6 .form-group input[type="text"]::-webkit-input-placeholder,
+#contact .container .form_field .col-md-6 .form-group input[type="email"]::-webkit-input-placeholder,
+#contact .container .form_field .col-md-6 .form-group input[type="tel"]::-webkit-input-placeholder,
+#contact .container .form_field .col-md-6 .form-group textarea[class="form-control"]::-webkit-input-placeholder {
+    text-transform: uppercase;
+}
+
+#contact .container .form_field .col-md-6 .form-group textarea {
+    resize: none;
+}
+
+#contact .container .form_field .col-md-6 .form-group .form-control {
+    margin-bottom: 20px;
+}

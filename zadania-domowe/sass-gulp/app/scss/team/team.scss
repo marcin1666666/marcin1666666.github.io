@@ -1,0 +1,53 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+#team {
+    .container {
+        .row {
+            .col-md-4 {
+                .photo_frame {
+                    margin-bottom: 30px;
+                }
+                .photo_frame {
+                    .info {
+                        .cicle-button {
+                            text-decoration: none;
+                            background-color: $czarny;
+                            border-radius: 50%;
+                            line-height: 50px;
+                            height: 50px;
+                            width: 50px;
+                            display: inline-block;
+                            text-align: center;
+                            font-size: 30px;
+                            color: $bialy;
+                            margin: 5px;
+                            transition: all 0.4s;
+                        }
+                        .cicle-button:hover {
+                            background-color: $niebieski;
+                            color: $bialy;
+                        }
+                    }
+                    .photo {
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 50%;
+                        @include background-center;
+                        margin: auto;
+                        left: 0;
+                        right: 0;
+                    }
+                    .erick {
+                        background-image: url(../../img/team/man-1.jpg);
+                    }
+                    .martin {
+                        background-image: url(../../img/team/man-2.jpg);
+                    }
+                    .anna {
+                        background-image: url(../../img/team/woman-1.jpg);
+                    }
+                }
+            }
+        }
+    }
+}

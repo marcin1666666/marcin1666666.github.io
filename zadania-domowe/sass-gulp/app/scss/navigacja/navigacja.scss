@@ -1,0 +1,32 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+#main-nav {
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+#main-nav.transparent_blue {
+    background-color: rgba(14, 216, 214, 0.75);
+}
+
+#main-nav {
+    .navbar-brand {
+        color: $bialy;
+        font-family: 'Droid Serif', sans-serif;
+        font-size: 2em;
+        transition: all 0.4s;
+    }
+    .navbar-nav .nav-item .nav-link {
+        text-transform: uppercase;
+        color: $bialy;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        transition: all 0.4s;
+    }
+    .navbar-brand:hover {
+        color: $niebieski;
+    }
+    .nav-item .nav-link:hover {
+        color: $niebieski;
+    }
+}

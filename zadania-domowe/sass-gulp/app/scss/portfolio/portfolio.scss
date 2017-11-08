@@ -1,0 +1,62 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+#portfolio {
+    background-color: #f7f7f7;
+}
+
+#portfolio {
+    .contur {
+        .hidden {
+            overflow: hidden;
+        }
+        .hidden {
+            .img {
+                height: 300px;
+                @include background-center; 
+                transition: all 0.4s;
+            }
+            .img {
+                .mask {
+                    background-color: rgba(14, 216, 214, 0.7);
+                    height: 100%;
+                    transition: all 0.4s;
+                    opacity: 0;
+                }
+                .mask:hover {
+                    opacity: 1;
+                }
+                .mask {
+                    .fa-plus {
+                        position: absolute;
+                        color: $bialy;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        right: 0;
+                        left: 0;
+                    }
+                }
+            }
+            .first {
+                background-image: url(../../img/portfolio/box_of_cookies.jpg);
+            }
+            .second {
+                background-image: url(../../img/portfolio/chaotic_paint.jpg);
+            }
+            .third {
+                background-image: url(../../img/portfolio/chestnut_on_bracket.jpg);
+            }
+            .fourth {
+                background-image: url(../../img/portfolio/child_with_blue_paint.jpg);
+            }
+            .fifth {
+                background-image: url(../../img/portfolio/house_with_blue_doors.jpg);
+            }
+            .sixth {
+                background-image: url(../../img/portfolio/typing_on_laptop.jpg);
+            }
+            .img:hover {
+                transform: scale(1.5);
+            }
+        }
+    }
+}

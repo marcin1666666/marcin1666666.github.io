@@ -1,0 +1,33 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+#footer {
+    padding: 0
+}
+
+#footer {
+    .container {
+        .row {
+            .col-md-4 {
+                line-height: 60px;
+                margin: 0;
+            }
+            .col-md-4 {
+                p {
+                    margin: 0;
+                }
+                .cicle-button {
+                   @include circle-button;
+                }
+                .cicle-button:hover {
+                    background-color: $niebieski;
+                    color: $bialy;
+                }
+                .down {
+                    line-height: 40px;
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
