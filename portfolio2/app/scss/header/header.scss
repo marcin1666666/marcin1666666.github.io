@@ -1,0 +1,22 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+#main-header {
+    background: url('../../img/header.jpg');
+    height: 100vh;
+    @include background-center;
+    @include pozycja-flex;
+}
+
+#main-header {
+    .header_content {
+        color: $bialy;
+    }
+    .header_content {
+        h2 {
+            @include czcionka;
+        }
+        h1 {
+            @include czcionka-h1;
+        }
+    }
+}

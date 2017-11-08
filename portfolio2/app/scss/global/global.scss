@@ -10,9 +10,9 @@ section {
     background-color: $bialy;
 }
 
-header {
+.container {
     h2 {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 }
 
@@ -32,22 +32,18 @@ span {
 }
 
 #parallax-first {
-    background-image: url(../../img//paralax/paralax-1.jpg);
-}
-
-#parallax-second {
     background-image: url(../../img/paralax/paralax-2.jpg);
 }
 
-#parallax-third {
+#parallax-second {
     background-image: url(../../img//paralax/paralax-3.jpg);
 }
 
-@import '../menu/menu';
-@import '../sekcja_about/sekcja_about';
-@import '../sekcja_skills/sekcja_skills';
-@import '../sekcja_portfolio/sekcja_portfolio';
-@import '../sekcja_adresowa/sekcja_adresowa';
-@import '../stopka/stopka';
-@import '../formularz/formularz';
-@import '../responsive';
+@import '../navigation/navigation';
+@import '../header/header';
+@import '../section_about/section_about';
+@import '../section_skills/section_skills';
+@import '../section_portfolio/section_portfolio';
+@import '../section_address/section_address';
+@import '../form/form';
+@import '../footer/footer';

@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/global/global.css">
     <link rel="stylesheet" href="css/variables/variables.css">
 
@@ -18,47 +17,42 @@
 <body>
 
     <!--Menu start-->
-    <section id="main-header" class="text-center">
 
-        <nav id="main-nav" class="navbar fixed-top navbar-expand-lg navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav id="main-nav" class="navbar fixed-top navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav  ml-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">O mnie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Umiejętności</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#adress_section">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">O mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Umiejętności</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#address_section">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        <header class="header_content text-center">
+    <header id="main-header">
+        <div class="header_content text-center">
             <h1>Marcin <span>Biedal</span></h1>
             <h2>Front-End Developer</h2>
-        </header>
+        </div>
+    </header>
 
-    </section>
-
-    <aside id="parallax-first" class="parallax"></aside>
-
-    <!--Sekcja O mnie-->
+    <!--section about-->
 
     <section id="about" class="text-center">
-
-        <h2>O <span>mnie</span></h2>
-
         <div class="container">
+            <h2>O <span>mnie</span></h2>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6">
                     <div class="img photo"></div>
@@ -70,19 +64,15 @@
         </div>
     </section>
 
-    <aside id="parallax-second" class="parallax"></aside>
+    <aside id="parallax-first" class="parallax"></aside>
 
-    <!--Sekcja Umiejętności-->
+    <!--section skills-->
 
     <section id="skills" class="text-center">
 
-        <h2>Moje <span>umiejętności</span></h2>
-
-        <article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eaque nisi repellendus dolores autem rem perferendis possimus dicta magnam laudantium ipsam in sunt, quam architecto maxime ullam impedit numquam, facere!</p>
-        </article>
-
         <div class="container">
+            <h2>Moje <span>umiejętności</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eaque nisi repellendus dolores autem rem perferendis possimus dicta magnam laudantium ipsam in sunt, quam architecto maxime ullam impedit numquam, facere!</p>
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="box">
@@ -152,56 +142,54 @@
         </div>
     </section>
 
-    <aside id="parallax-third" class="parallax"></aside>
+    <aside id="parallax-second" class="parallax"></aside>
 
-    <!--Sekcja Portfolio-->
+    <!--section portfolio-->
 
     <section id="portfolio" class="text-center">
-
-        <h2>Moje <span>portfolio</span></h2>
-
         <div class="container">
+            <h2>Moje <span>portfolio</span></h2>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-4">
-                    <div class="contur" id="tranzycja-1">
+                    <div class="contur" id="transition-1">
                         <div class="mask">
                             <div class="mask-inner">
-                                <div class="tekst">
+                                <div class="text">
                                     <h3>Projekt pierwszy</h3>
                                     <p>Lorem ipsum</p>
                                     <h4>Technologie</h4>
                                     <p>HTML, CSS, JS</p>
-                                    <a href="" class="portfolio-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    <a href="" class="portfolio-link"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-4">
-                    <div class="contur" id="tranzycja-2">
+                    <div class="contur" id="transition-2">
                         <div class="mask">
                             <div class="mask-inner">
-                                <div class="tekst">
+                                <div class="text">
                                     <h3>Projekt pierwszy</h3>
                                     <p>Lorem ipsum</p>
                                     <h4>Technologie</h4>
                                     <p>HTML, CSS, JS</p>
-                                    <a href="" class="portfolio-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    <a href="" class="portfolio-link"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-4">
-                    <div class="contur" id="tranzycja-3">
+                    <div class="contur" id="transition-3">
                         <div class="mask">
                             <div class="mask-inner">
-                                <div class="tekst">
+                                <div class="text">
                                     <h3>Projekt pierwszy</h3>
                                     <p>Lorem ipsum</p>
                                     <h4>Technologie</h4>
                                     <p>HTML, CSS, JS</p>
-                                    <a href="" class="portfolio-link"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    <a href="" class="portfolio-link"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -211,19 +199,21 @@
         </div>
     </section>
 
-    <!--Sekcja Kontakt-->
+    <!--section contact-->
 
-    <section id="adress_section" class="text-center">
+    <section id="address_section" class="text-center">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-6">
-                    <h1 class="contact_header">Marcin <span>Biedal</span></h1>
-                    <adres class="contact_content">
-                        <p class="adres">
+                    <div class="contact_header">
+                        <h2>Marcin <span>Biedal</span></h2>
+                        <address class="contact_content">
+                        <p class="address">
                             Rudzica 145<br> 43-394 Rudzica<br> tel: 512 006 652<br> e-mail: <a href="mailto:marcinbiedal@wp.pl" class="email">marcinbiedal@wp.pl</a><br>
                             <a href="https://www.facebook.com/marcin.biedal.9" class="social-link"><i class="fa fa-facebook"></i></a>
                         </p>
-                    </adres>
+                    </address>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6">
                     <form action="https://formspree.io/marcinbiedal@wp.pl" method="post">
@@ -239,10 +229,12 @@
         </div>
     </section>
 
-    <!--Stopka-->
+    <!--footer-->
 
     <footer>
-        <p> Copyright &#169; Marcin Biedal </p>
+        <div class="container">
+            <p> Copyright &#169; Marcin Biedal </p>
+        </div>
     </footer>
 
     <script src="js/jquery-3.2.1.min.js"></script>

@@ -8,8 +8,8 @@ section {
     background-color: #fff;
 }
 
-header h2 {
-    margin-bottom: 30px;
+.container h2 {
+    margin-bottom: 50px;
 }
 
 span {
@@ -30,15 +30,37 @@ span {
 }
 
 #parallax-first {
-    background-image: url(../../img//paralax/paralax-1.jpg);
-}
-
-#parallax-second {
     background-image: url(../../img/paralax/paralax-2.jpg);
 }
 
-#parallax-third {
+#parallax-second {
     background-image: url(../../img//paralax/paralax-3.jpg);
+}
+
+.transparent-background {
+    background-color: rgba(33, 59, 80, 0.85);
+    transition: all 2s;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-light .navbar-toggler:hover {
+    background-color: #1ac056;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    transition: all 0.4s;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #1ac056;
 }
 
 #main-header {
@@ -51,35 +73,18 @@ span {
     align-items: center;
 }
 
-.header_content {
+#main-header .header_content {
     color: #fff;
 }
 
-.header_content h2 {
+#main-header .header_content h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
 }
 
-.header_content h1 {
+#main-header .header_content h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 5em;
-}
-
-#main-header #main-nav {
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-#main-header .navbar-toggler-icon {
-    background-color: rgba(255, 255, 255, 0.15);
-}
-
-#main-header .navbar-brand {
-    font-size: 2em;
-    transition: all 0.4s;
-}
-
-#main-header .navbar-nav .nav-item .nav-link {
-    color: #fff;
 }
 
 #about .container .row .col-md-6 p {
@@ -178,15 +183,15 @@ span {
     padding: 0;
 }
 
-#portfolio .container .row #tranzycja-1 {
+#portfolio .container .row #transition-1 {
     background-image: url(../../img/portfolio1.jpg);
 }
 
-#portfolio .container .row #tranzycja-2 {
+#portfolio .container .row #transition-2 {
     background-image: url(../../img/portfolio2.jpg);
 }
 
-#portfolio .container .row #tranzycja-3 {
+#portfolio .container .row #transition-3 {
     background-image: url(../../img/portfolio3.jpg);
 }
 
@@ -225,40 +230,46 @@ span {
     font-size: 2em;
 }
 
-#adress_section {
+#address_section {
     background-color: #213b50;
 }
 
-#adress_section .container .row .col-md-6 .contact_header {
+#address_section .container h2 {
+    margin-bottom: 20px;
+}
+
+#address_section .container .row .col-md-6 .contact_header {
     color: #fff;
     text-align: left;
 }
 
-#adress_section .container .row .col-md-6 .contact_content .adres {
+#address_section .container .row .col-md-6 .contact_content .address {
     color: #fff;
     text-align: left;
 }
 
-#adress_section .container .row .col-md-6 .contact_content .adres a {
+#address_section .container .row .col-md-6 .contact_content .address a {
     color: #1ac056;
 }
 
-#adress_section .container .row .col-md-6 .contact_content .fa-facebook {
-    color: #fff;
-    border: 2px solid #fff;
+#address_section .container .row .col-md-6 .contact_content .fa-facebook {
+    text-decoration: none;
+    background-color: rgba(1, 1, 62, 0.75);
+    border-radius: 50%;
+    line-height: 50px;
     height: 50px;
     width: 50px;
-    font-size: 1.5em;
     display: inline-block;
-    margin-top: 1em;
     text-align: center;
-    line-height: 50px;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    transition: all 0.4s;
 }
 
-footer p {
-    margin: 0;
+#address_section .container .row .col-md-6 .contact_content .fa-facebook:hover {
+    background-color: #061b71;
     color: #fff;
-    background-color: #030d2f;
 }
 
 input:not([type="submit"]):focus,
@@ -305,4 +316,13 @@ textarea[name="message"]::-webkit-input-placeholder {
 
 textarea {
     resize: none;
+}
+
+footer {
+    background-color: #030d2f;
+}
+
+footer .container p {
+    margin: 0;
+    color: #fff;
 }
