@@ -1,13 +1,9 @@
-    @media all and (min-width:576px) {
-    
-        .box-back {
-            backface-visibility: hidden;
-        }
-        .box:hover .box-front {
-            transform: rotateY(180deg);
-        }
-        .box:hover .box-back {
-            transform: rotateY(0deg);
-        }
+@media all and (max-width: 576px) {
+    #qualifications .container .row .col-md-12 {
+        height: 300px;
     }
-  
+
+    #qualifications .container .row .col-md-12 #container {
+        height: 100%;
+    }
+}
