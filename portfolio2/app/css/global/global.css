@@ -206,6 +206,7 @@ span {
     background-color: blue;
     font-size: 30px;
     line-height: 30px;
+    cursor: pointer;
 }
 
 #container #btn2 {
