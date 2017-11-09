@@ -25,19 +25,6 @@ span {
     @include background-center;
 }
 
-.parallax {
-    height: 300px;
-    @include background-center;
-    background-attachment: fixed;
-}
-
-#parallax-first {
-    background-image: url(../../img/paralax/paralax-2.jpg);
-}
-
-#parallax-second {
-    background-image: url(../../img//paralax/paralax-3.jpg);
-}
 
 @import '../navigation/navigation';
 @import '../header/header';

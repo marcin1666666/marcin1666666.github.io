@@ -22,7 +22,7 @@
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.3);
     font-size: 30px;
     line-height: 30px;
     cursor: pointer;
@@ -34,7 +34,7 @@
 }
 
 #qualifications .container .row .col-md-12 #container #btn2:hover {
-    box-shadow: -10px 0px 20px 0px black;
+    box-shadow: -10px 0px 20px 0px rgba(0, 0, 255, 0.75);
 }
 
 #qualifications .container .row .col-md-12 #container #btn1 {
@@ -43,7 +43,7 @@
 }
 
 #qualifications .container .row .col-md-12 #container #btn1:hover {
-    box-shadow: 10px 0px 20px 0px black;
+    box-shadow: 10px 0px 20px 0px rgba(0, 0, 255, 0.75);
 }
 
 #qualifications .container .row .col-md-12 #container .fade {

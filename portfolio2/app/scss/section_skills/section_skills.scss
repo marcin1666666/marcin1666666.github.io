@@ -1,6 +1,10 @@
 @import '../variables/variables';
 @import '../mixin/mixin';
 #skills {
+    background-color: rgba(33, 59, 80, 0.1);
+}
+
+#skills {
     .container {
         .row {
             .col-md-3 {

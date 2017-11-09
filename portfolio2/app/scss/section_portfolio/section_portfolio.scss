@@ -1,6 +1,10 @@
 @import '../variables/variables';
 @import '../mixin/mixin';
 #portfolio {
+    background-color: rgba(33, 59, 80, 0.1);
+}
+
+#portfolio {
     .container {
         .row {
             .col-md-4 {

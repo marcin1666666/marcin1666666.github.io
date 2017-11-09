@@ -18,6 +18,15 @@ function addScrolled() {
     }
 }
 
+//parallax function
+
+$(window).scroll(function(){
+    var scrollTop = $(this).scrollTop();
+    $('.parallax').css('top', -(scrollTop * 2) + 'px');
+});
+
+//smooth menu
+
 function smooth() {
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
@@ -32,7 +41,7 @@ function smooth() {
     });
 }
 
-
+//slider function
 
 var index = 1;
 
