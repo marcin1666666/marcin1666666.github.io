@@ -20,6 +20,7 @@
                 .box-front {
                     @include background-center;
                     z-index: 1;
+                    -webkit-backface-visibility: hidden;
                     backface-visibility: hidden;
                 }
                 .front-1 {
@@ -50,6 +51,7 @@
                     color: $bialy;
                     background: $limonka;
                     transform: rotateY(180deg);
+                    -webkit-backface-visibility: hidden;
                     backface-visibility: hidden;
                     border-radius: 50%;
                 }

@@ -17,6 +17,7 @@
     background-position: center;
     background-size: cover;
     z-index: 1;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
@@ -56,6 +57,7 @@
     color: #fff;
     background: #1ac056;
     transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 50%;
 }
