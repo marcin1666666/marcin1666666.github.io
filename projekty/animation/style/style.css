@@ -27,7 +27,6 @@
     animation: count;
     animation-duration: 12s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
     position: absolute;
     margin: auto;
     left: 0;
