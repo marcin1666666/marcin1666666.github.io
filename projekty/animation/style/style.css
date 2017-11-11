@@ -13,12 +13,12 @@
 
 .anime {
     text-align: center;
-    font-size: 15em;
+    font-size: 40vh;
     line-height: 50vh;
     display: block;
     color: #FFF;
     position: relative;
-    top: 30%;
+    top: 30vh;
 }
 
 .anime::before {
@@ -82,10 +82,10 @@
     100% {
         background-image: url('../img/serce.png');
         background-position: 50%;
-        background-size: 400px;
+        background-size: 60vh;
         background-repeat: no-repeat;
         content: "I love CSS";
-        font-size: 60px;
+        font-size: 9vh;
         color: #fff;
     }
 }
