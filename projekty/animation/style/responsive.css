@@ -2,24 +2,19 @@
     .courtin {
         height: 70vh;
     }
-    .courtin .anime {
-        font-size: 7em;
-        line-height: 35vh;
-    }
     .courtin .anime::before {
-        height: 40vh;
+        background-size: 60vh;
     }
 }
 
 @media all and (max-width:576px) {
+    
     .courtin {
-        height: 40vh;
+        height: 60vh;
+        background-size: contain;  
     }
-    .courtin .anime {
-        font-size: 4em;
-        line-height: 25vh;
-    }
+
     .courtin .anime::before {
-        height: 30vh;
+        background-size: 30vh;
     }
 }
