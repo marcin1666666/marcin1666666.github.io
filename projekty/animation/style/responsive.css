@@ -1,7 +1,5 @@
 @media all and (max-width:976px) {
-    .courtin {
-        height: 70vh;
-    }
+
     .courtin .anime::before {
         background-size: 60vh;
     }
@@ -9,11 +7,6 @@
 
 @media all and (max-width:576px) {
     
-    .courtin {
-        height: 60vh;
-        background-size: contain;  
-    }
-
     .courtin .anime::before {
         background-size: 30vh;
     }
