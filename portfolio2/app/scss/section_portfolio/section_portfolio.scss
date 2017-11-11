@@ -6,6 +6,17 @@
 
 #portfolio {
     .contur {
+        a {
+            text-decoration: none;
+            color: rgba(0, 0, 255, 0.92);
+        }
+        a:hover {
+            color: $limonka;
+            text-decoration: underline;
+        }
+        a:link {
+            color: red;
+        }
         .hidden {
             overflow: hidden;
         }
@@ -36,6 +47,11 @@
                     }
                     .fa-link:hover {
                         color: #024119;
+                    }
+                    .portfolio-link {
+                        display: inline-block;
+                        height: 100%;
+                        width: 100%;
                     }
                 }
             }

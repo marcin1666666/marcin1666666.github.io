@@ -36,7 +36,7 @@ function smooth() {
 
         $('html, body').animate({
             'scrollTop': $target.offset().top
-        }, 2500, 'swing');
+        }, 2000, 'swing');
 
     });
 }

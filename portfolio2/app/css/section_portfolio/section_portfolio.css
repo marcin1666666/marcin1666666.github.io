@@ -2,6 +2,20 @@
     background-color: rgba(33, 59, 80, 0.1);
 }
 
+#portfolio .contur a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.92);
+}
+
+#portfolio .contur a:hover {
+    color: #1ac056;
+    text-decoration: underline;
+}
+
+#portfolio .contur a:link {
+    color: red;
+}
+
 #portfolio .contur .hidden {
     overflow: hidden;
 }
@@ -35,6 +49,12 @@
 
 #portfolio .contur .hidden .img .mask .fa-link:hover {
     color: #024119;
+}
+
+#portfolio .contur .hidden .img .mask .portfolio-link {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
 }
 
 #portfolio .contur .hidden .first {
