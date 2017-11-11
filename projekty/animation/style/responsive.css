@@ -1,4 +1,4 @@
-@media all and (max-width:767px) {
+@media all and (min-width:576px) {
     .courtin {
         height: 70vh;
     }
@@ -11,13 +11,14 @@
     }
 }
 
-@media all and (max-width:479px) {
+@media all and (max-width:576px) {
     .courtin {
-        height: 50vh;
+        height: 40vh;
     }
     .anime {
-        font-size: 5em;
+        font-size: 4em;
         line-height: 25vh;
+        top: 10%;
     }
     .anime::before {
         height: 30vh;
