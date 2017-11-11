@@ -7,7 +7,7 @@ textarea:focus {
 input[type="submit"] {
     text-transform: uppercase;
     color: #fff;
-    background-color: #1ac056;
+    background-color: #0fb215;
     border: none;
     float: right;
     transition: all 0.3s;

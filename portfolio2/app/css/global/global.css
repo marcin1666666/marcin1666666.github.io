@@ -13,7 +13,7 @@ section {
 }
 
 span {
-    color: #1ac056;
+    color: #0fb215;
     font-weight: 400;
 }
 
@@ -32,7 +32,7 @@ span {
 }
 
 .navbar-light .navbar-toggler:hover {
-    background-color: #1ac056;
+    background-color: #0fb215;
 }
 
 .navbar-brand {
@@ -45,23 +45,22 @@ span {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #1ac056;
+    color: #0fb215;
 }
 
 #home {
     position: relative;
     height: 100vh;
-    width: 100%;
     overflow: hidden;
 }
 
 #home .parallax {
     position: absolute;
     width: 100%;
-    height: 150%;
-    background-image: url("../../img/paralax/paralax-2.jpg");
+    height: 300%;
+    background-image: url("../../img/header/2.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: bottom;
     z-index: -1;
 }
@@ -79,11 +78,13 @@ span {
 #home .header_content h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
+    color: black;
 }
 
 #home .header_content h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 5em;
+    color: #0fb215;
 }
 
 #about .container .row .col-md-6 p {
@@ -159,7 +160,7 @@ span {
 
 #skills .container .row .col-md-3 .box-back {
     color: #fff;
-    background: #1ac056;
+    background: #0fb215;
     transform: rotateY(180deg);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -269,7 +270,7 @@ span {
 }
 
 #portfolio .contur a:hover {
-    color: #1ac056;
+    color: #0fb215;
     text-decoration: underline;
 }
 
@@ -353,7 +354,7 @@ span {
 }
 
 #address_section .container .row .col-md-6 .contact_content .address a {
-    color: #1ac056;
+    color: #0fb215;
 }
 
 #address_section .container .row .col-md-6 .contact_content .fa-facebook {
@@ -385,7 +386,7 @@ textarea:focus {
 input[type="submit"] {
     text-transform: uppercase;
     color: #fff;
-    background-color: #1ac056;
+    background-color: #0fb215;
     border: none;
     float: right;
     transition: all 0.3s;

@@ -8,7 +8,7 @@
 }
 
 .navbar-light .navbar-toggler:hover {
-    background-color: #1ac056;
+    background-color: #0fb215;
 }
 
 .navbar-brand {
@@ -21,5 +21,5 @@
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #1ac056;
+    color: #0fb215;
 }
