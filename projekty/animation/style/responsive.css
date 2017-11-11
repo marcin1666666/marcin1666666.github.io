@@ -18,7 +18,6 @@
     .courtin .anime {
         font-size: 4em;
         line-height: 25vh;
-        top: 10%;
     }
     .courtin .anime::before {
         height: 30vh;
