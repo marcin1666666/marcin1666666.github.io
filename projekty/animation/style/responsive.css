@@ -1,11 +1,11 @@
 @media all and (max-width:767px) {
     .courtin {
-        width: 70%;
+        height: 70%;
     }
 }
 
 @media all and (max-width:479px) {
     .courtin {
-        width: 50%;
+        height: 50%;
     }
 }
