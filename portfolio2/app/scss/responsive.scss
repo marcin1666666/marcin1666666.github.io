@@ -1,20 +1,13 @@
 @media all and (max-width:768px) {
     #qualifications {
         .container {
-            .row {
-                .col-md-12 {
-                    height: 250px;
-                }
-                .col-md-12 {
-                    #container {
-                        height: 100%;
+            .gallery {
+                .lightbox {
+                    img {
+                        width: 100%;
                     }
                 }
             }
         }
     }
-}
-
-#home {
-    height: 60vh;
 }

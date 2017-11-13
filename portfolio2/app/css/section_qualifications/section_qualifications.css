@@ -1,74 +1,33 @@
-#qualifications #container {
-    width: 100%;
-    height: 600px;
-    border: 1px solid black;
-    margin: 0 auto;
-    position: relative;
+#qualifications .container .gallery {
+    padding: 40px;
 }
 
-#qualifications .container .row .col-md-12 #container img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
+#qualifications .container .gallery .row .col-md-12 {
+    margin-bottom: 20px;
 }
 
-#qualifications .container .row .col-md-12 #container .btn {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 25px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #fff;
-    background-color: rgba(0, 0, 255, 0.3);
-    font-size: 30px;
-    line-height: 30px;
-    cursor: pointer;
+#qualifications .container .gallery .row .thumbnail {
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-#qualifications .container .row .col-md-12 #container #btn2 {
-    position: relative;
-    float: right;
+#qualifications .container .gallery .row .thumbnail:hover {
+    transform: scale(1.04);
 }
 
-#qualifications .container .row .col-md-12 #container #btn2:hover {
-    box-shadow: -10px 0px 20px 0px rgba(0, 0, 255, 0.75);
+#qualifications .container .gallery .row .lightbox img {
+    height: 200px;
 }
 
-#qualifications .container .row .col-md-12 #container #btn1 {
-    position: relative;
-    float: left;
+#qualifications .container .gallery .row .caption {
+    padding: 20px;
 }
 
-#qualifications .container .row .col-md-12 #container #btn1:hover {
-    box-shadow: 10px 0px 20px 0px rgba(0, 0, 255, 0.75);
+#qualifications .container .gallery .row .caption h3 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-#qualifications .container .row .col-md-12 #container .fade {
-    animation-name: fadein;
-    animation: 1s ease 0s normal forwards 1 fadein;
-    -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-    opacity: 0;
-}
-
-@keyframes fadein {
-    from {
-        opacity: 0.7;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadein {
-    from {
-        opacity: 0.7;
-    }
-
-    to {
-        opacity: 1;
-    }
+#qualifications .container .gallery .row .caption p {
+    font-size: 14px;
 }
