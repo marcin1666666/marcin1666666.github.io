@@ -25,24 +25,26 @@
                             color: $limonka;
                         }
                     }
-                    .fa-facebook {
-                            text-decoration: none;
-                            background-color: rgba(1, 1, 62, 0.75);
-                            border-radius: 50%;
-                            line-height: 50px;
-                            height: 50px;
-                            width: 50px;
-                            display: inline-block;
-                            text-align: center;
-                            font-size: 30px;
-                            color: $bialy;
-                            margin-top: 20px;
-                            transition: all 0.4s;
-                        }
-                        .fa-facebook:hover {
-                            background-color: rgb(6, 27, 113);
-                            color: $bialy;
-                        }
+                    .fa-facebook,
+                    .fa-linkedin {
+                        text-decoration: none;
+                        background-color: rgba(1, 1, 62, 0.75);
+                        border-radius: 50%;
+                        line-height: 50px;
+                        height: 50px;
+                        width: 50px;
+                        display: inline-block;
+                        text-align: center;
+                        font-size: 30px;
+                        color: $bialy;
+                        margin-top: 20px;
+                        transition: all 0.4s;
+                    }
+                    .fa-facebook:hover,
+                    .fa-linkedin:hover {
+                        background-color: rgb(6, 27, 113);
+                        color: $bialy;
+                    }
                 }
             }
         }

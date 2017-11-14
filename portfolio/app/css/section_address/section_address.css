@@ -20,7 +20,8 @@
     color: #0fb215;
 }
 
-#address_section .container .row .col-md-6 .contact_content .fa-facebook {
+#address_section .container .row .col-md-6 .contact_content .fa-facebook,
+#address_section .container .row .col-md-6 .contact_content .fa-linkedin {
     text-decoration: none;
     background-color: rgba(1, 1, 62, 0.75);
     border-radius: 50%;
@@ -35,7 +36,8 @@
     transition: all 0.4s;
 }
 
-#address_section .container .row .col-md-6 .contact_content .fa-facebook:hover {
+#address_section .container .row .col-md-6 .contact_content .fa-facebook:hover,
+#address_section .container .row .col-md-6 .contact_content .fa-linkedin:hover {
     background-color: #061b71;
     color: #fff;
 }
