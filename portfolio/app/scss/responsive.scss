@@ -11,3 +11,13 @@
         }
     }
 }
+
+@media all and (max-width:479px) {
+    #qualifications {
+        .container {
+            .gallery {
+                width: 100%;
+            }
+        }
+    }
+}
