@@ -1,33 +1,33 @@
-#qualifications .container .gallery {
-    padding: 40px;
-}
-
-#qualifications .container .gallery .row .col-md-12 {
+#qualifications .container .row .col-md-12 {
     margin-bottom: 20px;
 }
 
-#qualifications .container .gallery .row .thumbnail {
+#qualifications .container .row .col-md-12 .gallery {
+    padding: 40px;
+}
+
+#qualifications .container .row .col-md-12 .gallery .thumbnail {
     transition: 0.2s;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-#qualifications .container .gallery .row .thumbnail:hover {
+#qualifications .container .row .col-md-12 .gallery .thumbnail:hover {
     transform: scale(1.04);
 }
 
-#qualifications .container .gallery .row .lightbox img {
-    height: 200px;
+#qualifications .container .row .col-md-12 .gallery .thumbnail .lightbox img {
+    height: 300px;
 }
 
-#qualifications .container .gallery .row .caption {
+#qualifications .container .row .col-md-12 .gallery .caption {
     padding: 20px;
 }
 
-#qualifications .container .gallery .row .caption h3 {
+#qualifications .container .row .col-md-12 .gallery .caption h3 {
     font-size: 20px;
     font-weight: bold;
 }
 
-#qualifications .container .gallery .row .caption p {
+#qualifications .container .row .col-md-12 .gallery .caption p {
     font-size: 14px;
 }
