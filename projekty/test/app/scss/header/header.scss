@@ -1,0 +1,39 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+#home {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#home {
+    .parallax {
+        position: absolute;
+        width: 100%;
+        height: 300%;
+        background-image: url('../../img/header/2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        z-index: -1;
+    }
+    .header_content {
+        color: $bialy;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .header_content {
+        h2 {
+            @include czcionka;
+            color: black;
+        }
+        h1 {
+            @include czcionka-h1;
+            color: $limonka;
+        }
+    }
+}

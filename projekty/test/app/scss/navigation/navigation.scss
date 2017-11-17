@@ -1,0 +1,30 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+.transparent-background {
+    background-color: rgba(33, 59, 80, 0.85);
+    transition: all 2s;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: $bialy;
+}
+
+.navbar-light .navbar-toggler:hover {
+    background-color: $limonka;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    transition: all 0.4s;
+}
+
+.navbar-nav {
+    .nav-item {
+        .nav-link {
+            color: $bialy;
+        }
+        .nav-link:hover {
+            color: $limonka;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    padding: 60px 30px;
+    background-color: $bialy;
+}
+
+.container {
+    h2 {
+        margin-bottom: 50px;
+    }
+}
+
+span {
+    color: $limonka;
+    font-weight: 400;
+}
+
+.img {
+    @include background-center;
+}
+
+
+@import '../navigation/navigation';
+@import '../header/header';
+@import '../video/video';
+@import '../section_about/section_about';
+@import '../section_skills/section_skills';
+@import '../section_qualifications/section_qualifications';
+@import '../section_portfolio/section_portfolio';
+@import '../section_address/section_address';
+@import '../form/form';
+@import '../footer/footer';

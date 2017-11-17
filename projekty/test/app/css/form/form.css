@@ -1,0 +1,45 @@
+input:not([type="submit"]):focus,
+textarea:focus {
+    background-color: #4b657b;
+    color: #fff;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #0fb215;
+    border: none;
+    float: right;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: #1ac056;
+    background-color: #fff;
+}
+
+input[type="text"],
+input[type="email"] {
+    color: #fff;
+    width: 100%;
+    background-color: rgba(66, 91, 147, 0.7);
+    border: 0;
+}
+
+#message {
+    color: #fff;
+    width: 100%;
+    background-color: rgba(66, 91, 147, 0.7);
+    border: 0;
+}
+
+input[type="email"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+textarea[name="message"]::-webkit-input-placeholder {
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+}
