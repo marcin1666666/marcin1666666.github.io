@@ -22,8 +22,7 @@
 
 body {
     margin: 0;
-    font-family: 'Futura LT';
-    display: inline-block;
+    font-family: 'Futura LT', sans-serif;
 }
 
 .side_section {
@@ -33,11 +32,6 @@ body {
 
 
 /*Menu*/
-
-.main-nav {
-    width: 100%;
-    float: left;
-}
 
 .main-nav ul {
     list-style: none;
@@ -53,7 +47,6 @@ body {
 
 .main-nav .main_item {
     text-align: center;
-    width: 150px;
     height: 60px;
     line-height: 60px;
     position: relative;
@@ -76,10 +69,13 @@ body {
 
 .main-nav ul .main_item .secondary_list {
     position: absolute;
-    width: 150vh;
+    width: 80vw;
     display: inline-block;
     z-index: 1;
     transition: all 0.3s;
+    -webkit-transition-property: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
     visibility: hidden;
     opacity: 0;
     left: 100%;
@@ -143,12 +139,21 @@ h5 {
     border-right-width: 1px;
 }
 
-.main-nav ul .main_item .secondary_list .secondary_item .title .content {
+.main-nav ul .main_item .secondary_list .secondary_item .title .background figcaption {
     position: absolute;
-    left: 10px;
-    bottom: 10px;
-    z-index: 5;
+    left: 5px;
+    bottom: 5px;
     color: #fff;
+    line-height: 20px;
+}
+
+.main-nav ul .main_item .secondary_list .secondary_item .title .background figcaption .text {
+    margin: 0;
+    font-size: 12px;
+}
+
+.main-nav ul .main_item .secondary_list .secondary_item .title .background figcaption .bigger {
+    font-size: 18px;
 }
 
 .main-nav ul .main_item .secondary_list .secondary_item .title .background {
@@ -164,28 +169,72 @@ h5 {
     background-color: #292929;
     opacity: 1;
     transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
 }
 
 .main-nav ul .main_item .secondary_list .secondary_item .title .background .mask:hover {
     opacity: 0;
 }
 
+
 /*info-box*/
 
 .side_section .info-box {
-    text-align: center;
-    padding: 0;
-    width: 150px;
-    float: inherit;
-    background-color: #e6e6e6; 
-    border-top: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
+    width: 100%;
 }
 
-side_section .info-box .info p {
-    
+
+/*droopbox*/
+
+.dropbtn {
+    width: 100%;
+    background-color: #deded9;
+    color: #292929;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
+.dropdown {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #deded9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #292929;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #bcbcba;
+}
+
+.dropdown-text {
+    font-size: 12px;
+}
 
 /*main_contener*/
 
@@ -196,31 +245,52 @@ side_section .info-box .info p {
 }
 
 
-/*main_header*/
+/*section technical*/
 
-.main_header {
+.technical {
     width: 45%;
     float: left;
-    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 
-.main_header h1 {
+.technical .container .technical_discription {
+    padding-top: 30px;
+}
+
+.technical .container .title h1 {
     margin: 0;
-}
-
-.main_header h1 {
     font-size: 46px;
 }
 
-.main_header h5 {
-    font-size: 16px;
+.technical .container .title h2 {
+    font-size: 20px;
     margin-top: 0;
-    margin-bottom: 80px;
+    text-transform: uppercase;
 }
 
-.main_header .container .btn {
-    position: absolute;
-    top: 130px;
+.technical .container .technical_discription .discription h3 {
+    font-size: 46px;
+    margin: 0;
+}
+
+.technical .container .technical_discription .discription p {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.technical .container .technical_discription .discription .unit {
+    font-size: 12px;
+}
+
+.technical .container .technical_discription .discription {
+    width: 50%;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.technical .container .btn {
     width: 100px;
     height: 30px;
     font-size: 10px;
@@ -230,19 +300,11 @@ side_section .info-box .info p {
     text-transform: uppercase;
 }
 
-.main_header .container .btn:hover {
+.technical .container .btn:hover {
     background-color: #f07d00;
     color: #ffffff;
 }
 
-.main_header .discription .unit {
-    font-size: 12px;
-}
-
-.main_header .container .discription {
-    width: 50%;
-    float: left;
-}
 
 /*photo_container*/
 
@@ -325,8 +387,7 @@ side_section .info-box .info p {
     border-color: transparent #ffffff transparent transparent;
 }
 
-#photo_container .tooltip .tooltiptext h2,
-p {
+#photo_container .tooltip .tooltiptext h2 {
     margin: 0;
     text-align: justify;
     padding: 10px
