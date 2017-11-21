@@ -79,7 +79,7 @@ body {
     border: 1px solid #292929;
 }
 
-.main-nav ul .main_item:hover>.secondary_list {
+.main-nav ul .main_item .secondary_list.visible {
     visibility: visible;
     opacity: 1;
 }
