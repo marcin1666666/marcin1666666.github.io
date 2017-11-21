@@ -66,7 +66,6 @@ body {
 .main-nav ul .main_item .secondary_list {
     position: absolute;
     width: 80vw;
-    display: inline-block;
     z-index: 1;
     transition: all 0.3s;
     -webkit-transition-property: all 0.3s ease-in;
@@ -102,7 +101,6 @@ h5 {
 .main-nav ul .main_item .secondary_list .secondary_item {
     width: 25%;
     height: 140px;
-    display: block;
     float: left;
     text-transform: uppercase;
     background-color: #292929;
@@ -165,9 +163,9 @@ h5 {
     background-color: #292929;
     opacity: 1;
     transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
 }
 
 .main-nav ul .main_item .secondary_list .secondary_item .title .background .mask:hover {
