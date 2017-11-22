@@ -236,13 +236,13 @@ h5 {
 .technical {
     width: 45%;
     float: left;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding-left: 50px;
+    padding-top: 25px;
     line-height: 35px;
 }
 
 .technical .container .technical_discription {
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .technical .container .title h1 {
@@ -274,7 +274,7 @@ h5 {
 .technical .container .technical_discription .discription {
     width: 50%;
     float: left;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .technical .container .btn {
