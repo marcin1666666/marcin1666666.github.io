@@ -315,19 +315,19 @@ h5 {
     line-height: 42px;
     text-align: center;
     position: absolute;
-    top: 220px;
-    right: 450px;
+    top: 33vh;
+    right: 33vw;
     cursor: pointer;
 }
 
 #photo_container .second {
-    top: 350px;
-    right: 610px;
+    top: 55vh;
+    right: 45vw;
 }
 
 #photo_container .third {
-    top: 500px;
-    right: 500px;
+    top: 75vh;
+    right: 37vw;
 }
 
 
