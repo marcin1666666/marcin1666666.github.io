@@ -13,19 +13,21 @@ h2 {
     font-family: 'Timmana', sans-serif;
     font-size: 50px;
 }
+
 h1 {
     font-family: 'Aclonica', sans-serif;
     font-size: 60px;
     color: #fff;
 }
 
-/*///////////////////////////////////*/
 
+/*///////////////////////////////////*/
 
 .transparent-background {
     background-color: rgba(255, 0, 0, 0.79);
     transition: all 2s;
 }
+
 .navbar-light .navbar-toggler {
     background-color: #fff;
 }
@@ -71,6 +73,7 @@ h1 {
 
 
 /*///////////////////////////////////*/
+
 #about {
     background-color: #8b8484;
 }
@@ -88,17 +91,18 @@ h1 {
     height: 100%;
 }
 
-/*///////////////////////////////////*/
 
+/*///////////////////////////////////*/
 
 .parallax {
     height: 100vh;
-    background-image: url(../img/photo_galery/photo_show/slide12.jpg);
+    background-image: url(../img/photo_galery/paralax.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-	background-attachment: fixed;
+    background-attachment: fixed;
 }
+
 
 /*///////////////////////////////////*/
 
@@ -149,9 +153,6 @@ h1 {
     font-size: 18px;
     color: #85878c;
 }
-
-
-/* Styles for the gallery */
 
 .tz-gallery {
     padding: 40px;
@@ -218,7 +219,7 @@ h1 {
     font-size: 30px;
     color: #fff;
     margin-top: 20px;
-    transition: all 0.4s;
+    transition: all 0.5s;
 }
 
 #contact .container .row .col-md-6 .contact_header .fa-facebook:hover {
@@ -226,8 +227,8 @@ h1 {
     color: #fff;
 }
 
-/*///////////////////////////////////*/
 
+/*///////////////////////////////////*/
 
 footer {
     height: 50px;
