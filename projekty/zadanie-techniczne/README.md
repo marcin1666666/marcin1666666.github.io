@@ -16,14 +16,23 @@ Ogólnie do rozmieszczenia elementów na stronie można użyc paru sposobów, na
 ```sh
 "relative" oraz "absolute" 
 ```
+
  Do utworzenia "szarych plusów" pomiędy kafelkami "pod menu" użyłem pseudo-elementów:
 ```sh
 "::after" oraz "::before"
 ```
+
   - Podobnie do utworzenia "strzałek" z szarym "borderem" w "dymku" tekstowym  tooltipa użyłem pseudo-elementów:
 ```sh
 "::after" oraz "::before"
 ```
+
+ - Dolną część menu pt: "Aktualności" wykonałem w formie:
+```sh
+"dropdown menu"
+```
+Z dwoma linkami do wyboru.
+
   - Do określenia szrekości elementów używałem głównie jednostek: "%" oraz "vw", ktore pomagają skalować elemen tak by wyswietlal sie wg. rozdzielczości.
   - Do dokumentu pobrałem i załączyłem potrzebne fonty regułą: 
 ```sh
