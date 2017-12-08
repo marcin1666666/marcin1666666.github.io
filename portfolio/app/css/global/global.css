@@ -280,15 +280,19 @@ span {
 }
 
 #portfolio .contur .hidden .first {
-    background-image: url(../../img/portfolio2.jpg);
+    background-image: url(../../img/portfolio1.jpg);
 }
 
 #portfolio .contur .hidden .second {
-    background-image: url(../../img/portfolio4.jpg);
+    background-image: url(../../img/portfolio2.jpg);
 }
 
 #portfolio .contur .hidden .third {
     background-image: url(../../img/portfolio3.jpg);
+}
+
+#portfolio .contur .hidden .fourth {
+    background-image: url(../../img/portfolio4.jpg);
 }
 
 #portfolio .contur .hidden .img:hover {
