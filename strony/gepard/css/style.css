@@ -118,11 +118,11 @@ h1 {
 #ofert .container .row .col-md-4 .gallery .thumbnail {
     background-color: rgba(151, 154, 151, 0.2);
     transition: 0.2s;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 #ofert .container .row .col-md-4 .gallery .thumbnail:hover {
     transform: scale(1.05);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 #ofert .container .row .col-md-4 .gallery .thumbnail h3 {
@@ -226,6 +226,8 @@ h1 {
 #contact .container .row .col-md-6 .contact_header .fa-facebook:hover {
     background-color: #061b71;
     color: #fff;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
 }
 
 #contact .container .row .map {
@@ -237,6 +239,7 @@ h1 {
     width: 100%;
     height: 100%
 }
+
 
 /*///////////////////////////////////*/
 
