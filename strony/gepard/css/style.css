@@ -107,37 +107,37 @@ h1 {
 
 /*///////////////////////////////////*/
 
-#ofert .container .row .col-md-4 {
+#ofert .container .row .col-md-3 {
     margin-bottom: 50px;
 }
 
-#ofert .container .row .col-md-4 .gallery {
+#ofert .container .row .col-md-3 .gallery {
     margin: 0 auto;
 }
 
-#ofert .container .row .col-md-4 .gallery .thumbnail {
+#ofert .container .row .col-md-3 .gallery .thumbnail {
     background-color: rgba(151, 154, 151, 0.2);
     transition: 0.2s;
 }
 
-#ofert .container .row .col-md-4 .gallery .thumbnail:hover {
+#ofert .container .row .col-md-3 .gallery .thumbnail:hover {
     transform: scale(1.05);
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-#ofert .container .row .col-md-4 .gallery .thumbnail h3 {
+#ofert .container .row .col-md-3 .gallery .thumbnail h3 {
     font-size: 20px;
 }
 
-#ofert .container .row .col-md-4 .gallery .thumbnail .lightbox img {
+#ofert .container .row .col-md-3 .gallery .thumbnail .lightbox img {
     width: 100%;
 }
 
-#ofert .container .row .col-md-4 .gallery .caption {
+#ofert .container .row .col-md-3 .gallery .caption {
     padding: 10px;
 }
 
-#ofert .container .row .col-md-4 .gallery .caption p {
+#ofert .container .row .col-md-3 .gallery .caption p {
     font-size: 14px;
 }
 
@@ -226,8 +226,8 @@ h1 {
 #contact .container .row .col-md-6 .contact_header .fa-facebook:hover {
     background-color: #061b71;
     color: #fff;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
-    transform: scale(1.1)
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2)
 }
 
 #contact .container .row .map {
