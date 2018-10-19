@@ -2,15 +2,10 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 body {
     margin: 0;
     font-family: 'Amaranth', sans-serif;
+    overflow-x: hidden;
 }
 
 .col-1-1,
@@ -20,6 +15,7 @@ body {
     float: left;
     width: 50%;
     display: inline-block;
+    text-align: center;
 }
 
 .col-1-1 {
@@ -38,16 +34,21 @@ section {
     float: left;
     width: 100%;
     padding: 40px 60px;
+    overflow: hidden;
 }
 
 .title {
     text-align: center;
-font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    margin: 60px;
+
 
 }
 
 .text {
-    font-size: 3.5vh;
+    font-size: 1.2em;
+    text-align: left;
 }
 
 /* navigation */
@@ -61,6 +62,7 @@ font-family: 'Pacifico', cursive;
     cursor: pointer;
     transition: opacity 0.2s linear;
 }
+
 #main-header .title h1 {
     font-family: 'Condiment', cursive;
 
@@ -212,6 +214,9 @@ font-family: 'Pacifico', cursive;
     background-size: cover;
 }
 
+#main-header .title h1, h2 {
+    margin: 0;
+}
 
 /* header Stop */
 
@@ -221,7 +226,7 @@ font-family: 'Pacifico', cursive;
 }
 
 #about .col-1-2 .main-photo {
-    height: 70vh;
+    height: 60vh;
 }
 
 #skills {
@@ -245,8 +250,6 @@ font-family: 'Pacifico', cursive;
     padding: 10px 30px;
     height: 70vh;
     overflow: hidden;
-
-
 }
 
 #skills .icons .qualification .certificat {
@@ -263,8 +266,7 @@ font-family: 'Pacifico', cursive;
 #skills .icons .qualification .discription {
     display: inline-block;
     padding: 50px;
-    font-size: 1.5em;
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
 
@@ -350,17 +352,8 @@ figcapture {
     background-color: #6c6d6d;
 }
 
-#contact .main {
-    justify-content: left;
-}
-
 #contact .col-1-2 .contact_header h2 {
     font-size: 2em;
-}
-
-#contact .col-1-2 .contact_header .contact_content .address {
-    margin-top: 0;
-    font-size: 1.2em;
 }
 
 #contact .col-1-2 .contact_header .contact_content .address a {
@@ -410,14 +403,12 @@ textarea[name="message"] {
     border-radius: 10px;
     padding: 6px 12px;
     font-size: 1em;
-    line-height: 1em;
 }
 
 input[type="email"]::-webkit-input-placeholder,
 input[type="text"]::-webkit-input-placeholder,
 textarea[name="message"]::-webkit-input-placeholder {
     color: #fff;
-
 }
 
 input:not([type="submit"]):focus,
