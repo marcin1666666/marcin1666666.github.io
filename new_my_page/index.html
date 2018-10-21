@@ -16,19 +16,21 @@
 
     <!--navigation-->
     <div class="open">
-        <span class="cls"></span>
-        <span>
-            <nav class="main-nav">
-                <ul class="sub-menu">
-                    <li class="main-item"><a href="#main-header">Home</a></li>
-                    <li class="main-item"><a href="#about">O mnie</a></li>
-                    <li class="main-item"><a href="#skills">Umiejętności</a></li>
-                    <li class="main-item"><a href="#projects">Projekty</a></li>
-                    <li class="main-item"><a href="#contact">Kontakt</a></li>
-                </ul>
-            </nav>
-        </span>
-        <span class="cls"></span>
+        <div id="menu-icon" onclick="myFunction();display_menu();">
+            <span class="cls1"></span>
+            <span class="cls2"></span>
+            <span class="cls3"></span>
+        </div>
+        <nav class="main-nav">
+            <ul id="hide" class="sub-menu off">
+                <li class="main-item"><a href="#main-header">Home</a></li>
+                <li class="main-item"><a href="#about">O mnie</a></li>
+                <li class="main-item"><a href="#skills">Umiejętności</a></li>
+                <li class="main-item"><a href="#projects">Projekty</a></li>
+                <li class="main-item"><a href="#contact">Kontakt</a></li>
+
+            </ul>
+        </nav>
     </div>
 
     <!--navigation Stop-->
@@ -223,9 +225,7 @@
     <script src="js/aos.js"></script>
     <script>
         AOS.init();
-
     </script>
-    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
