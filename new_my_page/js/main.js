@@ -1,4 +1,4 @@
-function myFunction(x) {
+function myFunction() {
     document.getElementById("menu-icon").classList.toggle("change");
 }
 
