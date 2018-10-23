@@ -63,7 +63,7 @@ section {
     text-align: center;
     height: 50px;
     width: 50px;
-    background-color: #5eadad;
+    background-color: #b6bcbc;
     right: 39px;
     top: 33px;
     border-radius: 10px;
@@ -78,7 +78,7 @@ section {
     top: 40px;
     width: 28px;
     height: 4px;
-    background-color: #0b3c1e;
+    background-color: #000000;
     margin: 6px 0;
     transition: 0.4s;
     -moz-transition: 0.4s;
@@ -111,7 +111,7 @@ section {
 
 .open .main-nav .sub-menu {
     position: fixed;
-    background-color: rgba(0, 255, 255, 0.72);
+    background-color: rgba(28, 28, 28, 0.72);
     float: left;
     text-align: center;
     margin: 0;
@@ -134,13 +134,13 @@ section {
 .open .main-nav .sub-menu .main-item a {
     display: block;
     text-decoration: none;
-    color: #070d07;
+    color: #e6e8e8;
     height: 100%
 }
 
 .open .main-nav .sub-menu .main-item a:hover {
-    color: #fff;
-    background-color: #000000;
+    color: rgba(28, 28, 28, 0.5);
+    background-color: #e6e8e8;
 }
 
 .off {
@@ -157,28 +157,28 @@ section {
 /* header */
 
 #main-header {
-    float: left;
+    position: relative;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/header/apple-black-and-white-black-and-white-169573.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100vh;
-    background-image: url(../img/header/2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    z-index: -1;
 }
 
-#main-header .title h1,
-h2 {
-    margin: 0;
+.main-title h1 {
+    font-family: 'Amaranth', sans-serif;
+    
 }
-
 /* header Stop */
 
 #about {
     height: 100vh;
-    background-color: #909090;
+    background-color: #e6e8e8;
 }
 
 #about .col-1-2 .main-photo {
@@ -186,7 +186,12 @@ h2 {
 }
 
 #skills {
-    background-color: #6e7b7b;
+    background-image: url(../img/proba3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
 }
 
 #skills .icons .main-icons {
@@ -227,7 +232,7 @@ h2 {
 }
 
 #projects {
-    background-color: #6b7777;
+    background-color: #e6e8e8;
 }
 
 #projects .col-1-2 .box .box-in figcapture h3 a {
@@ -264,6 +269,7 @@ h2 {
 
 .box-back {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     background: #c6d1c6;
     color: #625252;
     transform: rotateY(180deg);
@@ -271,6 +277,7 @@ h2 {
     -webkit-transform: rotateY(180deg);
     padding: 10px;
     overflow: hidden;
+    border: 5px solid #000000;
 }
 
 .box:hover .box-front {
@@ -319,11 +326,27 @@ figcapture h3 {
 /*coctact sectio - START*/
 
 #contact {
-    background-color: #6c6d6d;
+    background-image: url(../img/earth-lights-world-41949.jpg);
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.map-container {
+    margin-top: 50px;
+    height: 50vh;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    
 }
 
 #contact .col-1-2 .contact_header h2 {
     font-size: 2em;
+    margin: 0;
 }
 
 #contact .col-1-2 .contact_header .contact_content .address a {
@@ -332,8 +355,8 @@ figcapture h3 {
 
 #contact .col-1-2 .contact_header .contact_content .address a:hover {
     background-color: transparent;
-    color: #15a515;
-    text-decoration-line: underline;
+    color: #fff;
+    
 }
 
 #contact .col-1-2 .contact_header .contact_content .social-icons .social-link {
@@ -352,9 +375,9 @@ figcapture h3 {
 #contact .col-1-2 .contact_header .contact_content .social-icons .social-link:hover {
     color: #fff;
     background-color: rgb(31, 31, 226);
-    box-shadow: 1px 2px 2px 2px #000000;
-    -moz-box-shadow: 1px 2px 2px 2px #000000;
-    -webkit-box-shadow: 1px 2px 2px 2px #000000;
+    box-shadow: 1px 2px 2px 2px #fff;
+    -moz-box-shadow: 1px 2px 2px 2px #fff;
+    -webkit-box-shadow: 1px 2px 2px 2px #fff;
 }
 
 .form_area {
