@@ -157,7 +157,7 @@ section {
 .visible {
     display: block;
 }
-/* navigation Stop */
+/* navigation - END */
 
 /* main-header */
 
@@ -178,7 +178,7 @@ section {
 .main-title h1 {
     font-family: 'Amaranth', sans-serif;
 }
-/* main-header Stop */
+/* main-header - END */
 
 /* section ABOUT */
 
@@ -190,7 +190,7 @@ section {
 #about .col-1-2 .main-photo {
     height: 60vh;
 }
-/* section ABOUT - STOP */
+/* section ABOUT - END */
 
 /* section SKILLS */
 
@@ -240,7 +240,7 @@ section {
     padding: 50px;
     line-height: 1.2em;
 }
-/* section SKILLS - STOP */
+/* section SKILLS - END */
 
 /* section PROJECTS */
 
@@ -253,7 +253,7 @@ section {
     position: relative;
 }
 
-/* flip-box - START */
+/* flip-box */
 
 #projects .col-1-2 .box {
     height: 40vh;
@@ -340,8 +340,8 @@ section {
 #projects .col-1-2 .box a .box-back figcapture h3 {
     text-align: center
 }
-/* flip-box - STOP */
-/* section PROJECTS - STOP */
+/* flip-box - END */
+/* section PROJECTS - END */
 
 /* coctact section */
 
@@ -451,9 +451,9 @@ textarea:focus {
 #contact .col-1-2 .form_area .form-group textarea {
     resize: none;
 }
-/* form-style - STOP */
+/* form-style - END */
 
-/* Google map */
+/* Google-maps */
 #contact .col-1-1 .map-container {
     margin-top: 50px;
     height: 50vh;
@@ -464,10 +464,10 @@ textarea:focus {
     width: 100%;
     height: 100%;
 }
-/* Google map - STOP */
-/* Section contact - STOP */
+/* Google-maps - END */
+/* Section contact - END */
 
-/* Footer - START */
+/* Footer */
 
 .footer .container {
     padding: 0px 60px;
@@ -477,4 +477,4 @@ textarea:focus {
     background-color: #1c1d1d;
     color: #fff;
 }
-/* Footer - STOP */
+/* Footer - END */
