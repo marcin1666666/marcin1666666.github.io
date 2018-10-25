@@ -1,3 +1,12 @@
+@media all and (-ms-high-contrast:none) {
+
+    *::-ms-backdrop,
+    [data-aos^=fade][data-aos^=fade],
+    [data-aos^=zoom][data-aos^=zoom] {
+        opacity: 1;
+    }
+}
+
 @media all and (min-width:992px) {
     #hide {
         display: block;
