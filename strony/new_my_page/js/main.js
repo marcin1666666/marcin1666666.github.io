@@ -11,11 +11,10 @@ function smooth() {
 
         $('html, body').animate({
             'scrollTop': $target.offset().top
-        }, 2000, 'swing');
+        }, 1000, 'swing');
 
     });
 }
-
 
 //menu function//
 

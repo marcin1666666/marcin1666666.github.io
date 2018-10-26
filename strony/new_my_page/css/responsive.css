@@ -8,12 +8,14 @@
 }
 
 @media all and (min-width:992px) {
-    #hide {
+
+    /* navigation */
+    .open .main-nav #hide {
         display: block;
         z-index: 2;
     }
 
-    #menu-icon {
+    .open #menu-icon {
         display: none;
     }
 
@@ -25,19 +27,25 @@
         float: none;
     }
 
+    /* navigation - END */
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
+
+    /* General styles */
     section {
         padding: 10px 30px;
     }
 
-    #hide {
+    /* General styles - END */
+
+    /* navigation */
+    .open .main-nav #hide {
         display: block;
         z-index: 2;
     }
 
-    #menu-icon {
+    .open #menu-icon {
         display: none;
     }
 
@@ -49,44 +57,55 @@
         float: none;
     }
 
+    /* navigation - END */
+
+    /* section ABOUT */
     #about .col-1-2 .text {
         padding: 25px;
     }
 
+    /* section ABOUT -END */
+
+    /* section SKILLS */
     #skills .icons .main-icons {
         margin-top: 50px;
     }
 
-    .RWD-block {
+    #skills .icons .col-1-1 .qualification {
+        margin: 0;
+    }
+
+    /* section SKILLS - END */
+
+    /* section PROJECTS */
+    #projects .RWD-block {
         width: 100%
     }
 
-    .box {
+    #projects .col-1-2 .box {
         margin: 0;
         margin-bottom: 20px;
         width: 100%;
         overflow: hidden;
-
     }
 
-    .box a .box-in figcapture h3 {
+    #projects .col-1-2 .box a .box-in figcapture h3 {
         margin: 0;
     }
 
-    .box a .box-in figcapture p {
+    #projects .col-1-2 .box a .box-in figcapture p {
         font-size: .9em;
         margin: 0;
         margin-top: 10px;
     }
 
-    #skills .icons .qualification {
-        margin: 0;
-    }
+    /* section PROJECTS - END*/
 }
 
 
 @media all and (max-width:767px) {
 
+    /* General styles */
     section {
         padding: 10px 30px;
     }
@@ -103,6 +122,9 @@
         text-align: center;
     }
 
+    /* General styles - END */
+
+    /* navigation */
     .open .main-nav .sub-menu .main-item {
         width: 100%;
         height: 20vh;
@@ -117,64 +139,82 @@
         height: 100vh;
     }
 
+    /* navigation - END */
+
+    /* main-header */
     #main-header .title h1 {
         font-size: 2.5em;
     }
 
+    /* main-header - END */
+
+    /* section ABOUT */
     #about {
         height: 100%;
-    }
-
-    #skills .icons .main-icons {
-        display: block;
-        width: 50%;
-        margin-top: 10px;
     }
 
     #about .col-1-2 .main-photo {
         height: 70vh;
     }
 
-    #skills .icons .qualification {
+    /* section ABOUT - END */
+
+    /* section SKILLS */
+    #skills .icons .main-icons {
+        display: block;
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    #skills .icons .col-1-1 .qualification {
         margin: 0;
         margin-top: 50px;
         height: 100%;
         padding: 0;
     }
 
-    #skills .icons .qualification .certificat {
+    #skills .icons .col-1-1 .qualification .certificat {
         height: 60vh;
     }
 
-    .box {
+    /* section SKILLS - END */
+
+    /* section PROJECTS */
+    #projects .col-1-2 .box {
         margin: 0;
         margin-bottom: 20px;
         width: 100%;
         overflow: hidden;
     }
 
-    .box a .box-in figcapture h3 {
+    #projects .col-1-2 .box a .box-in figcapture h3 {
         margin: 0;
     }
 
-    .box a .box-in figcapture p {
+    #projects .col-1-2 .box a .box-in figcapture p {
         font-size: .9em;
         margin: 0;
         margin-top: 10px;
     }
 
+    /* section PROJECTS - END */
+
+    /* section coctact */
     #contact .col-1-2 .contact_header {
         margin-bottom: 50px;
     }
 
-    input[type="submit"] {
+    #contact .col-1-2 .form_area .form-group input[type="submit"] {
         float: inherit;
     }
+
+    /* section coctact - END */
 }
 
 
 @media all and (max-width:479px) {
 
+    /* General styles */
     section {
         padding: 10px 30px;
     }
@@ -196,6 +236,9 @@
         text-align: center;
     }
 
+    /* General styles - END */
+
+    /* navigation */
     .open .main-nav .sub-menu .main-item {
         width: 100%;
         height: 20vh;
@@ -209,10 +252,16 @@
         height: 100vh;
     }
 
+    /* navigation - END */
+
+    /* main-header */
     #main-header .title h1 {
         font-size: 2.5em;
     }
 
+    /* main-header - END */
+
+    /* section ABOUT */
     #about {
         height: 100%;
     }
@@ -222,47 +271,58 @@
         height: auto;
     }
 
+    /* section ABOUT - END */
+
+    /* section SKILLS*/
     #skills .icons .main-icons {
         display: block;
         width: 50%;
         margin-top: 50px;
     }
 
-    #skills .icons .qualification {
+    #skills .icons .col-1-1 .qualification {
         margin: 0;
         margin-top: 50px;
         height: 100%;
         padding: 0;
     }
 
-    #skills .icons .qualification .certificat {
+    #skills .icons .col-1-1 .qualification .certificat {
         width: 100%;
         height: auto;
     }
 
-    .box {
+    /* section SKILLS - END */
+
+    /* section PROJECTS */
+    #projects .col-1-2 .box {
         margin: 0;
         margin-bottom: 20px;
         width: 100%;
         overflow: hidden;
     }
 
-    .box a .box-in figcapture h3 {
+    #projects .col-1-2 .box a .box-in figcapture h3 {
         margin: 0;
     }
 
-    .box a .box-in figcapture p {
+    #projects .col-1-2 .box a .box-in figcapture p {
         font-size: .7em;
         margin: 0;
         margin-top: 7px;
         text-align: left;
     }
 
+    /* section PROJECTS - END */
+
+    /* section coctact */
     #contact .col-1-2 .contact_header {
         margin-bottom: 50px;
     }
 
-    input[type="submit"] {
+    #contact .col-1-2 .form_area .form-group input[type="submit"] {
         float: inherit;
     }
+
+    /* section coctact - END */
 }
