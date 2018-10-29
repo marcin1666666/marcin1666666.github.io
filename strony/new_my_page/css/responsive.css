@@ -78,27 +78,25 @@
     /* section SKILLS - END */
 
     /* section PROJECTS */
-    #projects .RWD-block {
-        width: 100%
+    /* card */
+    #projects .col-1-2 .card {
+        width: 90%;
+        margin-bottom: 40px;
     }
 
-    #projects .col-1-2 .box {
-        margin: 0;
-        margin-bottom: 20px;
-        width: 100%;
-        overflow: hidden;
+    #projects .col-1-2 .card a .container:hover img {
+        width: 80%;
     }
 
-    #projects .col-1-2 .box a .box-in figcapture h3 {
-        margin: 0;
+    #projects .col-1-2 .card a .container:hover figcaption h3 {
+        width: 90%;
     }
 
-    #projects .col-1-2 .box a .box-in figcapture p {
-        font-size: .9em;
-        margin: 0;
-        margin-top: 10px;
+    #projects .col-1-2 .card a .container:hover figcaption .RWD-mar1 {
+        margin-top: 2em;
     }
 
+    /* card - END */
     /* section PROJECTS - END*/
 }
 
@@ -180,22 +178,19 @@
     /* section SKILLS - END */
 
     /* section PROJECTS */
-    #projects .col-1-2 .box {
-        margin: 0;
-        margin-bottom: 20px;
+
+    /* card */
+    #projects .col-1-2 .card {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    #projects .col-1-2 .card a .container:hover figcaption h3 {
         width: 100%;
-        overflow: hidden;
+        margin: 0 auto;
     }
 
-    #projects .col-1-2 .box a .box-in figcapture h3 {
-        margin: 0;
-    }
-
-    #projects .col-1-2 .box a .box-in figcapture p {
-        font-size: .9em;
-        margin: 0;
-        margin-top: 10px;
-    }
+    /* card - END */
 
     /* section PROJECTS - END */
 
@@ -295,23 +290,35 @@
     /* section SKILLS - END */
 
     /* section PROJECTS */
-    #projects .col-1-2 .box {
-        margin: 0;
-        margin-bottom: 20px;
+    /* card */
+    #projects .col-1-2 .card {
         width: 100%;
-        overflow: hidden;
+        margin-bottom: 40px;
     }
 
-    #projects .col-1-2 .box a .box-in figcapture h3 {
-        margin: 0;
+    #projects .col-1-2 .card a .container:hover img {
+        width: 80%;
     }
 
-    #projects .col-1-2 .box a .box-in figcapture p {
+    #projects .col-1-2 .card a .container:hover figcaption h3 {
+        font-size: 1em;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #projects .col-1-2 .card a .container:hover figcaption p {
         font-size: .7em;
-        margin: 0;
-        margin-top: 7px;
-        text-align: left;
     }
+
+    #projects .col-1-2 .card a .container:hover figcaption .RWD-mar1 {
+        margin-top: 3em;
+    }
+
+    #projects .col-1-2 .card a .container:hover figcaption .RWD-mar2 {
+        margin-top: 3em
+    }
+
+    /* card - END */
 
     /* section PROJECTS - END */
 

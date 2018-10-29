@@ -53,6 +53,7 @@ section {
     font-size: 1.2em;
     text-align: left;
 }
+
 /* General styles - END */
 
 
@@ -157,6 +158,7 @@ section {
 .visible {
     display: block;
 }
+
 /* navigation - END */
 
 /* main-header */
@@ -178,6 +180,7 @@ section {
 .main-title h1 {
     font-family: 'Amaranth', sans-serif;
 }
+
 /* main-header - END */
 
 /* section ABOUT */
@@ -190,6 +193,7 @@ section {
 #about .col-1-2 .main-photo {
     height: 60vh;
 }
+
 /* section ABOUT - END */
 
 /* section SKILLS */
@@ -240,6 +244,7 @@ section {
     padding: 50px;
     line-height: 1.2em;
 }
+
 /* section SKILLS - END */
 
 /* section PROJECTS */
@@ -248,99 +253,168 @@ section {
     background-color: #e6e8e8;
 }
 
-#projects .col-1-2 .box .box-in figcapture h3 a {
+/* card */
+#projects .col-1-2 .card {
+    position: relative;
+    perspective: 500px;
+    height: 70vh;
+    width: 35vw;
+    margin: 0 auto;
+}
+
+#projects .col-1-2 .card a {
     display: block;
-    position: relative;
+    text-decoration: none
 }
 
-/* flip-box */
-
-#projects .col-1-2 .box {
-    height: 40vh;
-    width: 40vw;
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-}
-
-#projects .col-1-2 .box .box-in {
+#projects .col-1-2 .card a .container {
     position: absolute;
-    height: 100%;
-    width: 100%;
-    transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-}
-
-#projects .col-1-2 .box .box-front {
-    z-index: 1;
-    backface-visibility: hidden;
-    background-position: center;
-    background-size: cover;
-    border: 5px solid #000000;
-}
-
-#projects .col-1-2 .box a .box-back {
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    background: #c6d1c6;
-    color: #625252;
-    transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
     padding: 10px;
-    overflow: hidden;
-    border: 5px solid #000000;
+    width: 100%;
+    height: 100%;
+    transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    -ms-transition: .5s all ease;
+    transform: rotateX(60deg) scale(0.7);
+    -moz-transform: rotateX(60deg) scale(0.7);
+    -webkit-transform: rotateX(60deg) scale(0.7);
+    -ms-transform: rotateX(60deg) scale(0.7);
+    box-shadow: 0px 20px 60px #555;
+    -moz-box-shadow: 0px 20px 60px #555;
+    -webkit-box-shadow: 0px 20px 60px #555;
+    -ms-box-shadow: 0px 20px 60px #555;
+    text-align: center;
+    border: 3px solid rgba(0, 0, 0, 0.64);
 }
 
-#projects .col-1-2 .box:hover .box-front {
-    transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
+#projects .col-1-2 .card a .container:hover {
+    transform: rotate(0deg) scale(1) translateY(10px);
+    -moz-transform: rotate(0deg) scale(1) translateY(10px);
+    -webkit-transform: rotate(0deg) scale(1) translateY(10px);
+    -ms-transform: rotate(0deg) scale(1) translateY(10px);
+    transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    -ms-transition: .5s all ease;
+    background-color: #bcc4a6
 }
 
-#projects .col-1-2 .box:hover .box-back {
-    transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);
+#projects .col-1-2 .card a .container img {
+    width: 100%;
+    opacity: 0.2;
 }
 
-#projects .col-1-2 .box .box-front-1 {
-    background-image: url(../img/portfolio1.jpg);
+#projects .col-1-2 .card a .container:hover img {
+    margin-top: 20px;
+    width: 90%;
+    transition: .2s all linear;
+    -moz-transition: .2s all linear;
+    -webkit-transition: .2s all linear;
+    -ms-transition: .2s all linear;
+    opacity: 1;
 }
 
-#projects .col-1-2 .box .box-front-2 {
-    background-image: url(../img/portfolio2.jpg);
+#projects .col-1-2 .card a .container figcaption {
+    position: relative;
+    color: #000000;
 }
 
-#projects .col-1-2 .box .box-front-3 {
-    background-image: url(../img/portfolio3.jpg);
-}
-
-#projects .col-1-2 .box .box-front-4 {
-    background-image: url(../img/portfolio4.jpg);
-}
-
-#projects .col-1-2 .box a .box-back figcapture {
-    font-family: cursive;
-    font-size: .8em;
+#projects .col-1-2 .card a .container figcaption h3 {
+    position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    left: 0;
+    right: 0;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    margin: 0 auto;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    opacity: 0.1;
 }
 
-#projects .col-1-2 .box a .box-back figcapture h3 {
-    text-align: center
+#projects .col-1-2 .card a .container figcaption p {
+    font-size: 0.9em;
+    padding: 30px;
+    opacity: 0;
+    margin: 0;
+    text-align: left;
+    transition: .4s all linear;
+    -moz-transition: .4s all linear;
+    -webkit-transition: .4s all linear;
+    -ms-transition: .4s all linear;
 }
-/* flip-box - END */
+
+#projects .col-1-2 .card a .container:hover figcaption p {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    position: absolute;
+    margin-top: 20px;
+    transition: .6s all linear;
+    -moz-transition: .6s all linear;
+    -webkit-transition: .6s all linear;
+    -ms-transition: .6s all linear;
+}
+
+#projects .col-1-2 .card a .container:hover figcaption h3 {
+    opacity: 1;
+    transition: .6s all ease;
+    -moz-transition: .6s all ease;
+    -webkit-transition: .6s all ease;
+    -ms-transition: .6s all ease;
+    font-size: 1.1em;
+    line-height: 1.1em;
+}
+
+#projects .col-1-2 .card a .container::before,
+#projects .col-1-2 .card a .container::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.6s, -webkit-transform 0.6s;
+    transition: opacity 0.6s, -webkit-transform 0.6s, -moz-transform 0.6s, -ms-transform 0.6s, transform 0.6s;
+}
+
+#projects .col-1-2 .card a .container::before {
+    border-top: 5px groove #454040;
+    border-bottom: 5px groove #454040;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -moz-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+}
+
+#projects .col-1-2 .card a .container::after {
+    border-right: 5px groove #454040;
+    border-left: 5px groove #454040;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -moz-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+}
+
+#projects .col-1-2 .card a .container:hover:before,
+#projects .col-1-2 .card a .container.hover:before,
+#projects .col-1-2 .card a .container:hover:after,
+#projects .col-1-2 .card a .container.hover:after {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+}
+
+/* card - END */
+
 /* section PROJECTS - END */
 
 /* section coctact */
@@ -451,6 +525,7 @@ textarea:focus {
 #contact .col-1-2 .form_area .form-group textarea {
     resize: none;
 }
+
 /* form-style - END */
 
 /* Google-maps */
@@ -464,6 +539,7 @@ textarea:focus {
     width: 100%;
     height: 100%;
 }
+
 /* Google-maps - END */
 /* section contact - END */
 
@@ -477,4 +553,5 @@ textarea:focus {
     background-color: #1c1d1d;
     color: #fff;
 }
+
 /* Footer - END */
