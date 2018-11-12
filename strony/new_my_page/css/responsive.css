@@ -253,6 +253,10 @@
     #main-header .title h1 {
         font-size: 2.5em;
     }
+    
+    .main-title {
+        width: 90%
+    }
 
     /* main-header - END */
 
