@@ -177,8 +177,64 @@ section {
     z-index: -1;
 }
 
-.main-title h1 {
+.main-title .radius-border h1 {
     font-family: 'Amaranth', sans-serif;
+    margin: 0;
+}
+
+.main-title .radius-border h2 {
+    margin: 0;
+}
+
+.radius-border {
+    background: linear-gradient(0deg, #000, #262626);
+    color: #fff;
+    position: relative;
+    padding: 25px;
+}
+
+.radius-border::before,
+.radius-border::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(60deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 6s ease-out infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+
+    20% {
+        background-position: 80% 0;
+    }
+
+    40% {
+        background-position: 160% 0;
+    }
+
+    60% {
+        background-position: 240% 0;
+    }
+
+    80% {
+        background-position: 300% 0;
+    }
+
+    100% {
+        background-position: 350% 0;
+    }
+}
+
+.radius-border::after {
+    filter: blur(30px);
 }
 
 /* main-header - END */
