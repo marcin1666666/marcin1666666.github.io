@@ -60,10 +60,52 @@
     /* navigation - END */
 
     /* section ABOUT */
-    #about .col-1-2 .text {
-        padding: 25px;
+    #about {
+        height: 100%;
+    }
+    
+    #about .title {
+        margin-bottom: 20vh;
+    }
+    #about .slider-section {
+        width: 100%;
     }
 
+    #about .slider-section .cube-box {
+        margin: 0 auto;
+        height: 40vw;
+        width: 60vw;
+    }
+
+    #about .slider-section .cube-box .walls div {
+        height: 40vw;
+        width: 60vw;
+    }
+
+    #about .slider-section .cube-box .walls .front-wall {
+        transform: translateZ(30vw);
+    }
+
+    #about .slider-section .cube-box .walls .back-wall {
+        transform: rotateY(180deg) translateZ(30vw);
+    }
+
+    #about .slider-section .cube-box .walls .left-wall {
+        transform: rotateY(-90deg) translateX(-30vw);
+        transform-origin: left;
+    }
+
+    #about .slider-section .cube-box .walls .right-wall {
+        transform: rotateY(90deg) translateX(30vw);
+        transform-origin: right;
+    }
+    #about .about-text {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20vh;
+        padding: 20px;
+    }
+    
     /* section ABOUT -END */
 
     /* section SKILLS */
@@ -150,9 +192,46 @@
     #about {
         height: 100%;
     }
+    #about .title {
+        margin-bottom: 100px;
+    }
 
-    #about .col-1-2 .main-photo {
-        height: 70vh;
+    #about .slider-section {
+        width: 100%;
+    }
+
+    #about .slider-section .cube-box {
+        margin: 0 auto;
+        height: 40vw;
+        width: 60vw;
+    }
+
+    #about .slider-section .cube-box .walls div {
+        height: 40vw;
+        width: 60vw;
+    }
+
+    #about .slider-section .cube-box .walls .front-wall {
+        transform: translateZ(30vw);
+    }
+
+    #about .slider-section .cube-box .walls .back-wall {
+        transform: rotateY(180deg) translateZ(30vw);
+    }
+
+    #about .slider-section .cube-box .walls .left-wall {
+        transform: rotateY(-90deg) translateX(-30vw);
+        transform-origin: left;
+    }
+
+    #about .slider-section .cube-box .walls .right-wall {
+        transform: rotateY(90deg) translateX(30vw);
+        transform-origin: right;
+    }
+    #about .about-text {
+        width: 100%;
+        margin: 0;
+        margin-top: 60px;
     }
 
     /* section ABOUT - END */
@@ -253,7 +332,7 @@
     #main-header .title h1 {
         font-size: 2.5em;
     }
-    
+
     .main-title {
         width: 90%
     }
@@ -265,9 +344,43 @@
         height: 100%;
     }
 
-    #about .col-1-2 .main-photo {
+    #about .slider-section {
         width: 100%;
-        height: auto;
+    }
+
+    #about .slider-section .cube-box {
+        margin: 0 auto;
+        height: 40vw;
+        width: 60vw;
+    }
+
+    #about .slider-section .cube-box .walls div {
+        height: 40vw;
+        width: 60vw;
+    }
+
+    #about .slider-section .cube-box .walls .front-wall {
+        transform: translateZ(30vw);
+    }
+
+    #about .slider-section .cube-box .walls .back-wall {
+        transform: rotateY(180deg) translateZ(30vw);
+    }
+
+    #about .slider-section .cube-box .walls .left-wall {
+        transform: rotateY(-90deg) translateX(-30vw);
+        transform-origin: left;
+    }
+
+    #about .slider-section .cube-box .walls .right-wall {
+        transform: rotateY(90deg) translateX(30vw);
+        transform-origin: right;
+    }
+    #about .about-text {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+        font-size: .9em;
     }
 
     /* section ABOUT - END */
