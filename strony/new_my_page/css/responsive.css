@@ -63,10 +63,11 @@
     #about {
         height: 100%;
     }
-    
+
     #about .title {
         margin-bottom: 20vh;
     }
+
     #about .slider-section {
         width: 100%;
     }
@@ -99,13 +100,14 @@
         transform: rotateY(90deg) translateX(30vw);
         transform-origin: right;
     }
+
     #about .about-text {
         width: 100%;
         margin: 0 auto;
         margin-top: 20vh;
         padding: 20px;
     }
-    
+
     /* section ABOUT -END */
 
     /* section SKILLS */
@@ -192,6 +194,7 @@
     #about {
         height: 100%;
     }
+
     #about .title {
         margin-bottom: 100px;
     }
@@ -228,6 +231,7 @@
         transform: rotateY(90deg) translateX(30vw);
         transform-origin: right;
     }
+
     #about .about-text {
         width: 100%;
         margin: 0;
@@ -277,6 +281,15 @@
     #contact .col-1-2 .contact_header {
         margin-bottom: 50px;
     }
+
+    #contact .col-1-2 .contact_header .contact_content .buttons-container .social-icons .facebook {
+        left: 20%;
+    }
+
+    #contact .col-1-2 .contact_header .contact_content .buttons-container .social-icons .linked {
+        left: 60%;
+    }
+
 
     #contact .col-1-2 .form_area .form-group input[type="submit"] {
         float: inherit;
@@ -376,6 +389,7 @@
         transform: rotateY(90deg) translateX(30vw);
         transform-origin: right;
     }
+
     #about .about-text {
         width: 100%;
         margin: 0;
@@ -442,6 +456,10 @@
     /* section coctact */
     #contact .col-1-2 .contact_header {
         margin-bottom: 50px;
+    }
+
+    #contact .col-1-2 .contact_header .contact_content .buttons-container .social-icons .linked {
+        left: 50%;
     }
 
     #contact .col-1-2 .form_area .form-group input[type="submit"] {
