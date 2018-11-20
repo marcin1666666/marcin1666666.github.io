@@ -1,0 +1,13 @@
+@mixin flex-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin background_fixed-center {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}

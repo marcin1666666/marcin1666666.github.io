@@ -1,0 +1,17 @@
+@import '../variables/variables';
+
+/* Footer */
+.footer {
+
+    .container {
+        text-align: center;
+        background-color: $footer;
+        color: $white;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+/* Footer - END */

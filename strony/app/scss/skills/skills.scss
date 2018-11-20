@@ -1,0 +1,50 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+
+/* section SKILLS */
+#skills {
+    background-image: url(../../img/proba3.jpg);
+    @include background_fixed-center;
+    color: $white;
+
+    .icons {
+        .main-icons {
+            float: left;
+            width: 25%;
+            text-align: center;
+            margin: 0;
+            margin-bottom: 50px;
+
+            .icon {
+                height: 15vh;
+            }
+        }
+
+        .col-1-1 {
+            .qualification {
+                width: 100%;
+                padding: 10px 30px;
+                height: 70vh;
+
+                .certificat {
+                    height: 100%;
+                }
+
+                .certificat:hover {
+                    overflow: hidden;
+                    box-shadow: 5px 5px 5px 5px $black;
+                    -moz-box-shadow: 5px 5px 5px 5px $black;
+                    -webkit-box-shadow: 5px 5px 5px 5px $black;
+                    -ms-box-shadow: 5px 5px 5px 5px $black;
+                }
+
+                .discription {
+                    padding: 50px;
+                    line-height: 1.2em;
+                }
+            }
+        }
+    }
+}
+
+/* section SKILLS - END */

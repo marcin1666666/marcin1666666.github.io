@@ -1,0 +1,50 @@
+/* main-header */
+#main-header {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../img/header/apple-black-and-white-black-and-white-169573.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1; }
+  #main-header .main-title .radius-border {
+    background: linear-gradient(0deg, #000, #262626);
+    color: #fff;
+    position: relative;
+    padding: 25px; }
+  #main-header .main-title .radius-border::before,
+  #main-header .main-title .radius-border::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(60deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 12s ease-out infinite;
+    -webkit-animation: animate 12s ease-out infinite;
+    -moz-animation: animate 12s ease-out infinite;
+    -ms-animation: animate 12s ease-out infinite; }
+  #main-header .main-title .radius-border::after {
+    filter: blur(30px); }
+
+@keyframes animate {
+  0% {
+    background-position: 0 0; }
+  20% {
+    background-position: 80% 0; }
+  40% {
+    background-position: 160% 0; }
+  60% {
+    background-position: 240% 0; }
+  80% {
+    background-position: 300% 0; }
+  100% {
+    background-position: 350% 0; } }
+
+/* main-header - END */

@@ -1,0 +1,46 @@
+/* section SKILLS */
+#skills {
+    background-image: url(../../img/proba3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#skills .icons .main-icons {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+#skills .icons .main-icons .icon {
+    height: 15vh;
+}
+
+#skills .icons .col-1-1 .qualification {
+    width: 100%;
+    padding: 10px 30px;
+    height: 70vh;
+}
+
+#skills .icons .col-1-1 .qualification .certificat {
+    height: 100%;
+}
+
+#skills .icons .col-1-1 .qualification .certificat:hover {
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px #000000;
+    -moz-box-shadow: 5px 5px 5px 5px #000000;
+    -webkit-box-shadow: 5px 5px 5px 5px #000000;
+    -ms-box-shadow: 5px 5px 5px 5px #000000;
+}
+
+#skills .icons .col-1-1 .qualification .discription {
+    padding: 50px;
+    line-height: 1.2em;
+}
+
+/* section SKILLS - END */

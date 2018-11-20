@@ -1,0 +1,17 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+
+@media all and (-ms-high-contrast:none) {
+
+    *::-ms-backdrop,
+    [data-aos^=fade][data-aos^=fade],
+    [data-aos^=zoom][data-aos^=zoom] {
+        opacity: 1;
+    }
+}
+
+
+@import '../responsive/responsive_479';
+@import '../responsive/responsive_767';
+@import '../responsive/responsive_768-991';
+@import '../responsive/responsive_992';

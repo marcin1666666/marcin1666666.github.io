@@ -1,0 +1,29 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+
+@media all and (min-width:992px) {
+
+    /* navigation */
+    .open {
+        .main-nav {
+            .sub-menu {
+                text-align: right;
+
+                .main-item {
+                    float: none;
+                }
+            }
+
+            #hide {
+                display: block;
+                z-index: 2;
+            }
+        }
+
+        #menu-icon {
+            display: none;
+        }
+    }
+
+    /* navigation - END */
+}

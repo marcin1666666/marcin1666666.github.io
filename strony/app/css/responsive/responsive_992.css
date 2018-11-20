@@ -1,0 +1,12 @@
+@media all and (min-width: 992px) {
+  /* navigation */
+  .open .main-nav .sub-menu {
+    text-align: right; }
+    .open .main-nav .sub-menu .main-item {
+      float: none; }
+  .open .main-nav #hide {
+    display: block;
+    z-index: 2; }
+  .open #menu-icon {
+    display: none; }
+  /* navigation - END */ }

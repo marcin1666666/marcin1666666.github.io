@@ -1,0 +1,125 @@
+/* section coctact */
+#contact {
+  background-image: url(../../img/earth-lights-world-41949.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  /* Google-maps */
+  /* Google-maps - END */ }
+  #contact .col-1-2 {
+    /* form-style */
+    /* form-style - END */ }
+    #contact .col-1-2 .contact_header {
+      text-align: center; }
+      #contact .col-1-2 .contact_header h2 {
+        font-size: 2em;
+        margin: 0; }
+      #contact .col-1-2 .contact_header .contact_content .address {
+        margin-bottom: 30px; }
+        #contact .col-1-2 .contact_header .contact_content .address a:hover {
+          color: #fff; }
+      #contact .col-1-2 .contact_header .social {
+        height: 10vh; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link {
+          height: 50px;
+          width: 50px;
+          text-align: center;
+          line-height: 50px;
+          color: #000000;
+          background-color: #b1b1b1;
+          font-size: 1.5em;
+          position: relative;
+          transition: .5s;
+          transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+          margin: 0 auto; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link::before {
+          content: '';
+          position: absolute;
+          top: 10px;
+          left: -20px;
+          height: 100%;
+          width: 20px;
+          background-color: #b1b1b1;
+          transition: .5s;
+          transform: rotate(0deg) skewY(-45deg); }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link::after {
+          content: '';
+          position: absolute;
+          bottom: -20px;
+          left: -10px;
+          height: 20px;
+          width: 100%;
+          background-color: #b1b1b1;
+          transition: .5s;
+          transform: rotate(0deg) skewX(-45deg); }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link:hover {
+          transform: perspective(800px) rotate(-30deg) skew(25deg) translate(5px);
+          color: #fff; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link:hover.facebook-effect {
+          background-color: #3b5999; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link:hover.facebook-effect::before {
+          background-color: #2a3f6d; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link:hover.facebook-effect::after {
+          background-color: #4d6596; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link:hover.linked-effect {
+          background-color: #0077b5; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link:hover.linked-effect::before {
+          background-color: #026fa8; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link:hover.linked-effect::after {
+          background-color: #007ebf; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link:hover.github-effect {
+          background-color: #211f1f; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link:hover.github-effect::before {
+          background-color: #f4cbb2; }
+        #contact .col-1-2 .contact_header .social .social-icons .social-link:hover.github-effect::after {
+          background-color: #ad5c51; }
+        #contact .col-1-2 .contact_header .social .social-block {
+          display: flex;
+          width: 33.3333%;
+          float: left; }
+    #contact .col-1-2 .form_area {
+      width: 100%; }
+      #contact .col-1-2 .form_area .form-group input[type="text"],
+      #contact .col-1-2 .form_area .form-group input[type="email"],
+      #contact .col-1-2 .form_area .form-group textarea[name="message"] {
+        display: block;
+        color: #fff;
+        width: 100%;
+        background-color: #222427;
+        border: 0;
+        border-radius: 10px;
+        padding: 6px 12px;
+        font-size: 1.3em; }
+      #contact .col-1-2 .form_area .form-group input[type="email"]::-webkit-input-placeholder,
+      #contact .col-1-2 .form_area .form-group input[type="text"]::-webkit-input-placeholder,
+      #contact .col-1-2 .form_area .form-group textarea[name="message"]::-webkit-input-placeholder {
+        color: #fff; }
+      #contact .col-1-2 .form_area .form-group input:not([type="submit"]):focus,
+      #contact .col-1-2 .form_area .form-group textarea:focus {
+        background-color: #b6bcbc;
+        color: #000000; }
+      #contact .col-1-2 .form_area .form-group input[type="submit"] {
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #249302;
+        border: none;
+        border-radius: 10px;
+        float: right;
+        transition: all 0.3s;
+        cursor: pointer;
+        padding: 10px 20px;
+        font-size: 1.1em; }
+      #contact .col-1-2 .form_area .form-group input[type="submit"]:hover {
+        background-color: #3ce608; }
+      #contact .col-1-2 .form_area .form-group textarea {
+        resize: none; }
+  #contact .col-1-1 .map-container {
+    margin-top: 50px;
+    height: 50vh; }
+    #contact .col-1-1 .map-container iframe {
+      width: 100%;
+      height: 100%; }
+
+/* section contact - END */

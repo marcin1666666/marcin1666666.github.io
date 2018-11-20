@@ -1,0 +1,63 @@
+@media all and (min-width: 768px) and (max-width: 991px) {
+  /* General styles */
+  section {
+    padding: 10px 30px; }
+  /* General styles - END */
+  /* navigation */
+  .open .main-nav .sub-menu {
+    text-align: center; }
+    .open .main-nav .sub-menu .main-item {
+      float: none; }
+  .open .main-nav #hide {
+    display: block;
+    z-index: 2; }
+  .open #menu-icon {
+    display: none; }
+  /* navigation - END */
+  /* section ABOUT */
+  #about {
+    height: 100%; }
+    #about .about-text {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 20vh;
+      padding: 20px; }
+    #about .title {
+      margin-bottom: 20vh; }
+    #about .slider-section {
+      width: 100%; }
+      #about .slider-section .cube-box {
+        margin: 0 auto;
+        height: 40vw;
+        width: 60vw; }
+        #about .slider-section .cube-box .walls div {
+          height: 40vw;
+          width: 60vw; }
+        #about .slider-section .cube-box .walls .front-wall {
+          transform: translateZ(30vw); }
+        #about .slider-section .cube-box .walls .back-wall {
+          transform: rotateY(180deg) translateZ(30vw); }
+        #about .slider-section .cube-box .walls .left-wall {
+          transform: rotateY(-90deg) translateX(-30vw);
+          transform-origin: left; }
+        #about .slider-section .cube-box .walls .right-wall {
+          transform: rotateY(90deg) translateX(30vw);
+          transform-origin: right; }
+  /* section ABOUT -END */
+  /* section SKILLS */
+  #skills .icons .main-icons {
+    margin-top: 50px; }
+  #skills .icons .col-1-1 .qualification {
+    margin: 0; }
+  /* section SKILLS - END */
+  /* section PROJECTS */
+  #projects .col-1-2 .card {
+    width: 90%;
+    margin-bottom: 40px; }
+    #projects .col-1-2 .card a .container:hover img {
+      width: 80%; }
+    #projects .col-1-2 .card a .container:hover figcaption h3 {
+      width: 90%; }
+    #projects .col-1-2 .card a .container:hover figcaption .RWD-mar1 {
+      margin-top: 2em; }
+  /* section PROJECTS - END*/ }

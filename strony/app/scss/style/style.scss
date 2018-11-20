@@ -1,0 +1,67 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+
+/* General styles */
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Amaranth', sans-serif;
+    overflow-x: hidden;
+}
+
+.col-1-1,
+.col-1-2,
+.col-1-3,
+.col-1-4 {
+    float: left;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.col-1-1 {
+    width: 100%;
+}
+
+.col-1-3 {
+    width: 33.3333%;
+}
+
+.col-1-4 {
+    width: 25%;
+}
+
+section {
+    float: left;
+    width: 100%;
+    padding: 40px 60px;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    margin: 60px;
+}
+
+.text {
+    font-size: 1.2em;
+    text-align: left;
+}
+/* General styles - END */
+
+@import '../navigation/navigation';
+@import '../header/header';
+@import '../about/about';
+@import '../skills/skills';
+@import '../projects/projects';
+@import '../contact/contact';
+@import '../footer/footer';

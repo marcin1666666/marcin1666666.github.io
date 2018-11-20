@@ -1,0 +1,194 @@
+@import '../variables/variables';
+@import '../mixin/mixin';
+
+/* section coctact */
+#contact {
+    background-image: url(../../img/earth-lights-world-41949.jpg);
+    @include background_fixed-center;
+    color: $white;
+
+    .col-1-2 {
+        .contact_header {
+            text-align: center;
+
+            h2 {
+                font-size: 2em;
+                margin: 0;
+            }
+
+            .contact_content {
+                .address {
+                    margin-bottom: 30px;
+
+                    a:hover {
+                        color: $white;
+                    }
+                }
+            }
+
+            .social {
+                height: 10vh;
+
+                .social-icons {
+                    .social-link {
+                        height: 50px;
+                        width: 50px;
+                        text-align: center;
+                        line-height: 50px;
+                        color: $black;
+                        background-color: $social-icon;
+                        font-size: 1.5em;
+                        position: relative;
+                        transition: .5s;
+                        transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+                        margin: 0 auto;
+                    }
+
+                    .social-link::before {
+                        content: '';
+                        position: absolute;
+                        top: 10px;
+                        left: -20px;
+                        height: 100%;
+                        width: 20px;
+                        background-color: $social-icon;
+                        transition: .5s;
+                        transform: rotate(0deg) skewY(-45deg);
+                    }
+
+                    .social-link::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -20px;
+                        left: -10px;
+                        height: 20px;
+                        width: 100%;
+                        background-color: $social-icon;
+                        transition: .5s;
+                        transform: rotate(0deg) skewX(-45deg);
+                    }
+
+                    .social-link:hover {
+                        transform: perspective(800px) rotate(-30deg) skew(25deg) translate(5px);
+                        color: $white;
+                    }
+
+                    .social-link:hover.facebook-effect {
+                        background-color: #3b5999;
+                    }
+
+                    .social-link:hover.facebook-effect::before {
+                        background-color: #2a3f6d;
+                    }
+
+                    .social-link:hover.facebook-effect::after {
+                        background-color: #4d6596;
+                    }
+
+                    .social-link:hover.linked-effect {
+                        background-color: #0077b5;
+                    }
+
+                    .social-link:hover.linked-effect::before {
+                        background-color: #026fa8;
+                    }
+
+                    .social-link:hover.linked-effect::after {
+                        background-color: #007ebf;
+                    }
+
+                    .social-link:hover.github-effect {
+                        background-color: #211f1f;
+                    }
+
+                    .social-link:hover.github-effect::before {
+                        background-color: #f4cbb2;
+                    }
+
+                    .social-link:hover.github-effect::after {
+                        background-color: #ad5c51;
+                    }
+                }
+
+                .social-block {
+                    display: flex;
+                    width: 33.3333%;
+                    float: left;
+                }
+            }
+        }
+
+        /* form-style */
+        .form_area {
+            width: 100%;
+
+            .form-group {
+
+                input[type="text"],
+                input[type="email"],
+                textarea[name="message"] {
+                    display: block;
+                    color: $white;
+                    width: 100%;
+                    background-color: #222427;
+                    border: 0;
+                    border-radius: 10px;
+                    padding: 6px 12px;
+                    font-size: 1.3em;
+                }
+
+                input[type="email"]::-webkit-input-placeholder,
+                input[type="text"]::-webkit-input-placeholder,
+                textarea[name="message"]::-webkit-input-placeholder {
+                    color: $white;
+                }
+
+                input:not([type="submit"]):focus,
+                textarea:focus {
+                    background-color: $dark-grey;
+                    color: $black;
+                }
+
+                input[type="submit"] {
+                    text-transform: uppercase;
+                    color: $white;
+                    background-color: #249302;
+                    border: none;
+                    border-radius: 10px;
+                    float: right;
+                    transition: all 0.3s;
+                    cursor: pointer;
+                    padding: 10px 20px;
+                    font-size: 1.1em;
+                }
+
+                input[type="submit"]:hover {
+                    background-color: #3ce608;
+                }
+
+                textarea {
+                    resize: none;
+                }
+            }
+        }
+
+        /* form-style - END */
+    }
+
+    /* Google-maps */
+    .col-1-1 {
+        .map-container {
+            margin-top: 50px;
+            height: 50vh;
+
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    /* Google-maps - END */
+}
+
+/* section contact - END */
