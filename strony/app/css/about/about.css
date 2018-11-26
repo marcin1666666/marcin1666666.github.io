@@ -11,17 +11,17 @@
     float: left;
     width: 50vw; }
     #about .slider-section .cube-box {
-      margin: 0 auto;
       width: 30vw;
       height: 20vw;
       margin-left: 10vw;
       perspective: 1000px; }
       #about .slider-section .cube-box .walls {
+        height: 100%;
         width: 100%;
-        animation: rotate 25s linear infinite;
-        -webkit-animation: rotate 25s linear infinite;
-        -moz-animation: rotate 25s linear infinite;
-        -ms-animation: rotate 25s linear infinite;
+        animation: rotate 20s linear infinite;
+        -webkit-animation: rotate 20s linear infinite;
+        -moz-animation: rotate 20s linear infinite;
+        -ms-animation: rotate 20s linear infinite;
         transform-style: preserve-3d;
         -webkit-transform-style: preserve-3d;
         -moz-transform-style: preserve-3d;
@@ -31,6 +31,7 @@
           width: 100%; }
         #about .slider-section .cube-box .walls figure {
           position: absolute;
+          margin: 0 auto;
           height: 20vw;
           width: 30vw; }
         #about .slider-section .cube-box .walls .front-wall {

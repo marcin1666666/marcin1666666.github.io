@@ -81,7 +81,6 @@
             width: 100%;
 
             .cube-box {
-                margin: 0 auto;
                 height: 40vw;
                 width: 60vw;
 
@@ -93,20 +92,38 @@
 
                     .front-wall {
                         transform: translateZ(30vw);
+                        -webkit-transform: translateZ(30vw);
+                        -moz-transform: translateZ(30vw);
+                        -ms-transform: translateZ(30vw);
                     }
 
                     .back-wall {
                         transform: rotateY(180deg) translateZ(30vw);
+                        -webkit-transform: rotateY(180deg) translateZ(30vw);
+                        -moz-transform: rotateY(180deg) translateZ(30vw);
+                        -ms-transform: rotateY(180deg) translateZ(30vw);
                     }
 
                     .left-wall {
                         transform: rotateY(-90deg) translateX(-30vw);
                         transform-origin: left;
+                        -webkit-transform: rotateY(-90deg) translateX(-30vw);
+                        -moz-transform: rotateY(-90deg) translateX(-30vw);
+                        -ms-transform: rotateY(-90deg) translateX(-30vw);
+                        -webkit-transform-origin: left;
+                        -moz-transform-origin: left;
+                        -ms-transform-origin: left;
                     }
 
                     .right-wall {
                         transform: rotateY(90deg) translateX(30vw);
                         transform-origin: right;
+                        -webkit-transform: rotateY(90deg) translateX(30vw);
+                        -moz-transform: rotateY(90deg) translateX(30vw);
+                        -ms-transform: rotateY(90deg) translateX(30vw);
+                        -webkit-transform-origin: right;
+                        -moz-transform-origin: right;
+                        -ms-transform-origin: right;
                     }
                 }
             }

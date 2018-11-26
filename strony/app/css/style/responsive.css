@@ -53,22 +53,39 @@
     #about .slider-section {
       width: 100%; }
       #about .slider-section .cube-box {
-        margin: 0 auto;
-        height: 40vw;
-        width: 60vw; }
+        height: 36vw;
+        width: 50vw; }
         #about .slider-section .cube-box .walls figure {
-          height: 40vw;
-          width: 60vw; }
+          height: 36vw;
+          width: 50vw; }
         #about .slider-section .cube-box .walls .front-wall {
-          transform: translateZ(30vw); }
+          transform: translateZ(25vw);
+          -webkit-transform: translateZ(25vw);
+          -moz-transform: translateZ(25vw);
+          -ms-transform: translateZ(25vw); }
         #about .slider-section .cube-box .walls .back-wall {
-          transform: rotateY(180deg) translateZ(30vw); }
+          transform: rotateY(180deg) translateZ(25vw);
+          -webkit-transform: rotateY(180deg) translateZ(25vw);
+          -moz-transform: rotateY(180deg) translateZ(25vw);
+          -ms-transform: rotateY(180deg) translateZ(25vw); }
         #about .slider-section .cube-box .walls .left-wall {
-          transform: rotateY(-90deg) translateX(-30vw);
-          transform-origin: left; }
+          transform: rotateY(-90deg) translateX(-25vw);
+          transform-origin: left;
+          -webkit-transform: rotateY(-90deg) translateX(-25vw);
+          -moz-transform: rotateY(-90deg) translateX(-25vw);
+          -ms-transform: rotateY(-90deg) translateX(-25vw);
+          -webkit-transform-origin: left;
+          -moz-transform-origin: left;
+          -ms-transform-origin: left; }
         #about .slider-section .cube-box .walls .right-wall {
-          transform: rotateY(90deg) translateX(30vw);
-          transform-origin: right; }
+          transform: rotateY(90deg) translateX(25vw);
+          transform-origin: right;
+          -webkit-transform: rotateY(90deg) translateX(25vw);
+          -moz-transform: rotateY(90deg) translateX(25vw);
+          -ms-transform: rotateY(90deg) translateX(25vw);
+          -webkit-transform-origin: right;
+          -moz-transform-origin: right;
+          -ms-transform-origin: right; }
   /* section ABOUT -END */
   /* section SKILLS */
   /* section SKILLS */
@@ -79,11 +96,9 @@
   #skills .icons .col-1-1 .qualification {
     margin: 0;
     margin-top: 50px;
-    height: 100%;
     padding: 0; }
     #skills .icons .col-1-1 .qualification .certificat {
-      width: 100%;
-      height: auto; }
+      width: 80%; }
   /* section SKILLS - END */
   /* section PROJECTS */
   /* card */
@@ -160,22 +175,39 @@
     #about .slider-section {
       width: 100%; }
       #about .slider-section .cube-box {
-        margin: 0 auto;
         height: 40vw;
         width: 60vw; }
         #about .slider-section .cube-box .walls figure {
           height: 40vw;
           width: 60vw; }
         #about .slider-section .cube-box .walls .front-wall {
-          transform: translateZ(30vw); }
+          transform: translateZ(30vw);
+          -webkit-transform: translateZ(30vw);
+          -moz-transform: translateZ(30vw);
+          -ms-transform: translateZ(30vw); }
         #about .slider-section .cube-box .walls .back-wall {
-          transform: rotateY(180deg) translateZ(30vw); }
+          transform: rotateY(180deg) translateZ(30vw);
+          -webkit-transform: rotateY(180deg) translateZ(30vw);
+          -moz-transform: rotateY(180deg) translateZ(30vw);
+          -ms-transform: rotateY(180deg) translateZ(30vw); }
         #about .slider-section .cube-box .walls .left-wall {
           transform: rotateY(-90deg) translateX(-30vw);
-          transform-origin: left; }
+          transform-origin: left;
+          -webkit-transform: rotateY(-90deg) translateX(-30vw);
+          -moz-transform: rotateY(-90deg) translateX(-30vw);
+          -ms-transform: rotateY(-90deg) translateX(-30vw);
+          -webkit-transform-origin: left;
+          -moz-transform-origin: left;
+          -ms-transform-origin: left; }
         #about .slider-section .cube-box .walls .right-wall {
           transform: rotateY(90deg) translateX(30vw);
-          transform-origin: right; }
+          transform-origin: right;
+          -webkit-transform: rotateY(90deg) translateX(30vw);
+          -moz-transform: rotateY(90deg) translateX(30vw);
+          -ms-transform: rotateY(90deg) translateX(30vw);
+          -webkit-transform-origin: right;
+          -moz-transform-origin: right;
+          -ms-transform-origin: right; }
   /* section ABOUT -END */
   /* section SKILLS */
   #skills .icons .main-icons {
@@ -234,22 +266,39 @@
     #about .slider-section {
       width: 100%; }
       #about .slider-section .cube-box {
-        margin: 0 auto;
         height: 40vw;
         width: 60vw; }
         #about .slider-section .cube-box .walls figure {
           height: 40vw;
           width: 60vw; }
         #about .slider-section .cube-box .walls .front-wall {
-          transform: translateZ(30vw); }
+          transform: translateZ(30vw);
+          -webkit-transform: translateZ(30vw);
+          -moz-transform: translateZ(30vw);
+          -ms-transform: translateZ(30vw); }
         #about .slider-section .cube-box .walls .back-wall {
-          transform: rotateY(180deg) translateZ(30vw); }
+          transform: rotateY(180deg) translateZ(30vw);
+          -webkit-transform: rotateY(180deg) translateZ(30vw);
+          -moz-transform: rotateY(180deg) translateZ(30vw);
+          -ms-transform: rotateY(180deg) translateZ(30vw); }
         #about .slider-section .cube-box .walls .left-wall {
           transform: rotateY(-90deg) translateX(-30vw);
-          transform-origin: left; }
+          transform-origin: left;
+          -webkit-transform: rotateY(-90deg) translateX(-30vw);
+          -moz-transform: rotateY(-90deg) translateX(-30vw);
+          -ms-transform: rotateY(-90deg) translateX(-30vw);
+          -webkit-transform-origin: left;
+          -moz-transform-origin: left;
+          -ms-transform-origin: left; }
         #about .slider-section .cube-box .walls .right-wall {
           transform: rotateY(90deg) translateX(30vw);
-          transform-origin: right; }
+          transform-origin: right;
+          -webkit-transform: rotateY(90deg) translateX(30vw);
+          -moz-transform: rotateY(90deg) translateX(30vw);
+          -ms-transform: rotateY(90deg) translateX(30vw);
+          -webkit-transform-origin: right;
+          -moz-transform-origin: right;
+          -ms-transform-origin: right; }
   /* section ABOUT -END */
   /* section SKILLS */
   #skills .icons .main-icons {
