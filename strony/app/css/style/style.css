@@ -36,7 +36,7 @@ section {
 
 .title {
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Condiment', cursive;
   font-size: 1.5em;
   margin: 60px; }
 
@@ -76,6 +76,35 @@ section {
       top: 50px; }
     .open #menu-icon .cls3 {
       top: 60px; }
+  .open .language_btn {
+    position: fixed;
+    right: 10px;
+    width: 50px;
+    height: 30px;
+    border: 0;
+    padding: 0;
+    z-index: 2;
+    text-align: center; }
+    .open .language_btn a {
+      display: block;
+      height: 100%;
+      line-height: 30px;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: 500;
+      color: #fff; }
+  .open .language_btn:hover {
+    opacity: .6; }
+  .open .polish {
+    background-image: url("../../img/polish_flag.jpg");
+    background-position: center;
+    background-size: cover;
+    top: 65px; }
+  .open .english {
+    background-image: url("../../img/english_flag.jpg");
+    background-position: center;
+    background-size: cover;
+    top: 105px; }
   .open .main-nav .sub-menu {
     position: fixed;
     background-color: rgba(28, 28, 28, 0.9);
@@ -205,7 +234,7 @@ section {
         #about .slider-section .cube-box .walls img {
           height: 100%;
           width: 100%; }
-        #about .slider-section .cube-box .walls div {
+        #about .slider-section .cube-box .walls figure {
           position: absolute;
           height: 20vw;
           width: 30vw; }
@@ -540,7 +569,8 @@ section {
     height: 50vh; }
     #contact .col-1-1 .map-container iframe {
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      border: 0; }
 
 /* section contact - END */
 /* Footer */

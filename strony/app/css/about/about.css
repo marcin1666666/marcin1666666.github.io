@@ -28,7 +28,7 @@
         #about .slider-section .cube-box .walls img {
           height: 100%;
           width: 100%; }
-        #about .slider-section .cube-box .walls div {
+        #about .slider-section .cube-box .walls figure {
           position: absolute;
           height: 20vw;
           width: 30vw; }

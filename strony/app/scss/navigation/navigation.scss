@@ -42,6 +42,48 @@
         }
     }
 
+    
+    .language_btn {
+        position: fixed;
+        right: 10px;
+        width: 50px;
+        height: 30px;
+        border: 0;
+        padding: 0;
+        z-index: 2;
+        text-align: center;
+
+        a {
+            display: block;
+            height: 100%;
+            line-height: 30px;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+
+    .language_btn:hover {
+        opacity: .6;
+    }
+
+    .polish {
+        background-image: url('../../img/polish_flag.jpg');
+        background-position: center;
+        background-size: cover;
+        top: 65px;
+    }
+
+    .english {
+        background-image: url('../../img/english_flag.jpg');
+        background-position: center;
+        background-size: cover;
+        top: 105px;
+
+
+    }
+
     .main-nav {
         .sub-menu {
             position: fixed;
