@@ -11,6 +11,7 @@
     float: left;
     width: 50vw; }
     #about .slider-section .cube-box {
+      margin: 0 auto;
       width: 30vw;
       height: 20vw;
       margin-left: 10vw;
