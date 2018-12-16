@@ -52,12 +52,12 @@
     background-image: url("../../img/polish_flag.jpg");
     background-position: center;
     background-size: cover;
-    top: 65px; }
+    top: 100px; }
   .open .english {
     background-image: url("../../img/english_flag.jpg");
     background-position: center;
     background-size: cover;
-    top: 105px; }
+    top: 145px; }
   .open .main-nav .sub-menu {
     position: fixed;
     background-color: rgba(28, 28, 28, 0.9);
@@ -71,7 +71,7 @@
       display: inline-block;
       float: inherit;
       font-size: 1.3em;
-      line-height: 2.6em;
+      line-height: 8vh;
       width: 20vw;
       height: 8vh;
       text-align: center;
@@ -83,7 +83,8 @@
         height: 100%; }
       .open .main-nav .sub-menu .main-item a:hover {
         color: rgba(28, 28, 28, 0.5);
-        background-color: #e6e8e8; }
+        background-color: #b6bcbc;
+        border-bottom: 3px solid #ffa500; }
 
 .change .cls1 {
   -webkit-transform: rotate(-45deg) translate(-8px, 7px);

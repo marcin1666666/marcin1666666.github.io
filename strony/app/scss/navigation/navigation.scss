@@ -72,14 +72,14 @@
         background-image: url('../../img/polish_flag.jpg');
         background-position: center;
         background-size: cover;
-        top: 65px;
+        top: 100px;
     }
 
     .english {
         background-image: url('../../img/english_flag.jpg');
         background-position: center;
         background-size: cover;
-        top: 105px;
+        top: 145px;
 
 
     }
@@ -99,7 +99,7 @@
                 display: inline-block;
                 float: inherit;
                 font-size: 1.3em;
-                line-height: 2.6em;
+                line-height: 8vh;
                 width: 20vw;
                 height: 8vh;
                 text-align: center;
@@ -114,7 +114,8 @@
 
                 a:hover {
                     color: rgba(28, 28, 28, 0.5);
-                    background-color: $light-grey;
+                    background-color: $dark-grey;
+                    border-bottom: 3px solid #ffa500;
                 }
             }
         }
