@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>new portfo</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/aos.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+</head>
+
+<body>
+    <!--navigation-->
+    <div class="open">
+        <div id="menu-icon" onclick="crossX();display_menu();">
+            <span class="cls1"></span>
+            <span class="cls2"></span>
+            <span class="cls3"></span>
+        </div>
+
+        <nav class="main-nav">
+            <ul id="hide" class="sub-menu off">
+                <li class="main-item"><a href="#main-header">Home</a></li>
+                <li class="main-item"><a href="#about">About</a></li>
+                <li class="main-item"><a href="#skills">Skills</a></li>
+                <li class="main-item"><a href="#projects">Projects</a></li>
+                <li class="main-item"><a href="#contact">Contact</a></li>
+                <li class="second-item"><a href="https://www.facebook.com/marcin.biedal.9" class="social-link facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="second-item"><a href="https://www.linkedin.com/in/marcin-biedal-a21977152" class="social-link linked"><i class="fab fa-linkedin"></i></a></li>
+                <li class="second-item"><a href="https://github.com/marcin1666666/marcin1666666.github.io" class="social-link github"><i class="fab fa-github-square"></i></a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <!--navigation END-->
+
+    <!--main-header-->
+    <header id="main-header">
+        <figure class="main-logo">
+            <img src="img/header/m-b.png" alt="mb">
+        </figure>
+    </header>
+    <!--main-header END-->
+
+    <!--section ABOUT-->
+    <section id="about">
+        <div class="title">
+            <h2>About me</h2>
+            <hr>
+        </div>
+        <div class="slider-section" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
+            <div class="slideshow-container">
+                <figure class="myslides fade">
+                    <img src="img/about/free_time-1.jpg">
+                </figure>
+                <figure class="myslides fade">
+                    <img src="img/about/free_time-2.jpg">
+                </figure>
+                <figure class="myslides fade">
+                    <img src="img/about/free_time-3.jpg">
+                </figure>
+                <figure class="myslides fade">
+                    <img src="img/about/free_time-4.jpg">
+                </figure>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="dot-section">
+                <span class="dots" onclick="currentSlide(1)"></span>
+                <span class="dots" onclick="currentSlide(2)"></span>
+                <span class="dots" onclick="currentSlide(3)"></span>
+                <span class="dots" onclick="currentSlide(4)"></span>
+            </div>
+
+        </div>
+        <div class="about-text" data-aos="fade-left">
+            <p class="text">Privately I try to constantly learn and be up to date with current technologies. I learn new technologies very quickly, which is why I am eager to take on new challenges. I'm passionate about cooking. I like simple and original recipes, which I can please relatives and friends. In my free time I like to visit interesting places. Most often I visit the ruins of castles.</p>
+        </div>
+    </section>
+    <!--section ABOUT - END-->
+    <!--section SKILLS-->
+
+    <section id="skills">
+        <div class="title" data-aos="zoom-in-up">
+            <h2>Skills</h2>
+            <hr>
+        </div>
+        <div class="skills-description" data-aos="fade-up">
+            <p class="text">I gained my skills mainly in the programming course held in Cracow at the programming school Akademia 108 and project work. However, I continue my development through various online courses, which ending certificates will be published in the near future.</p>
+        </div>
+        <div class="icons" data-aos="fade-up">
+            <figure class="main-icons">
+                <img class="icon" src="img/icons/html.png" alt="icon1">
+                <figcaption>HTML5</figcaption>
+            </figure>
+            <figure class="main-icons">
+                <img class="icon" src="img/icons/css3.png" alt="icon2">
+                <figcaption>CSS3</figcaption>
+            </figure>
+            <figure class="main-icons">
+                <img class="icon" src="img/icons/js.png" alt="icon3">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure class="main-icons">
+                <img class="icon" src="img/icons/jquery.png" alt="icon4">
+                <figcaption>jQuery</figcaption>
+            </figure>
+            <figure class="main-icons">
+                <img class="icon" src="img/icons/bootstrap.png" alt="icon5">
+                <figcaption>Bootstrap</figcaption>
+            </figure>
+            <figure class="main-icons">
+                <img class="icon" src="img/icons/gulp.png" alt="icon6">
+                <figcaption>Gulp</figcaption>
+            </figure>
+            <figure class="main-icons">
+                <img class="icon" src="img/icons/sass.png" alt="icon7">
+                <figcaption>SASS</figcaption>
+            </figure>
+            <figure class="main-icons">
+                <img class="icon" src="img/icons/wordpress.png" alt="icon8">
+                <figcaption>WordPress</figcaption>
+            </figure>
+        </div>
+        <div class="container" data-aos="fade-up">
+            <figure class="qualification">
+                <a href="img/certificate_english.jpg"><img class="certificat" src="img/certificate_english.jpg" alt="certificat"></a>
+            </figure>
+            <div class="discription text">
+                <h3>Certificate of ending Front-End Developer course.</h3> <br> Range of topics: <br> HTML5, CSS3, JavaScript, biblioteka jQuery, Responsive Web Design, Bootstrap, AJAX, SASS & Gulp, GIT
+            </div>
+        </div>
+
+    </section>
+
+    <!--section SKILLS - END-->
+
+    <!--section PROJECTS-->
+
+    <section id="projects">
+        <div class="title" data-aos="zoom-in-up">
+            <h2>Projects</h2>
+            <hr>
+        </div>
+        <div class="projects-container">
+            <div class="item-container" data-aos="fade-up">
+                <div class="section-container">
+                    <figure class="pro-foto">
+                        <img src="img/portfolio1.jpg" alt="portfo-1">
+                    </figure>
+                    <div class="content">
+                        <h3>Project of RWD website</h3>
+                        <p class="text">To create this website I used following technologies: <br>─ HTML5<br>─ CSS3 <br>─ Bootstrap <br>─ SASS & Gulp</p>
+                        <div class="link-button">
+                            <a href="https://marcin1666666.github.io/projekty/sass-gulp/app/sass-gulp.html">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-container" data-aos="fade-up">
+                <div class="section-container">
+                    <figure class="pro-foto">
+                        <img src="img/portfolio2.jpg" alt="portfo-2">
+                    </figure>
+                    <div class="content">
+                        <h3>Desktop wersion of product site</h3>
+                        <p class="text">─ After clicking on marker (+) tooltip is apear<br> ─ Navigation element: "OFFER" contains animated, expandable submenus that are opened after clicking<br> ─ Both elements turn off after clicking on them themselves or any place on the page<br> ─ The site also has a simple "Dropdown" at the end of the main "menu"</p>
+                        <div class="link-button">
+                            <a href="https://marcin1666666.github.io/projekty/zadanie-techniczne/index.html">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-container">
+                <div class="section-container" data-aos="fade-up">
+                    <figure class="pro-foto">
+                        <img src="img/portfolio3.jpg" alt="portfo-3">
+                    </figure>
+                    <div class="content">
+                        <h3>CSS Animation</h3>
+                        <p class="text">For creating this animation I used pure CSS</p>
+                        <div class="link-button">
+                            <a href="https://marcin1666666.github.io/projekty/animation/animation.html">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-container">
+                <div class="section-container" data-aos="fade-up">
+                    <figure class="pro-foto">
+                        <img src="img/portfolio4.jpg" alt="portfo-4">
+                    </figure>
+                    <div class="content">
+                        <h3>Commerce website for Security Agency</h3>
+                        <p class="text">─ The site is fully responsive <br>─ Site has got lot of galleries and the effect of "parallax" <br>─ In contact section has got a Google map</p>
+                        <div class="link-button">
+                            <a href="http://www.gepard-security.pl/">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section PROJECTS - END-->
+
+    <!--section CONTACT-->
+    <section id="contact">
+        <div class="title" data-aos="zoom-in-up">
+            <h2>Contact</h2>
+            <hr>
+        </div>
+        <div class="item-container" data-aos="fade-up">
+            <div class="section-container">
+                <div class="form-container">
+                    <div class="form-header">
+                        <h3><i class="fas fa-envelope"></i> Write to me:</h3>
+                    </div>
+
+                    <!--form-->
+
+                    <form class="form-area" action="https://formspree.io/marcinbiedal@wp.pl" method="post">
+                        <div class="form-group">
+                            <i class="fas fa-user-circle"><input type="text" class="form-control" id="name" name="name" placeholder="Name & Surname:" required></i><br>
+                            <i class="fas fa-at"><input type="email" class="form-control" id="email" name="name" placeholder="E-mail:" required></i><br>
+                            <i class="fas fa-pen-square"><textarea name="message" class="form-control" id="message" rows="6" placeholder="Message:" required></textarea></i><br>
+                            <input type="submit" class="btn" value="Send">
+                        </div>
+                    </form>
+
+                    <!--form - END-->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container" data-aos="fade-up">
+            <div class="section-container">
+
+                <!--Google-maps-->
+
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1256.031622521932!2d-0.5054268418495423!3d50.978021583657096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875b8fa5b5f8217%3A0x27f81fbb43d230b0!2sPulborough+RH20+1DA!5e0!3m2!1spl!2suk!4v1540331662911" allowfullscreen></iframe>
+                </div>
+
+                <!--Google-maps - END-->
+
+                <div class="contact-icons">
+                    <div class="contact-icon">
+                        <div class="circle-frame">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <p class="address"><br> +44 7729897645
+                        </p>
+                    </div>
+
+                    <div class="contact-icon">
+                        <div class="circle-frame">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <p class="address"><br>The Tullens Toat<br> Pickhurst Lane<br>Pulborough<br>RH20 1DA
+                        </p>
+                    </div>
+
+                    <div class="contact-icon">
+                        <div class="circle-frame">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <p class="address">
+                            <br><a href="mailto:marcinbiedal@wp.pl" class="email">marcinbiedal@wp.pl</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+        <p class="text"> Copyright &#169; Marcin Biedal </p>
+    </footer>
+
+    <!--FOOTER - END-->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
