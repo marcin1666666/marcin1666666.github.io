@@ -311,7 +311,7 @@ img {
 }
 
 #skills .icons .main-icons .icon {
-    width: 50%;
+    width: 30%;
 
 }
 
@@ -380,7 +380,7 @@ img {
 #projects .projects-container .section-container {
     box-shadow: .5px 1px 3px 3px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    height: 60vh;
+    height: 70vh;
     text-align: center;
     position: relative;
     margin: 0 auto;
