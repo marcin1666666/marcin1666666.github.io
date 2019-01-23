@@ -22,6 +22,17 @@
     }
 
     /* navigation - END */
+
+    .text {
+        font-size: 1.3em
+    }
+    
+    #projects .card-container .card a .container figcaption p {
+    font-size: 1.2em;
+    }
+    #projects .card-container .card a .container:hover figcaption h3 {
+    font-size: 1.3em;
+    }
 }
 
 
@@ -130,7 +141,7 @@
     }
 
     #skills .container .qualification .certificat {
-        width: 60%;
+        width: 70%;
         height: auto;
     }
 
@@ -141,16 +152,21 @@
 
     /* section SKILLS - END */
     /* section PROJECTS */
-    #projects .projects-container .item-container {
-        flex: 100%;
+    #projects .card-container {
+        width: 100%;
     }
 
-    #projects .projects-container .section-container {
+    #projects .card-container .card {
         width: 90%;
+        margin-bottom: 40px;
     }
 
-    #projects .projects-container .section-container .content .link-button {
-        width: 50%;
+    #projects .card-container .card a .container:hover figcaption h3 {
+        width: 100%;
+        margin: 0 auto;
+    }
+     #projects .card-container .card a .container:hover figcaption .RWD-mar2 {
+        margin-top: 1.4em;
     }
 
     /* section PROJECTS - END */
@@ -182,11 +198,6 @@
 
 }
 
-@media all and (min-width: 580px) and (max-width: 767px) {
-    #projects .projects-container .section-container {
-        width: 60%;
-    }
-}
 
 @media all and (min-width: 768px) and (max-width: 991px) {
 
@@ -275,13 +286,28 @@
         padding: 20px;
     }
 
-    #projects .projects-container .section-container {
+
+    #projects .card-container .card {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    #projects .card-container .card a .container:hover img {
+        width: 80%;
+    }
+
+    #projects .card-container .card a .container:hover figcaption h3 {
         width: 90%;
     }
 
-    #projects .projects-container .section-container .content .link-button {
-        width: 50%;
+    #projects .card-container .card a .container:hover figcaption .RWD-mar1 {
+        margin-top: 2em;
     }
+     #projects .card-container .card a .container:hover figcaption .RWD-mar2 {
+        margin-top: 2em;
+    }
+    
+
 
     #contact .item-container {
         flex-basis: 50%;
@@ -429,17 +455,39 @@
 
     /* section SKILLS - END */
     /* section PROJECTS */
-    #projects .projects-container .item-container {
-        flex: 100%;
+    /* card */
+    #projects .card-container {
+        width: 100%;
     }
 
-    #projects .projects-container .section-container {
-        width: 85%;
+    #projects .card-container .card {
+        width: 100%;
+        margin-bottom: 40px;
     }
 
-    #projects .projects-container .section-container .content .link-button {
-        width: 50%;
+    #projects .card-container .card a .container:hover figcaption h3 {
+        font-size: 1em;
+        width: 70%;
+        margin: 0 auto;
     }
+
+    #projects .card-container .card a .container:hover figcaption p {
+        font-size: .7em;
+    }
+
+    #projects .card-container .card a .container:hover figcaption .RWD-mar1 {
+        margin-top: 3em;
+    }
+
+    #projects .card-container .card a .container:hover figcaption .RWD-mar2 {
+        margin-top: 3.2em;
+    }
+
+    #projects .card-container .card a .container:hover img {
+        width: 80%;
+    }
+
+    /* card - END */
 
     /* section PROJECTS - END */
     /* section coctact */
