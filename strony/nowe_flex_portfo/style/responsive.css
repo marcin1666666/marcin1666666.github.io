@@ -26,12 +26,13 @@
     .text {
         font-size: 1.3em
     }
-    
+
     #projects .card-container .card a .container figcaption p {
-    font-size: 1.2em;
+        font-size: 1.2em;
     }
+
     #projects .card-container .card a .container:hover figcaption h3 {
-    font-size: 1.3em;
+        font-size: 1.3em;
     }
 }
 
@@ -165,7 +166,8 @@
         width: 100%;
         margin: 0 auto;
     }
-     #projects .card-container .card a .container:hover figcaption .RWD-mar2 {
+
+    #projects .card-container .card a .container:hover figcaption .RWD-mar2 {
         margin-top: 1.4em;
     }
 
@@ -303,10 +305,11 @@
     #projects .card-container .card a .container:hover figcaption .RWD-mar1 {
         margin-top: 2em;
     }
-     #projects .card-container .card a .container:hover figcaption .RWD-mar2 {
+
+    #projects .card-container .card a .container:hover figcaption .RWD-mar2 {
         margin-top: 2em;
     }
-    
+
 
 
     #contact .item-container {
@@ -333,6 +336,20 @@
 
 
 }
+
+@media all and (min-width: 992px) and (max-width: 1400px) {
+
+    #projects .card-container .card a .container:hover figcaption p {
+        font-size: 1em;
+
+    }
+
+    #projects .card-container .card a .container:hover figcaption .RWD-mar2 {
+        margin-top: 3.2em;
+    }
+
+}
+
 
 @media all and (max-width: 479px) {
 
