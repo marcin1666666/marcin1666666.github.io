@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #eee;
+}
+
+.card {
+    position: relative;
+    perspective: 700px;
+    height: 70vh;
+    width: 40vw;
+    display: inline-block;
+    float: left;
+
+}
+
+.card .container a {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    
+
+}
+
+.card .container {
+    position: absolute;
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    transition: .5s all ease;
+    transform: rotateX(60deg) scale(0.7);
+    box-shadow: 0px 20px 60px #555;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.card .container:hover {
+    transform: rotate(0deg) scale(1) translateY(10px);
+    transition: .5s all ease;
+    background-color: #bcc4a6
+}
+
+
+.card .container a img {
+    width: 30vw;
+    opacity: 0.2;
+
+}
+
+.card .container:hover a img {
+    margin-top: 30px;
+    width: 80%;
+    transition: .2s all linear;
+    opacity: 1;
+  
+}
+
+.card .container figcaption {
+    position: relative;
+    color: #000000;
+    
+}
+
+.card .container figcaption h3 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    margin: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    opacity: 0.1;
+
+
+}
+
+.card .container figcaption p {
+    font-size: 0.9em;
+    padding: 30px;
+    opacity: 0;
+    margin: 0;
+    text-align: left;
+    transition: .4s all linear
+}
+
+.card .container:hover figcaption p {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    position: absolute;
+    margin-top: 20px;
+    transition: .6s all linear
+}
+
+.card .container:hover figcaption h3 {
+    opacity: 1;
+    transition: .6s all ease;
+
+}
+
+.card .container::before,
+.card .container::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.6s, -webkit-transform 0.6s;
+    transition: opacity 0.6s, -webkit-transform 0.6s, -moz-transform 0.6s, -o-transform 0.6s, transform 0.6s;
+}
+
+.card .container::before {
+    border-top: 5px groove #454040;
+    border-bottom: 5px groove #454040;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.card .container::after {
+    border-right: 5px groove #454040;
+    border-left: 5px groove #454040;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+}
+
+
+.card .container:hover:before,
+.card .container.hover:before,
+.card .container:hover:after,
+.card .container.hover:after {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    z-index: 1
+}
