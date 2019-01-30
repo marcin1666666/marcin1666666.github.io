@@ -7,6 +7,167 @@
     }
 }
 
+
+
+@media all and (max-width: 767px) {
+
+    /* General styles */
+    .title {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text {
+        text-align: center;
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    /* General styles - END */
+    /* navigation */
+
+    .open .main-nav .sub-menu {
+        z-index: 2;
+        height: 70vh;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .open .main-nav .sub-menu .main-item {
+        width: 100%;
+        height: 10vh;
+        line-height: 10vh;
+        font-size: 1.3em;
+    }
+
+    .open .main-nav .sub-menu .second-item {
+        width: 100%;
+        height: 12vh;
+    }
+
+    .open .main-nav .sub-menu .second-item .social-link {
+        width: 100%;
+    }
+
+    .open .main-nav .sub-menu .second-item .facebook {
+        left: 0;
+    }
+
+    .open .main-nav .sub-menu .second-item .linked {
+        right: 0;
+    }
+
+    .open .main-nav .sub-menu .second-item .github {
+        right: 0;
+    }
+
+    /* navigation - END */
+
+    /* main-header */
+    #main-header .mask .main-logo {
+        width: 50vw;
+        top: 50%;
+        left: 0;
+        transform: translate(50%, -50%);
+    }
+
+    /* main-header - END*/
+    /* section ABOUT */
+    #about {
+        height: 100%;
+    }
+
+    #about .slider-section {
+        flex-basis: 100%;
+    }
+
+    #about .slider-section .slideshow-container {
+        width: 100%;
+    }
+
+    #about .about-text {
+        width: 100%;
+        margin: 20px
+    }
+
+    /* section ABOUT -END */
+    /* section SKILLS */
+    #skills .icons {
+        padding: 0;
+    }
+
+    #skills .icons .main-icons {
+        flex: 25%;
+    }
+
+    #skills .container {
+        flex-direction: column;
+    }
+
+    #skills .container .qualification {
+        text-align: center;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #skills .container .qualification .certificat {
+        width: 70%;
+        height: auto;
+    }
+
+    #skills .container .discription {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    /* section SKILLS - END */
+    /* section PROJECTS */
+    #projects .card-container {
+        width: 100%;
+    }
+
+    #projects .card-container .card {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    #projects .card-container .card a .container:hover figcaption h3 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #projects .card-container .card a .container:hover figcaption .RWD-mar2 {
+        margin-top: 1.4em;
+    }
+
+    /* section PROJECTS - END */
+    /* section coctact */
+    #contact .item-container {
+        flex-basis: 100%;
+    }
+
+    #contact .item-container .section-container .form-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #contact .item-container .section-container .form-container .form-header {
+        width: 80%;
+    }
+
+    #contact .item-container .section-container .form-container .form-area {
+        width: 100%;
+    }
+
+    #contact .item-container .section-container .map-container {
+        width: 100%;
+    }
+
+    /* section coctact - END */
+}
+
 @media all and (max-width: 479px) {
 
     /* General styles */
@@ -64,6 +225,15 @@
     }
 
     /* navigation - END */
+    /* main-header */
+    #main-header .mask .main-logo {
+        margin: 0 auto;
+        width: 90%;
+        transform: translate(0, -50%);
+        right: 0;
+    }
+
+    /* main-header - END*/
     /* section ABOUT */
     #about {
         height: 100%;
@@ -173,156 +343,6 @@
 }
 
 
-@media all and (max-width: 767px) {
-
-    /* General styles */
-    .title {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .text {
-        text-align: center;
-        width: 100%;
-        font-size: 0.9em;
-    }
-
-    /* General styles - END */
-    /* navigation */
-
-    .open .main-nav .sub-menu {
-        z-index: 2;
-        height: 70vh;
-        flex-direction: column;
-        width: 100%;
-
-    }
-
-    .open .main-nav .sub-menu .main-item {
-        width: 100%;
-        height: 10vh;
-        line-height: 10vh;
-        font-size: 1.3em;
-    }
-
-    .open .main-nav .sub-menu .second-item {
-        width: 100%;
-        height: 12vh;
-    }
-
-    .open .main-nav .sub-menu .second-item .social-link {
-        width: 100%;
-    }
-
-    .open .main-nav .sub-menu .second-item .facebook {
-        left: 0;
-    }
-
-    .open .main-nav .sub-menu .second-item .linked {
-        right: 0;
-    }
-
-    .open .main-nav .sub-menu .second-item .github {
-        right: 0;
-    }
-
-    /* navigation - END */
-    /* section ABOUT */
-    #about {
-        height: 100%;
-    }
-
-    #about .slider-section {
-        flex-basis: 100%;
-    }
-
-    #about .slider-section .slideshow-container {
-        width: 100%;
-    }
-
-    #about .about-text {
-        width: 100%;
-        margin: 20px
-    }
-
-    /* section ABOUT -END */
-    /* section SKILLS */
-    #skills .icons {
-        padding: 0;
-    }
-
-    #skills .icons .main-icons {
-        flex: 25%;
-    }
-
-    #skills .container {
-        flex-direction: column;
-    }
-
-    #skills .container .qualification {
-        text-align: center;
-        height: 100%;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    #skills .container .qualification .certificat {
-        width: 70%;
-        height: auto;
-    }
-
-    #skills .container .discription {
-        margin-top: 30px;
-        padding: 20px;
-    }
-
-    /* section SKILLS - END */
-    /* section PROJECTS */
-    #projects .card-container {
-        width: 100%;
-    }
-
-    #projects .card-container .card {
-        width: 90%;
-        margin-bottom: 40px;
-    }
-
-    #projects .card-container .card a .container:hover figcaption h3 {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    #projects .card-container .card a .container:hover figcaption .RWD-mar2 {
-        margin-top: 1.4em;
-    }
-
-    /* section PROJECTS - END */
-    /* section coctact */
-    #contact .item-container {
-        flex-basis: 100%;
-    }
-
-    #contact .item-container .section-container .form-container {
-        width: 100%;
-        padding: 10px;
-    }
-
-    #contact .item-container .section-container .form-container .form-header {
-        width: 80%;
-    }
-
-    #contact .item-container .section-container .form-container .form-area {
-        width: 100%;
-    }
-
-    #contact .item-container .section-container .map-container {
-        width: 100%;
-    }
-
-    /* section coctact - END */
-}
-
-
 @media all and (min-width: 768px) and (max-width: 991px) {
 
     /* General styles */
@@ -363,7 +383,16 @@
         height: auto;
     }
 
-    /* navigation - END */
+    /* main-header */
+    #main-header .mask .main-logo {
+        width: 50vw;
+        top: 50%;
+        left: 0;
+        transform: translate(50%, -50%);
+    }
+
+    /* main-header - END*/
+
     /* section ABOUT */
     #about {
         height: 100%;
