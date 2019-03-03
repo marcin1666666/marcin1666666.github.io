@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Gepard Security</title>
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style/all.min.css">
     <link rel="stylesheet" href="style/lightbox.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
 
 </head>
 
@@ -47,16 +49,25 @@
     <header id="main-header" class="header">
         <img src="img/logo/Fotolia_96411618_Subscription_Monthly_XL.jpg" alt="background" class="banner">
         <a href="" class="logo"><img src="img/logo/poprawione%20logo!.png" alt="logo"></a>
-        <nav class="main-nav">
-            <ul class="sub-menu">
-                <li class="nav-item"><a class="nav-link" href="">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">O Nas</a></li>
-                <li class="nav-item"><a class="nav-link" href="#ofert">Oferta</a></li>
-                <li class="nav-item"><a class="nav-link" href="#references">Referencje</a></li>
-                <li class="nav-item"><a class="nav-link" href="#gallery">Galeria</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
-            </ul>
-        </nav>
+
+        <div class="open">
+            <div id="menu-icon" onclick="crossX();display_menu();">
+                <span class="cls1"></span>
+                <span class="cls2"></span>
+                <span class="cls3"></span>
+            </div>
+            <nav id="hide" class="main-nav off">
+                <ul class="sub-menu ">
+                    <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">O Nas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ofert">Oferta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#references">Referencje</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                    <li class="nav-item"><a href="https://www.facebook.com/ochrona.gepard" class="social-link facebook"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!--main-header END-->
 
@@ -393,7 +404,7 @@
 
     <!--section CONTACT-->
     <section id="contact" class="contact">
-       
+
         <div class="title" data-aos="zoom-in-up">
             <h2>Kontakt</h2>
             <hr>
@@ -475,4 +486,5 @@
     <script src="js/main.js"></script>
 
 </body>
+
 </html>

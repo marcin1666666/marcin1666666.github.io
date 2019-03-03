@@ -1,0 +1,277 @@
+@media all and (min-width: 993px) and (max-width: 1400px) {}
+
+@media all and (min-width: 992px) {
+
+    /* General styles */
+    section {
+        padding: 30px 40px;
+
+    }
+
+    /* General styles - END */
+    /* navigation */
+
+    .open #hide {
+        display: block;
+    }
+
+
+    .open #menu-icon {
+        display: none;
+    }
+
+    /* navigation - END */
+    /* section PROJECTS */
+
+    /* section PROJECTS - END */
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+    /* General styles */
+    section {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .title {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* General styles - END */
+    /* navigation */
+
+
+
+    .open .main-nav .sub-menu {
+        z-index: 2;
+        height: 100%;
+        flex-direction: column;
+        width: 100%;
+        padding: 0
+    }
+
+    .open .main-nav .sub-menu .nav-item {
+        width: 100%;
+        height: 10vh;
+        line-height: 10vh;
+        font-size: 1.3em;
+    }
+
+
+    /* navigation - END */
+    /* main-header */
+    .header {
+        padding-left: 10px;
+    }
+
+    .header.scrolled {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .header .logo img {
+        width: 30vw;
+    }
+
+    .header.scrolled .logo img {
+        height: 70px;
+
+    }
+
+    .header .logo {
+
+        top: calc(50% - 15vw);
+        left: calc(50% - 15vw);
+
+    }
+
+    /* main-header - END*/
+
+
+}
+
+@media all and (max-width: 767px) {}
+
+@media all and (max-width: 479px) {
+
+    /* General styles */
+    section {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .title {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1em;
+    }
+
+    /* General styles - END */
+    .header {
+        padding-left: 10px;
+    }
+
+    .header.scrolled {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .header.scrolled .logo img {
+        height: 70px;
+
+    }
+
+    .header .logo img {
+        width: 50vw;
+    }
+
+    .header .logo {
+
+        top: calc(50% - 25vw);
+        left: calc(50% - 25vw);
+
+    }
+
+    .open .main-nav .sub-menu {
+        z-index: 2;
+        height: 100%;
+        flex-direction: column;
+        width: 100%;
+        padding: 0
+    }
+
+    .open .main-nav .sub-menu .nav-item {
+        width: 100%;
+        height: 10vh;
+        line-height: 10vh;
+        font-size: 1.3em;
+    }
+
+    /* section ABOUT */
+
+    .about .article {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about .article .discription {
+        font-size: .8em;
+        padding: 10px;
+
+    }
+
+    .about .picture-section {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .about .picture-section .about-picture {
+        padding: 20px;
+    }
+
+    .about .picture-section .about-picture img {
+        width: 100%;
+
+    }
+
+    /* section ABOUT -END */
+    /* section OFERT */
+
+    .ofert .card-container {
+        padding: 10px;
+        font-size: .8em;
+        width: 100%;
+    }
+
+    /* section OFERT - END */
+
+    /* section REFERENCES */
+    .references .thumbnails-section figure {
+        width: 60vw;
+    }
+
+
+    /* section REFERENCES - END */
+    /* section GALLERY */
+    .gallery .images-section a {
+        width: 100%;
+    }
+
+    .gallery .images-section a figure img {
+        opacity: .9;
+    }
+
+    /* section GALLERY - END */
+    /* section contact */
+    /* form-style */
+    .contact .item-container {
+        height: 100%;
+        flex-basis: 100%;
+    }
+
+    .contact .item-container .section-container .form-container {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .contact .item-container .section-container .form-container .form-header {
+        width: 80%;
+        font-size: .8em;
+    }
+
+    .contact .item-container .section-container .form-container .form-area {
+        width: 100%;
+        top: 10%;
+    }
+
+    .contact .item-container .section-container .form-container .form-area .form-group .fas {
+        font-size: .8em;
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .contact .item-container .section-container .form-container .form-area .form-group input[type="submit"] {
+        margin-top: 5px;
+    }
+
+
+    /* form-style - END */
+    /* Google-maps */
+
+    .contact .item-container .section-container .map-container {
+        height: 80vh;
+        width: 100%;
+    }
+
+    /* Google-maps - END */
+
+    .contact .item-container .section-container .contact-icons .contact-icon {
+        margin-bottom: 30px;
+    }
+
+    /* section contact - END */
+    /* section contact - END */
+    /* Footer */
+    .footer {
+        font-size: .5em;
+    }
+
+    .footer .text {
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .footer .text-right {
+        padding-right: 5px;
+    }
+
+
+    /* Footer - END */
+
+}
